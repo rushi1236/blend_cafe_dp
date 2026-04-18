@@ -1,0 +1,201 @@
+Item_Name,Category,Price_Tier,Base_Price_₹,ABC_Class,Qty_Dry_Day,Qty_Light_Drizzle,Qty_Heavy_Rain,Qty_Clear_After_Rain,Elasticity_Coefficient,Elasticity_Class,Demand_CV,Rain_Boost_Flag,Clear_Rain_Multiplier,Peak_Weather_State
+Iced Americano,Cold Brews,Budget,150,A,27,2,0,7,180.0,Highly Elastic,1.3729,False,0.7778,Dry Day
+Iced Caramel Latte,Cold Brews,Mid-range,200,A,18,4,0,10,120.0,Highly Elastic,0.9789,False,1.25,Dry Day
+Mushroom Parma Omelette,Classic Eggs,Mid-range,279,A,15,4,0,11,100.0,Highly Elastic,0.901,False,1.4667,Dry Day
+Iced Café Latte,Cold Brews,Budget,160,A,27,2,1,14,86.6667,Highly Elastic,1.1084,False,1.2727,Dry Day
+Bombay Masala Sandwich,Sandwiches Burgers Wraps,Budget,139,B,12,7,0,6,80.0,Highly Elastic,0.7879,False,0.96,Dry Day
+Crème Brulee,Dessert,Mid-range,225,A,12,5,0,9,80.0,Highly Elastic,0.7994,False,1.3846,Dry Day
+Pesto Penne,Pasta,Mid-range,399,A,11,6,0,9,73.3333,Highly Elastic,0.7378,False,1.3846,Dry Day
+Spicy Chicken Salad,Salad Bowls,Mid-range,255,A,11,5,0,9,73.3333,Highly Elastic,0.777,False,1.44,Dry Day
+Blueberry Mojito,Mocktails,Budget,140,B,10,3,0,10,66.6667,Highly Elastic,0.8797,False,1.7391,Dry Day
+Fresh Fruit Tart,Dessert,Mid-range,225,B,9,7,0,5,60.0,Highly Elastic,0.7357,False,0.9524,Dry Day
+Peach Iced Tea,Cold Beverages,Budget,140,C,9,6,0,6,60.0,Highly Elastic,0.719,False,1.1429,Dry Day
+WAO Juice (Watermelon Apple Orange),Cold Press Juices,Mid-range,270,B,9,5,0,1,60.0,Highly Elastic,1.0968,False,0.2667,Dry Day
+French Vanilla Shake,Premium Shakes,Mid-range,200,C,8,1,0,4,53.3333,Highly Elastic,1.1058,False,1.2308,Dry Day
+Very Berry Super Shake,Premium Shakes,Mid-range,240,B,8,5,0,3,53.3333,Highly Elastic,0.8416,False,0.75,Dry Day
+Classic BLT,Sandwiches Burgers Wraps,Mid-range,249,B,7,2,0,10,46.6667,Highly Elastic,0.9628,False,2.1053,Clear After Rain
+Ferrero Rocher Shake,Premium Shakes,Mid-range,350,A,7,4,0,8,46.6667,Highly Elastic,0.7566,False,1.6842,Clear After Rain
+Iced Café Mocha,Cold Brews,Budget,170,C,7,0,0,6,46.6667,Highly Elastic,1.1615,False,1.8462,Dry Day
+Mushroom Chickpea Couscous Salad,Salad Bowls,Budget,189,B,7,3,0,12,46.6667,Highly Elastic,0.9448,False,2.1818,Clear After Rain
+Mocha Frappe,Frappe,Budget,190,B,6,4,0,9,40.0,Highly Elastic,0.7947,False,1.8947,Clear After Rain
+ABC Juice (Apple Beetroot Carrot),Cold Press Juices,Mid-range,250,A,12,10,1,4,36.6667,Highly Elastic,0.759,False,0.5926,Dry Day
+BGCLS Juice,Cold Press Juices,Mid-range,280,C,5,0,0,4,33.3333,Highly Elastic,1.1689,False,1.7778,Dry Day
+Blend Breakfast,Wholesome Breakfast,Mid-range,345,B,5,5,0,1,33.3333,Highly Elastic,0.9563,False,0.3636,Dry Day
+Cajun Chicken,Blended Full Meals,Premium,589,A,5,3,0,7,33.3333,Highly Elastic,0.7963,False,1.8667,Clear After Rain
+Spaghetti Aglio Olio,Pasta,Mid-range,385,A,11,3,1,5,33.3333,Highly Elastic,0.8641,False,1.0,Dry Day
+Chocolate Waffwich,Pancakes & Waffwich,Mid-range,285,A,19,8,2,8,28.3333,Highly Elastic,0.7663,False,0.8649,Dry Day
+Butter Garlic Prawns,Share-A-Plate,Premium,559,A,4,4,0,5,26.6667,Highly Elastic,0.6823,False,1.5385,Clear After Rain
+Espresso On The Rocks,Cold Brews,Budget,170,C,9,3,1,3,26.6667,Highly Elastic,0.866,False,0.75,Dry Day
+Grilled Ghost Pepper Fish,Blended Full Meals,Premium,569,A,9,1,1,5,26.6667,Highly Elastic,0.9574,False,1.25,Dry Day
+Thai Coconut Curry,Blended Full Meals,Mid-range,389,B,4,2,0,5,26.6667,Highly Elastic,0.8063,False,1.8182,Clear After Rain
+Thai Iced Coffee,Cold Brews,Mid-range,200,B,9,4,1,5,26.6667,Highly Elastic,0.6956,False,1.0526,Dry Day
+Grilled Chicken Burger,Sandwiches Burgers Wraps,Mid-range,220,A,15,4,2,15,21.6667,Highly Elastic,0.7751,False,1.6667,Dry Day
+Cheese Croissant,Bakery,Budget,145,C,3,1,0,1,20.0,Highly Elastic,1.0066,False,0.8,Dry Day
+Lemon Iced Tea,Cold Beverages,Budget,140,C,7,2,1,12,20.0,Highly Elastic,0.9211,False,2.1818,Clear After Rain
+Smoothie Bowl Banana PB,Wholesome Breakfast,Mid-range,320,B,7,0,1,2,20.0,Highly Elastic,1.2437,False,0.8,Dry Day
+Spaghetti Arabiatta,Pasta,Mid-range,369,A,7,7,1,9,20.0,Highly Elastic,0.5774,False,1.5,Clear After Rain
+Truffle Chocolate Pastry,Dessert,Mid-range,285,A,3,8,0,11,20.0,Highly Elastic,0.8969,False,2.0,Clear After Rain
+Chole Puri,Wholesome Breakfast,Budget,125,C,6,4,1,3,16.6667,Highly Elastic,0.5948,False,0.8571,Dry Day
+Mix Berry Smoothie Bowl,Wholesome Breakfast,Mid-range,380,A,6,3,1,5,16.6667,Highly Elastic,0.5913,False,1.3333,Dry Day
+Nutella Crème Donut,Bakery,Budget,120,C,6,2,1,2,16.6667,Highly Elastic,0.8063,False,0.7273,Dry Day
+Kiwi Mojito,Mocktails,Budget,140,C,11,3,2,4,15.0,Highly Elastic,0.8165,False,0.8,Dry Day
+Breakfast Burrito,Wholesome Breakfast,Mid-range,269,C,2,2,0,4,13.3333,Highly Elastic,0.8165,False,2.0,Clear After Rain
+Caesar Salad,Salad Bowls,Budget,189,B,5,8,1,11,13.3333,Highly Elastic,0.6835,False,1.76,Clear After Rain
+Carbonara,Pasta,Premium,450,A,5,3,1,10,13.3333,Highly Elastic,0.8131,False,2.1053,Clear After Rain
+Cheese Lovers Pizza,Pizza,Premium,635,A,5,2,1,8,13.3333,Highly Elastic,0.7906,False,2.0,Clear After Rain
+Chef's Special Pot Rice,Blended Full Meals,Premium,499,A,5,0,1,5,13.3333,Highly Elastic,0.9563,False,1.8182,Dry Day
+Chicken And Cheese Balls,Share-A-Plate,Mid-range,375,A,5,4,1,8,13.3333,Highly Elastic,0.6415,False,1.7778,Clear After Rain
+Classic Eggs Benedict,Wholesome Breakfast,Mid-range,280,B,2,4,0,5,13.3333,Highly Elastic,0.8063,False,1.8182,Clear After Rain
+Classic Pancakes,Pancakes & Waffwich,Mid-range,250,A,10,9,2,3,13.3333,Highly Elastic,0.6804,False,0.5,Dry Day
+Fish Fillet Burger,Sandwiches Burgers Wraps,Mid-range,350,A,5,6,1,9,13.3333,Highly Elastic,0.6293,False,1.7143,Clear After Rain
+French Toast,Wholesome Breakfast,Mid-range,210,B,10,5,2,2,13.3333,Highly Elastic,0.7947,False,0.4211,Dry Day
+Ham & Cheese Omelette,Classic Eggs,Budget,189,C,2,2,0,2,13.3333,Highly Elastic,0.6667,False,1.3333,Dry Day
+Meaty Mighty Pizza,Pizza,Premium,659,C,2,2,0,0,13.3333,Highly Elastic,1.1547,False,0.0,Dry Day
+Nutella Croissant,Bakery,Budget,175,C,5,7,1,0,13.3333,Highly Elastic,1.0166,False,0.0,Light Drizzle
+Paneer Bhurji Pao,Wholesome Breakfast,Budget,160,C,2,4,0,4,13.3333,Highly Elastic,0.7659,False,1.6,Light Drizzle
+Ross Omelette,Wholesome Breakfast,Budget,185,C,2,2,0,1,13.3333,Highly Elastic,0.7659,False,0.8,Dry Day
+Chocolate Chip Cookie,Bakery,Budget,50,C,9,10,2,13,11.6667,Highly Elastic,0.5476,False,1.5294,Clear After Rain
+Vanilla Muffin,Bakery,Budget,85,C,9,2,2,0,11.6667,Highly Elastic,1.2146,False,0.0,Dry Day
+Blend Salad,Salad Bowls,Mid-range,235,C,4,7,1,0,10.0,Highly Elastic,1.0541,False,0.0,Light Drizzle
+Blue Ocean Mocktail,Mocktails,Budget,160,B,4,3,1,12,10.0,Highly Elastic,0.9661,False,2.4,Clear After Rain
+Californian Fries,Share-A-Plate,Mid-range,215,A,12,7,3,16,10.0,Highly Elastic,0.5986,False,1.6842,Clear After Rain
+Chocolate Chip Muffin,Bakery,Budget,100,C,8,0,2,4,10.0,Highly Elastic,0.9759,False,1.1429,Dry Day
+Death By Chocolate Shake,Premium Shakes,Mid-range,260,C,4,6,1,0,10.0,Highly Elastic,1.0014,False,0.0,Light Drizzle
+Grilled Cheese Sandwich,Sandwiches Burgers Wraps,Budget,199,A,12,6,3,12,10.0,Highly Elastic,0.5455,False,1.4545,Dry Day
+Nutella Pancakes,Pancakes & Waffwich,Mid-range,289,B,8,1,2,6,10.0,Highly Elastic,0.7774,False,1.4118,Dry Day
+Salted Caramel Mocha,Hot Brews,Mid-range,200,A,12,6,3,16,10.0,Highly Elastic,0.6327,False,1.7297,Clear After Rain
+Shakshuka,Wholesome Breakfast,Mid-range,249,C,4,3,1,1,10.0,Highly Elastic,0.6667,False,0.4444,Dry Day
+Stuffed Paratha Paneer,Wholesome Breakfast,Budget,129,C,4,4,1,2,10.0,Highly Elastic,0.5455,False,0.7273,Dry Day
+Thai Curry Red,Blended Full Meals,Mid-range,399,A,8,5,2,9,10.0,Highly Elastic,0.527,False,1.5,Clear After Rain
+Triple Decker Sandwich,Sandwiches Burgers Wraps,Mid-range,285,A,11,18,3,11,8.8889,Highly Elastic,0.5703,False,1.0233,Light Drizzle
+Bhaji Pao,Wholesome Breakfast,Budget,159,B,7,1,2,11,8.3333,Highly Elastic,0.8849,False,2.0952,Clear After Rain
+Dark & White Blend Waffwich,Pancakes & Waffwich,Mid-range,285,A,7,8,2,4,8.3333,Highly Elastic,0.5245,False,0.7619,Light Drizzle
+Fresh Fruit Juice,Cold Beverages,Mid-range,200,B,7,6,2,4,8.3333,Highly Elastic,0.4668,False,0.8421,Dry Day
+Kitkat Shake,Premium Shakes,Mid-range,200,B,7,4,2,7,8.3333,Highly Elastic,0.4899,False,1.4,Dry Day
+Lotus Biscoff Shake,Premium Shakes,Mid-range,400,A,7,2,2,10,8.3333,Highly Elastic,0.7519,False,1.9048,Clear After Rain
+Oreo Shake,Premium Shakes,Mid-range,240,A,14,5,4,7,8.3333,Highly Elastic,0.6012,False,0.9333,Dry Day
+Garlic Bread,Share-A-Plate,Budget,129,B,13,9,4,7,7.5,Highly Elastic,0.4576,False,0.8485,Dry Day
+Chai,Hot Beverages,Budget,100,B,19,6,6,14,7.2222,Highly Elastic,0.5686,False,1.2444,Dry Day
+Bacon Wrapped Chicken,Blended Full Meals,Premium,659,A,3,3,1,2,6.6667,Highly Elastic,0.4255,False,0.8889,Dry Day
+Butter Croissant,Bakery,Budget,120,C,6,7,2,2,6.6667,Highly Elastic,0.6188,False,0.4706,Light Drizzle
+Cheesy Potatoes,Wholesome Breakfast,Mid-range,215,C,3,0,1,3,6.6667,Highly Elastic,0.8571,False,1.7143,Dry Day
+Chicken Puff,Bakery,Budget,100,C,6,5,2,6,6.6667,Highly Elastic,0.3985,False,1.2632,Dry Day
+Chili Garlic Cottage Cheese,Share-A-Plate,Mid-range,215,B,9,3,3,4,6.6667,Highly Elastic,0.6047,False,0.8421,Dry Day
+Chocolate Walnut Brownie,Dessert,Mid-range,200,A,15,23,5,16,6.6667,Highly Elastic,0.5024,False,1.0847,Light Drizzle
+Cream Cheese Waffwich,Pancakes & Waffwich,Mid-range,315,B,3,2,1,5,6.6667,Highly Elastic,0.621,False,1.8182,Clear After Rain
+Harissa Chicken Skewers,Share-A-Plate,Mid-range,339,A,3,7,1,5,6.6667,Highly Elastic,0.6455,False,1.25,Light Drizzle
+Mediterranean Cooler Salad,Salad Bowls,Mid-range,229,C,1,1,0,1,6.6667,Highly Elastic,0.6667,False,1.3333,Dry Day
+Minty Cookie Cappuccino,Hot Brews,Budget,190,A,9,10,3,16,6.6667,Highly Elastic,0.5603,False,1.6842,Clear After Rain
+Mix Veg Dumplings,Steam Basket,Mid-range,249,A,6,9,2,11,6.6667,Highly Elastic,0.5594,False,1.5714,Clear After Rain
+Peri-Peri Prawns Popcorn,Share-A-Plate,Premium,555,B,1,1,0,5,6.6667,Highly Elastic,1.2671,False,2.8571,Clear After Rain
+Pesto Cottage Cheese Meal,Blended Full Meals,Premium,409,A,9,4,3,4,6.6667,Highly Elastic,0.5416,False,0.8,Dry Day
+Set Cheesecake,Dessert,Mid-range,315,C,1,0,0,3,6.6667,Highly Elastic,1.4142,False,3.0,Clear After Rain
+Thai BBQ Chicken Satay,Share-A-Plate,Mid-range,355,A,3,1,1,9,6.6667,Highly Elastic,1.0817,False,2.5714,Clear After Rain
+Vietnamese Iced Café,Cold Brews,Budget,190,B,3,6,1,9,6.6667,Highly Elastic,0.7368,False,1.8947,Clear After Rain
+Brownie Blast Shake,Premium Shakes,Mid-range,260,A,8,7,3,4,5.5556,Highly Elastic,0.4328,False,0.7273,Dry Day
+Caramel Frappe,Frappe,Budget,190,B,8,4,3,7,5.5556,Highly Elastic,0.4328,False,1.2727,Dry Day
+Eggs To Order Plain,Classic Eggs,Budget,135,B,8,8,3,6,5.5556,Highly Elastic,0.3781,False,0.96,Dry Day
+Green Apple Mojito,Mocktails,Budget,120,C,8,5,3,8,5.5556,Highly Elastic,0.4082,False,1.3333,Dry Day
+Hazelnut Frappe,Frappe,Budget,190,B,8,8,3,5,5.5556,Highly Elastic,0.4082,False,0.8333,Dry Day
+The Dominator Burger,Sandwiches Burgers Wraps,Mid-range,369,A,8,3,3,12,5.5556,Highly Elastic,0.6706,False,1.8462,Clear After Rain
+Virgin Mojito,Mocktails,Budget,140,A,21,16,8,10,5.4167,Highly Elastic,0.4297,False,0.7273,Dry Day
+Exotic Vegetable Omelette,Classic Eggs,Mid-range,239,A,5,7,2,10,5.0,Highly Elastic,0.5611,False,1.6667,Clear After Rain
+Romantic Sunset Mocktail,Mocktails,Budget,180,C,5,1,2,8,5.0,Highly Elastic,0.7906,False,2.0,Clear After Rain
+Chicken Cream & Cheddar Soup,Soup,Mid-range,229,B,7,3,3,7,4.4444,Highly Elastic,0.4619,False,1.4,Dry Day
+Espresso Frappe,Frappe,Budget,180,B,7,5,3,4,4.4444,Highly Elastic,0.3595,False,0.8421,Dry Day
+Salted Fries,Share-A-Plate,Budget,149,A,7,17,3,19,4.4444,Highly Elastic,0.6717,False,1.6522,Clear After Rain
+Scrambled Eggs / Bhurji,Classic Eggs,Budget,145,B,7,7,3,8,4.4444,Highly Elastic,0.3548,False,1.28,Clear After Rain
+Watermelon Mojito,Mocktails,Budget,160,B,7,5,3,8,4.4444,Highly Elastic,0.3856,False,1.3913,Clear After Rain
+Honey Ginger Lime Tea,Hot Beverages,Budget,170,A,16,13,7,19,4.2857,Highly Elastic,0.3726,False,1.3818,Clear After Rain
+Pesto Omelette,Classic Eggs,Mid-range,285,A,11,5,5,9,4.0,Highly Elastic,0.4,False,1.2,Dry Day
+ABCC Juice,Cold Press Juices,Mid-range,260,C,0,4,1,1,3.3333,Highly Elastic,1.1547,True,0.6667,Light Drizzle
+Affogato,Hot Brews,Budget,170,A,16,4,8,12,3.3333,Highly Elastic,0.5164,False,1.2,Dry Day
+Banana Walnut Tea Cake,Bakery,Budget,130,C,4,8,2,9,3.3333,Highly Elastic,0.5746,False,1.5652,Clear After Rain
+Bournvita,Hot Beverages,Budget,120,C,2,0,1,1,3.3333,Highly Elastic,0.8165,False,1.0,Dry Day
+Burmese Khow-suey,Large Soup Bowls,Premium,419,B,0,6,1,3,3.3333,Highly Elastic,1.0583,True,1.2,Light Drizzle
+Caramel Hot Chocolate,Hot Chocolate,Budget,180,C,0,0,1,4,3.3333,Highly Elastic,1.5144,True,3.2,Clear After Rain
+Chinese Style Greens Panini,Sandwiches Burgers Wraps,Budget,155,C,2,5,1,5,3.3333,Highly Elastic,0.6343,False,1.5385,Light Drizzle
+Chocolate Almond Smoothie Bowl,Wholesome Breakfast,Premium,420,B,0,3,4,3,3.3333,Highly Elastic,0.6928,True,1.2,Heavy Rain
+Classic Waffle,Pancakes & Waffwich,Mid-range,279,B,6,3,3,3,3.3333,Highly Elastic,0.4,False,0.8,Dry Day
+Crispy Shitake Mushroom,Share-A-Plate,Premium,450,A,2,4,1,6,3.3333,Highly Elastic,0.6823,False,1.8462,Clear After Rain
+Eggs To Order Chicken,Classic Eggs,Budget,165,C,4,4,2,2,3.3333,Highly Elastic,0.3849,False,0.6667,Dry Day
+Exotic Chicken Taco,Blended Full Meals,Premium,565,A,2,2,1,7,3.3333,Highly Elastic,0.9027,False,2.3333,Clear After Rain
+Fruit Pancakes,Pancakes & Waffwich,Mid-range,299,C,4,2,2,0,3.3333,Highly Elastic,0.8165,False,0.0,Dry Day
+Greek-O-Greek Pizza,Pizza,Premium,420,B,0,2,2,6,3.3333,Highly Elastic,1.0066,True,2.4,Clear After Rain
+Jalapeño Cheese Fondue,Fondue,Premium,695,A,4,4,2,7,3.3333,Highly Elastic,0.4851,False,1.6471,Clear After Rain
+Lemon Coriander Soup,Soup,Budget,179,B,6,10,3,7,3.3333,Highly Elastic,0.4441,False,1.0769,Light Drizzle
+Mexican Vegetable Stew And Rice,Blended Full Meals,Mid-range,329,A,4,7,2,7,3.3333,Highly Elastic,0.4899,False,1.4,Light Drizzle
+Mexicana Pizza,Pizza,Premium,449,A,0,2,3,7,3.3333,Highly Elastic,0.9813,True,2.3333,Clear After Rain
+Oyster Chicken Dumplings,Steam Basket,Mid-range,389,C,2,0,1,4,3.3333,Highly Elastic,0.9759,False,2.2857,Clear After Rain
+Paneer And Cheese Quesadilla,Share-A-Plate,Mid-range,255,B,4,6,2,6,3.3333,Highly Elastic,0.4255,False,1.3333,Light Drizzle
+Roasted Chicken With Mushroom Sauce,Blended Full Meals,Premium,455,B,2,1,1,6,3.3333,Highly Elastic,0.9522,False,2.4,Clear After Rain
+Soy Ramen Bowl,Large Soup Bowls,Mid-range,349,A,0,5,10,12,3.3333,Highly Elastic,0.7967,True,1.7778,Clear After Rain
+Stuffed Paratha Aloo,Wholesome Breakfast,Budget,125,C,0,3,1,3,3.3333,Highly Elastic,0.8571,True,1.7143,Light Drizzle
+Stuffed Paratha Chicken,Wholesome Breakfast,Mid-range,210,C,2,1,1,2,3.3333,Highly Elastic,0.3849,False,1.3333,Dry Day
+Thai Curry Green,Blended Full Meals,Mid-range,395,B,0,2,5,5,3.3333,Highly Elastic,0.8165,True,1.6667,Heavy Rain
+Marshmallow Hot Chocolate,Hot Chocolate,Mid-range,200,A,1,16,11,8,3.0303,Highly Elastic,0.6968,True,0.8889,Light Drizzle
+Tonkatsu Ramen Bowl,Large Soup Bowls,Mid-range,359,A,1,8,8,1,2.9167,Highly Elastic,0.8981,True,0.2222,Light Drizzle
+Orange Tea Cake,Bakery,Budget,110,C,1,5,5,2,2.6667,Highly Elastic,0.6343,True,0.6154,Light Drizzle
+Dark Hot Chocolate,Hot Chocolate,Budget,120,A,4,21,18,13,2.5926,Highly Elastic,0.5313,True,0.9286,Light Drizzle
+Bounty Hot Chocolate,Hot Chocolate,Budget,190,C,1,3,4,3,2.5,Highly Elastic,0.4576,True,1.0909,Heavy Rain
+Café Mocha,Hot Brews,Budget,170,A,1,8,4,20,2.5,Highly Elastic,1.0111,True,2.4242,Clear After Rain
+Caprese Bruschetta,Share-A-Plate,Mid-range,325,A,1,6,4,9,2.5,Highly Elastic,0.6733,True,1.8,Clear After Rain
+Chili Garlic Chicken Dumplings,Steam Basket,Mid-range,375,A,7,3,4,6,2.5,Highly Elastic,0.3651,False,1.2,Dry Day
+Spicy Chicken Pao,Sandwiches Burgers Wraps,Budget,159,B,7,3,4,13,2.5,Highly Elastic,0.6667,False,1.9259,Clear After Rain
+Traditional Hot Chocolate,Hot Chocolate,Budget,140,A,3,17,11,16,2.4242,Highly Elastic,0.5444,True,1.3617,Light Drizzle
+Jalapeno Cheese Corn Balls,Share-A-Plate,Mid-range,240,A,2,8,7,8,2.381,Highly Elastic,0.4596,True,1.28,Light Drizzle
+Egg Wrap,Sandwiches Burgers Wraps,Budget,155,B,5,7,3,17,2.2222,Highly Elastic,0.7773,False,2.125,Clear After Rain
+Mushroom Cappuccino Soup,Soup,Budget,189,C,1,3,3,8,2.2222,Highly Elastic,0.7963,True,2.1333,Clear After Rain
+New York Baked Cheesecake,Dessert,Mid-range,300,A,1,7,3,7,2.2222,Highly Elastic,0.6667,True,1.5556,Light Drizzle
+Spicy Guava Mocktail,Mocktails,Budget,180,B,5,8,3,5,2.2222,Highly Elastic,0.3927,False,0.9524,Light Drizzle
+Tiramisu,Dessert,Mid-range,300,A,2,8,6,16,2.2222,Highly Elastic,0.736,True,2.0,Clear After Rain
+Americano,Hot Brews,Budget,160,B,2,4,5,10,2.0,Highly Elastic,0.6483,True,1.9048,Clear After Rain
+Cajun Cottage-Cheese Burger,Sandwiches Burgers Wraps,Mid-range,255,A,2,4,5,10,2.0,Highly Elastic,0.6483,True,1.9048,Clear After Rain
+Creamy Cheesy Hot Corn Bruschetta,Share-A-Plate,Mid-range,230,B,2,2,5,10,2.0,Highly Elastic,0.7947,True,2.1053,Clear After Rain
+Paneer Puff,Bakery,Budget,85,C,2,6,5,14,2.0,Highly Elastic,0.759,True,2.0741,Clear After Rain
+Masala Chai,Hot Beverages,Budget,120,A,7,28,16,17,1.875,Moderately Elastic,0.506,True,1.0,Light Drizzle
+Hazelnut Hot Chocolate,Hot Chocolate,Budget,160,A,6,16,13,14,1.7949,Moderately Elastic,0.355,True,1.1429,Light Drizzle
+Black Tea,Hot Beverages,Budget,90,C,9,6,6,7,1.6667,Moderately Elastic,0.202,False,1.0,Dry Day
+Burnt Garlic Cheese Fondue,Fondue,Premium,579,A,12,7,8,10,1.6667,Moderately Elastic,0.2397,False,1.0811,Dry Day
+Crème Chocolate Pancakes,Pancakes & Waffwich,Mid-range,275,B,3,4,2,4,1.6667,Moderately Elastic,0.2946,False,1.2308,Light Drizzle
+Filled Coffee Donut,Bakery,Budget,95,C,9,8,6,8,1.6667,Moderately Elastic,0.1624,False,1.0323,Dry Day
+Ice-cream Waffwich,Pancakes & Waffwich,Mid-range,269,C,3,3,2,1,1.6667,Moderately Elastic,0.4255,False,0.4444,Dry Day
+Kaopoon Ramen Bowl,Large Soup Bowls,Premium,409,A,2,8,4,2,1.6667,Moderately Elastic,0.7071,True,0.5,Light Drizzle
+Khari,Bakery,Budget,35,C,3,10,6,9,1.6667,Moderately Elastic,0.4518,True,1.2857,Light Drizzle
+Kheema Pao,Wholesome Breakfast,Mid-range,219,C,3,2,2,1,1.6667,Moderately Elastic,0.4082,False,0.5,Dry Day
+Korean Breakfast,Wholesome Breakfast,Mid-range,289,B,3,4,2,2,1.6667,Moderately Elastic,0.3482,False,0.7273,Light Drizzle
+Pepperoni Chicken Pizza,Pizza,Premium,559,A,2,1,4,10,1.6667,Moderately Elastic,0.9485,True,2.3529,Clear After Rain
+Tres Leches Cake,Dessert,Mid-range,215,A,9,8,6,14,1.6667,Moderately Elastic,0.3679,False,1.5135,Clear After Rain
+Virgin Pina Colada,Mocktails,Mid-range,200,A,12,4,8,13,1.6667,Moderately Elastic,0.4446,False,1.4054,Clear After Rain
+Veg Puff,Bakery,Budget,55,C,10,13,7,13,1.4286,Moderately Elastic,0.2672,False,1.2093,Light Drizzle
+Trio Hummus With Pita,Share-A-Plate,Mid-range,289,A,3,5,5,9,1.3333,Moderately Elastic,0.4576,True,1.6364,Clear After Rain
+Volcanic Potatoes,Share-A-Plate,Budget,199,A,7,4,5,15,1.3333,Moderately Elastic,0.6441,False,1.9355,Clear After Rain
+Loaded Nachos,Share-A-Plate,Mid-range,210,A,9,6,14,10,1.1905,Moderately Elastic,0.3389,True,1.0256,Heavy Rain
+Café Latte,Hot Brews,Budget,160,A,8,7,6,14,1.1111,Moderately Elastic,0.4107,False,1.6,Clear After Rain
+Cajun Cottage Cheese Steak,Blended Full Meals,Mid-range,335,A,4,5,3,8,1.1111,Moderately Elastic,0.432,False,1.6,Clear After Rain
+Cheese Chili Garlic Bread,Share-A-Plate,Budget,185,A,8,4,6,15,1.1111,Moderately Elastic,0.5803,False,1.8182,Clear After Rain
+Honey Chili Lotus Stem,Share-A-Plate,Mid-range,220,A,4,7,6,10,1.1111,Moderately Elastic,0.3704,True,1.4815,Clear After Rain
+Mix Veg Double Cheese Burger,Sandwiches Burgers Wraps,Budget,189,B,4,6,3,9,1.1111,Moderately Elastic,0.481,False,1.6364,Clear After Rain
+Pad Thai,Blended Full Meals,Mid-range,369,A,4,5,3,10,1.1111,Moderately Elastic,0.5653,False,1.8182,Clear After Rain
+Penne Rose,Pasta,Mid-range,335,A,8,11,6,12,1.1111,Moderately Elastic,0.2977,False,1.2973,Clear After Rain
+Triple Chocolate Mousse,Dessert,Mid-range,280,A,12,10,9,12,1.1111,Moderately Elastic,0.1395,False,1.1163,Dry Day
+Espresso,Hot Brews,Budget,110,A,9,16,13,36,1.0256,Moderately Elastic,0.6494,True,1.9459,Clear After Rain
+Veg Toast / Plain Sandwich,Sandwiches Burgers Wraps,Budget,120,A,9,10,13,12,1.0256,Moderately Elastic,0.166,True,1.0909,Heavy Rain
+Chimichanga,Blended Full Meals,Mid-range,255,A,5,14,7,7,0.9524,Inelastic,0.4785,True,0.8485,Light Drizzle
+Penne Alfredo,Pasta,Mid-range,329,A,5,12,4,6,0.8333,Inelastic,0.5324,False,0.8889,Light Drizzle
+Veg Exotica Pizza,Pizza,Mid-range,389,A,6,2,5,5,0.6667,Inelastic,0.3849,False,1.1111,Dry Day
+Mexican Panini,Sandwiches Burgers Wraps,Budget,169,A,9,12,11,9,0.6061,Inelastic,0.1463,True,0.878,Light Drizzle
+Tomato & Bell Pepper Soup,Soup,Budget,149,A,9,11,11,19,0.6061,Inelastic,0.3548,True,1.52,Clear After Rain
+Margherita Pizza,Pizza,Mid-range,299,A,7,8,6,6,0.5556,Inelastic,0.1418,False,0.8889,Light Drizzle
+Akuri On Toast,Classic Eggs,Budget,125,B,8,11,7,10,0.4762,Inelastic,0.2029,False,1.1111,Light Drizzle
+Cappuccino,Hot Brews,Budget,160,A,11,11,10,31,0.3333,Inelastic,0.6462,False,1.9683,Clear After Rain
+Chicken Hakka Dry Chili,Share-A-Plate,Mid-range,359,B,2,3,2,3,0.0,Fixed Demand,0.2309,False,1.2,Light Drizzle
+Cubanos,Sandwiches Burgers Wraps,Mid-range,250,A,4,4,4,9,0.0,Fixed Demand,0.4762,False,1.7143,Clear After Rain
+Filled Blueberry Donut,Bakery,Budget,110,C,3,10,3,2,0.0,Fixed Demand,0.8215,False,0.4444,Light Drizzle
+Green Tea,Hot Beverages,Budget,150,C,4,5,4,7,0.0,Fixed Demand,0.2828,False,1.4,Clear After Rain
+Mushroom Parma Bruschetta,Share-A-Plate,Mid-range,285,A,5,2,5,8,0.0,Fixed Demand,0.4899,False,1.6,Clear After Rain
+Pho,Large Soup Bowls,Mid-range,349,B,1,2,1,10,0.0,Fixed Demand,1.2454,False,2.8571,Clear After Rain
+Shawarma,Blended Full Meals,Mid-range,345,A,6,5,6,5,0.0,Fixed Demand,0.105,False,0.9091,Dry Day
+Spiced Mocha Latte,Hot Brews,Budget,180,A,13,12,13,12,0.0,Fixed Demand,0.0462,False,0.96,Dry Day
+Spicy Cheesy Broccoli Dumplings,Steam Basket,Mid-range,255,A,6,2,6,7,0.0,Fixed Demand,0.4224,False,1.3333,Clear After Rain
+Tempura Vegetables,Share-A-Plate,Budget,155,C,4,6,4,5,0.0,Fixed Demand,0.2016,False,1.0526,Light Drizzle

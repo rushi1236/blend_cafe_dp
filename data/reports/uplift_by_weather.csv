@@ -1,0 +1,5 @@
+Weather_State,Transaction_Count,Static_Revenue,Dynamic_Revenue,Uplift_₹,Uplift_Pct
+Dry Day,23,7809,7815,6,0.08
+Light Drizzle,115,32464,32495,31,0.1
+Heavy Rain,163,42644,43310,666,1.56
+Clear After Rain,370,106405,114495,8090,7.6

@@ -1,0 +1,201 @@
+Item_Name,Category,Price_Tier,Base_Price_₹,ABC_Class,Total_Revenue_₹,Transaction_Count,Median_Daily_Qty,Demand_Class,Elasticity_Coefficient,Elasticity_Class,Elasticity_Group,Segment,Peak_Time_Slot,Rain_Boost_Flag
+Triple Decker Sandwich,Sandwiches Burgers Wraps,Mid-range,285,A,12255,37,1.0,High Demand,8.8889,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Jalapeño Cheese Fondue,Fondue,Premium,695,A,11815,14,1.0,High Demand,3.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Chocolate Walnut Brownie,Dessert,Mid-range,200,A,11800,52,1.0,High Demand,6.6667,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Chocolate Waffwich,Pancakes & Waffwich,Mid-range,285,A,10545,30,1.0,High Demand,28.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Pesto Penne,Pasta,Mid-range,399,A,10374,19,1.0,High Demand,73.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Cheese Lovers Pizza,Pizza,Premium,635,A,10160,16,1.0,High Demand,13.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Tiramisu,Dessert,Mid-range,300,A,9600,31,1.0,High Demand,2.2222,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,True
+The Dominator Burger,Sandwiches Burgers Wraps,Mid-range,369,A,9594,23,1.0,High Demand,5.5556,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Thai Curry Red,Blended Full Meals,Mid-range,399,A,9576,19,1.0,High Demand,10.0,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Soy Ramen Bowl,Large Soup Bowls,Mid-range,349,A,9423,20,2.0,High Demand,3.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,True
+Honey Ginger Lime Tea,Hot Beverages,Budget,170,A,9350,48,1.0,High Demand,4.2857,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Grilled Ghost Pepper Fish,Blended Full Meals,Premium,569,A,9104,14,1.0,High Demand,26.6667,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Spaghetti Arabiatta,Pasta,Mid-range,369,A,8856,19,1.0,High Demand,20.0,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Cajun Chicken,Blended Full Meals,Premium,589,A,8835,14,1.0,High Demand,33.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Carbonara,Pasta,Premium,450,A,8550,16,1.0,High Demand,13.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Pesto Omelette,Classic Eggs,Mid-range,285,A,8550,26,1.0,High Demand,4.0,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Lotus Biscoff Shake,Premium Shakes,Mid-range,400,A,8400,18,1.0,High Demand,8.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Mushroom Parma Omelette,Classic Eggs,Mid-range,279,A,8370,23,1.0,High Demand,100.0,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Pesto Cottage Cheese Meal,Blended Full Meals,Premium,409,A,8180,16,1.0,High Demand,6.6667,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Californian Fries,Share-A-Plate,Mid-range,215,A,8170,32,1.0,High Demand,10.0,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Grilled Chicken Burger,Sandwiches Burgers Wraps,Mid-range,220,A,7920,30,1.0,High Demand,21.6667,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Spaghetti Aglio Olio,Pasta,Mid-range,385,A,7700,18,1.0,High Demand,33.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Virgin Mojito,Mocktails,Budget,140,A,7700,45,1.0,High Demand,5.4167,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Chili Garlic Chicken Dumplings,Steam Basket,Mid-range,375,A,7500,18,1.0,High Demand,2.5,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Salted Caramel Mocha,Hot Brews,Mid-range,200,A,7400,32,1.0,High Demand,10.0,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Fish Fillet Burger,Sandwiches Burgers Wraps,Mid-range,350,A,7350,21,1.0,High Demand,13.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Butter Garlic Prawns,Share-A-Plate,Premium,559,A,7267,10,1.0,High Demand,26.6667,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Minty Cookie Cappuccino,Hot Brews,Budget,190,A,7220,33,1.0,High Demand,6.6667,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Marshmallow Hot Chocolate,Hot Chocolate,Mid-range,200,A,7200,31,1.0,High Demand,3.0303,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,True
+Oreo Shake,Premium Shakes,Mid-range,240,A,7200,25,1.0,High Demand,8.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Iced Café Latte,Cold Brews,Budget,160,A,7040,33,2.0,High Demand,86.6667,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Mix Veg Dumplings,Steam Basket,Mid-range,249,A,6972,23,1.0,High Demand,6.6667,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Salted Fries,Share-A-Plate,Budget,149,A,6854,38,1.0,High Demand,4.4444,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Affogato,Hot Brews,Budget,170,A,6800,35,1.0,High Demand,3.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Exotic Chicken Taco,Blended Full Meals,Premium,565,A,6780,11,1.0,High Demand,3.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+ABC Juice (Apple Beetroot Carrot),Cold Press Juices,Mid-range,250,A,6750,22,1.0,High Demand,36.6667,Highly Elastic,High Elasticity,Dynamic Pricing Target,Morning,False
+Chicken And Cheese Balls,Share-A-Plate,Mid-range,375,A,6750,15,1.0,High Demand,13.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Dark Hot Chocolate,Hot Chocolate,Budget,120,A,6720,45,1.0,High Demand,2.5926,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,True
+Ferrero Rocher Shake,Premium Shakes,Mid-range,350,A,6650,14,2.0,High Demand,46.6667,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Mexican Vegetable Stew And Rice,Blended Full Meals,Mid-range,329,A,6580,16,1.0,High Demand,3.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Traditional Hot Chocolate,Hot Chocolate,Budget,140,A,6580,40,1.0,High Demand,2.4242,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,True
+Grilled Cheese Sandwich,Sandwiches Burgers Wraps,Budget,199,A,6567,27,1.0,High Demand,10.0,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Caprese Bruschetta,Share-A-Plate,Mid-range,325,A,6500,13,2.0,High Demand,2.5,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,True
+Tonkatsu Ramen Bowl,Large Soup Bowls,Mid-range,359,A,6462,14,1.0,High Demand,2.9167,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,True
+Iced Caramel Latte,Cold Brews,Mid-range,200,A,6400,27,1.0,High Demand,120.0,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Spicy Chicken Salad,Salad Bowls,Mid-range,255,A,6375,22,1.0,High Demand,73.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Truffle Chocolate Pastry,Dessert,Mid-range,285,A,6270,17,1.5,High Demand,20.0,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Classic Pancakes,Pancakes & Waffwich,Mid-range,250,A,6000,19,2.0,High Demand,13.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Morning,False
+Jalapeno Cheese Corn Balls,Share-A-Plate,Mid-range,240,A,6000,22,1.0,High Demand,2.381,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,True
+Dark & White Blend Waffwich,Pancakes & Waffwich,Mid-range,285,A,5985,17,1.0,High Demand,8.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Morning,False
+Bacon Wrapped Chicken,Blended Full Meals,Premium,659,A,5931,6,1.5,High Demand,6.6667,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Crispy Shitake Mushroom,Share-A-Plate,Premium,450,A,5850,10,1.0,High Demand,3.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Crème Brulee,Dessert,Mid-range,225,A,5850,21,1.0,High Demand,80.0,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Exotic Vegetable Omelette,Classic Eggs,Mid-range,239,A,5736,22,1.0,High Demand,5.0,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Brownie Blast Shake,Premium Shakes,Mid-range,260,A,5720,18,1.0,High Demand,5.5556,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Mix Berry Smoothie Bowl,Wholesome Breakfast,Mid-range,380,A,5700,11,1.0,High Demand,16.6667,Highly Elastic,High Elasticity,Dynamic Pricing Target,Morning,False
+Café Mocha,Hot Brews,Budget,170,A,5610,29,1.0,High Demand,2.5,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,True
+Chef's Special Pot Rice,Blended Full Meals,Premium,499,A,5489,9,1.0,High Demand,13.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Harissa Chicken Skewers,Share-A-Plate,Mid-range,339,A,5424,15,1.0,High Demand,6.6667,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Iced Americano,Cold Brews,Budget,150,A,5400,29,1.0,High Demand,180.0,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+New York Baked Cheesecake,Dessert,Mid-range,300,A,5400,15,1.0,High Demand,2.2222,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,True
+Mexicana Pizza,Pizza,Premium,449,A,5388,11,1.0,High Demand,3.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,True
+Cajun Cottage-Cheese Burger,Sandwiches Burgers Wraps,Mid-range,255,A,5355,15,1.5,High Demand,2.0,Highly Elastic,High Elasticity,Dynamic Pricing Target,Afternoon,True
+Thai BBQ Chicken Satay,Share-A-Plate,Mid-range,355,A,4970,10,1.0,High Demand,6.6667,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Creamy Cheesy Hot Corn Bruschetta,Share-A-Plate,Mid-range,230,B,4370,15,2.0,High Demand,2.0,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,True
+Burmese Khow-suey,Large Soup Bowls,Premium,419,B,4190,6,2.0,High Demand,3.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,True
+Caramel Frappe,Frappe,Budget,190,B,4180,18,2.0,High Demand,5.5556,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Blend Salad,Salad Bowls,Mid-range,235,C,2820,9,1.5,High Demand,10.0,Highly Elastic,High Elasticity,Dynamic Pricing Target,Dinner,False
+Ham & Cheese Omelette,Classic Eggs,Budget,189,C,1134,4,1.5,High Demand,13.3333,Highly Elastic,High Elasticity,Dynamic Pricing Target,Evening,False
+Burnt Garlic Cheese Fondue,Fondue,Premium,579,A,21423,31,1.0,High Demand,1.6667,Moderately Elastic,Low Elasticity,Premium Lock,Dinner,False
+Penne Rose,Pasta,Mid-range,335,A,12395,29,1.0,High Demand,1.1111,Moderately Elastic,Low Elasticity,Premium Lock,Dinner,False
+Triple Chocolate Mousse,Dessert,Mid-range,280,A,12040,37,1.0,High Demand,1.1111,Moderately Elastic,Low Elasticity,Premium Lock,Dinner,False
+Cappuccino,Hot Brews,Budget,160,A,10080,50,1.0,High Demand,0.3333,Inelastic,Low Elasticity,Premium Lock,Evening,False
+Pepperoni Chicken Pizza,Pizza,Premium,559,A,9503,17,1.0,High Demand,1.6667,Moderately Elastic,Low Elasticity,Premium Lock,Dinner,True
+Spiced Mocha Latte,Hot Brews,Budget,180,A,9000,40,1.0,High Demand,0.0,Fixed Demand,Low Elasticity,Premium Lock,Dinner,False
+Penne Alfredo,Pasta,Mid-range,329,A,8883,23,1.0,High Demand,0.8333,Inelastic,Low Elasticity,Premium Lock,Dinner,False
+Chimichanga,Blended Full Meals,Mid-range,255,A,8415,27,1.0,High Demand,0.9524,Inelastic,Low Elasticity,Premium Lock,Dinner,True
+Loaded Nachos,Share-A-Plate,Mid-range,210,A,8190,33,1.0,High Demand,1.1905,Moderately Elastic,Low Elasticity,Premium Lock,Dinner,True
+Masala Chai,Hot Beverages,Budget,120,A,8160,59,1.0,High Demand,1.875,Moderately Elastic,Low Elasticity,Premium Lock,Evening,True
+Espresso,Hot Brews,Budget,110,A,8140,61,1.5,High Demand,1.0256,Moderately Elastic,Low Elasticity,Premium Lock,Dinner,True
+Pad Thai,Blended Full Meals,Mid-range,369,A,8118,18,1.0,High Demand,1.1111,Moderately Elastic,Low Elasticity,Premium Lock,Dinner,False
+Margherita Pizza,Pizza,Mid-range,299,A,8073,25,1.0,High Demand,0.5556,Inelastic,Low Elasticity,Premium Lock,Dinner,False
+Tres Leches Cake,Dessert,Mid-range,215,A,7955,31,1.0,High Demand,1.6667,Moderately Elastic,Low Elasticity,Premium Lock,Dinner,False
+Hazelnut Hot Chocolate,Hot Chocolate,Budget,160,A,7840,41,1.0,High Demand,1.7949,Moderately Elastic,Low Elasticity,Premium Lock,Morning,True
+Shawarma,Blended Full Meals,Mid-range,345,A,7590,19,1.0,High Demand,0.0,Fixed Demand,Low Elasticity,Premium Lock,Dinner,False
+Tomato & Bell Pepper Soup,Soup,Budget,149,A,7450,41,1.0,High Demand,0.6061,Inelastic,Low Elasticity,Premium Lock,Dinner,True
+Virgin Pina Colada,Mocktails,Mid-range,200,A,7400,30,1.0,High Demand,1.6667,Moderately Elastic,Low Elasticity,Premium Lock,Dinner,False
+Veg Exotica Pizza,Pizza,Mid-range,389,A,7002,16,1.0,High Demand,0.6667,Inelastic,Low Elasticity,Premium Lock,Dinner,False
+Mexican Panini,Sandwiches Burgers Wraps,Budget,169,A,6929,32,1.0,High Demand,0.6061,Inelastic,Low Elasticity,Premium Lock,Evening,True
+Cajun Cottage Cheese Steak,Blended Full Meals,Mid-range,335,A,6700,18,1.0,High Demand,1.1111,Moderately Elastic,Low Elasticity,Premium Lock,Dinner,False
+Kaopoon Ramen Bowl,Large Soup Bowls,Premium,409,A,6544,14,1.0,High Demand,1.6667,Moderately Elastic,Low Elasticity,Premium Lock,Dinner,True
+Trio Hummus With Pita,Share-A-Plate,Mid-range,289,A,6358,20,1.0,High Demand,1.3333,Moderately Elastic,Low Elasticity,Premium Lock,Dinner,True
+Volcanic Potatoes,Share-A-Plate,Budget,199,A,6169,27,1.0,High Demand,1.3333,Moderately Elastic,Low Elasticity,Premium Lock,Dinner,False
+Cheese Chili Garlic Bread,Share-A-Plate,Budget,185,A,6105,28,1.0,High Demand,1.1111,Moderately Elastic,Low Elasticity,Premium Lock,Evening,False
+Honey Chili Lotus Stem,Share-A-Plate,Mid-range,220,A,5940,22,1.0,High Demand,1.1111,Moderately Elastic,Low Elasticity,Premium Lock,Dinner,True
+Mushroom Parma Bruschetta,Share-A-Plate,Mid-range,285,A,5700,16,1.0,High Demand,0.0,Fixed Demand,Low Elasticity,Premium Lock,Dinner,False
+Café Latte,Hot Brews,Budget,160,A,5600,30,1.0,High Demand,1.1111,Moderately Elastic,Low Elasticity,Premium Lock,Evening,False
+Spicy Cheesy Broccoli Dumplings,Steam Basket,Mid-range,255,A,5355,17,1.0,High Demand,0.0,Fixed Demand,Low Elasticity,Premium Lock,Dinner,False
+Veg Toast / Plain Sandwich,Sandwiches Burgers Wraps,Budget,120,A,5280,37,1.0,High Demand,1.0256,Moderately Elastic,Low Elasticity,Premium Lock,Evening,True
+Cubanos,Sandwiches Burgers Wraps,Mid-range,250,A,5250,18,1.0,High Demand,0.0,Fixed Demand,Low Elasticity,Premium Lock,Evening,False
+Egg Wrap,Sandwiches Burgers Wraps,Budget,155,B,4960,26,1.0,Low Demand,2.2222,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Nutella Pancakes,Pancakes & Waffwich,Mid-range,289,B,4913,14,1.0,Low Demand,10.0,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Thai Curry Green,Blended Full Meals,Mid-range,395,B,4740,9,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Dinner,True
+Classic BLT,Sandwiches Burgers Wraps,Mid-range,249,B,4731,17,1.0,Low Demand,46.6667,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Caesar Salad,Salad Bowls,Budget,189,B,4725,20,1.0,Low Demand,13.3333,Highly Elastic,High Elasticity,Promotional Item,Dinner,False
+Fresh Fruit Tart,Dessert,Mid-range,225,B,4725,17,1.0,Low Demand,60.0,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Lemon Coriander Soup,Soup,Budget,179,B,4654,20,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Dinner,False
+Paneer And Cheese Quesadilla,Share-A-Plate,Mid-range,255,B,4590,17,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Afternoon,False
+Chicken Cream & Cheddar Soup,Soup,Mid-range,229,B,4580,17,1.0,Low Demand,4.4444,Highly Elastic,High Elasticity,Promotional Item,Dinner,False
+Hazelnut Frappe,Frappe,Budget,190,B,4560,19,1.0,Low Demand,5.5556,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Roasted Chicken With Mushroom Sauce,Blended Full Meals,Premium,455,B,4550,8,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Dinner,False
+Chai,Hot Beverages,Budget,100,B,4500,35,1.0,Low Demand,7.2222,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Spicy Chicken Pao,Sandwiches Burgers Wraps,Budget,159,B,4293,20,1.0,Low Demand,2.5,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Thai Coconut Curry,Blended Full Meals,Mid-range,389,B,4279,10,1.0,Low Demand,26.6667,Highly Elastic,High Elasticity,Promotional Item,Dinner,False
+Garlic Bread,Share-A-Plate,Budget,129,B,4257,29,1.0,Low Demand,7.5,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Chocolate Almond Smoothie Bowl,Wholesome Breakfast,Premium,420,B,4200,10,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,True
+Greek-O-Greek Pizza,Pizza,Premium,420,B,4200,9,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Dinner,True
+Classic Waffle,Pancakes & Waffwich,Mid-range,279,B,4185,13,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Mushroom Chickpea Couscous Salad,Salad Bowls,Budget,189,B,4158,20,1.0,Low Demand,46.6667,Highly Elastic,High Elasticity,Promotional Item,Dinner,False
+Chili Garlic Cottage Cheese,Share-A-Plate,Mid-range,215,B,4085,15,1.0,Low Demand,6.6667,Highly Elastic,High Elasticity,Promotional Item,Afternoon,False
+WAO Juice (Watermelon Apple Orange),Cold Press Juices,Mid-range,270,B,4050,15,1.0,Low Demand,60.0,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Kitkat Shake,Premium Shakes,Mid-range,200,B,4000,17,1.0,Low Demand,8.3333,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+French Toast,Wholesome Breakfast,Mid-range,210,B,3990,15,1.0,Low Demand,13.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Peri-Peri Prawns Popcorn,Share-A-Plate,Premium,555,B,3885,5,1.0,Low Demand,6.6667,Highly Elastic,High Elasticity,Promotional Item,Dinner,False
+Very Berry Super Shake,Premium Shakes,Mid-range,240,B,3840,14,1.0,Low Demand,53.3333,Highly Elastic,High Elasticity,Promotional Item,Afternoon,False
+Fresh Fruit Juice,Cold Beverages,Mid-range,200,B,3800,17,1.0,Low Demand,8.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Thai Iced Coffee,Cold Brews,Mid-range,200,B,3800,15,1.0,Low Demand,26.6667,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Blend Breakfast,Wholesome Breakfast,Mid-range,345,B,3795,11,1.0,Low Demand,33.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Spicy Guava Mocktail,Mocktails,Budget,180,B,3780,18,1.0,Low Demand,2.2222,Highly Elastic,High Elasticity,Promotional Item,Afternoon,False
+Watermelon Mojito,Mocktails,Budget,160,B,3680,20,1.0,Low Demand,4.4444,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Scrambled Eggs / Bhurji,Classic Eggs,Budget,145,B,3625,23,1.0,Low Demand,4.4444,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Mocha Frappe,Frappe,Budget,190,B,3610,17,1.0,Low Demand,40.0,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Vietnamese Iced Café,Cold Brews,Budget,190,B,3610,17,1.0,Low Demand,6.6667,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Bombay Masala Sandwich,Sandwiches Burgers Wraps,Budget,139,B,3475,21,1.0,Low Demand,80.0,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Cream Cheese Waffwich,Pancakes & Waffwich,Mid-range,315,B,3465,10,1.0,Low Demand,6.6667,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Espresso Frappe,Frappe,Budget,180,B,3420,17,1.0,Low Demand,4.4444,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Eggs To Order Plain,Classic Eggs,Budget,135,B,3375,20,1.0,Low Demand,5.5556,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Americano,Hot Brews,Budget,160,B,3360,19,1.0,Low Demand,2.0,Highly Elastic,High Elasticity,Promotional Item,Evening,True
+Bhaji Pao,Wholesome Breakfast,Budget,159,B,3339,16,1.0,Low Demand,8.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Blueberry Mojito,Mocktails,Budget,140,B,3220,19,1.0,Low Demand,66.6667,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Blue Ocean Mocktail,Mocktails,Budget,160,B,3200,17,1.0,Low Demand,10.0,Highly Elastic,High Elasticity,Promotional Item,Dinner,False
+Smoothie Bowl Banana PB,Wholesome Breakfast,Mid-range,320,B,3200,10,1.0,Low Demand,20.0,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Classic Eggs Benedict,Wholesome Breakfast,Mid-range,280,B,3080,10,1.0,Low Demand,13.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Lemon Iced Tea,Cold Beverages,Budget,140,C,3080,20,1.0,Low Demand,20.0,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Banana Walnut Tea Cake,Bakery,Budget,130,C,2990,18,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Peach Iced Tea,Cold Beverages,Budget,140,C,2940,16,1.0,Low Demand,60.0,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Green Apple Mojito,Mocktails,Budget,120,C,2880,18,1.0,Low Demand,5.5556,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Romantic Sunset Mocktail,Mocktails,Budget,180,C,2880,12,1.0,Low Demand,5.0,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Death By Chocolate Shake,Premium Shakes,Mid-range,260,C,2860,10,1.0,Low Demand,10.0,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Mushroom Cappuccino Soup,Soup,Budget,189,C,2835,15,1.0,Low Demand,2.2222,Highly Elastic,High Elasticity,Promotional Item,Dinner,True
+Kiwi Mojito,Mocktails,Budget,140,C,2800,17,1.0,Low Demand,15.0,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Oyster Chicken Dumplings,Steam Basket,Mid-range,389,C,2723,7,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Dinner,False
+Espresso On The Rocks,Cold Brews,Budget,170,C,2720,12,1.0,Low Demand,26.6667,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Meaty Mighty Pizza,Pizza,Premium,659,C,2636,3,1.0,Low Demand,13.3333,Highly Elastic,High Elasticity,Promotional Item,Dinner,False
+French Vanilla Shake,Premium Shakes,Mid-range,200,C,2600,12,1.0,Low Demand,53.3333,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+BGCLS Juice,Cold Press Juices,Mid-range,280,C,2520,7,1.0,Low Demand,33.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Fruit Pancakes,Pancakes & Waffwich,Mid-range,299,C,2392,7,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Paneer Puff,Bakery,Budget,85,C,2295,25,1.0,Low Demand,2.0,Highly Elastic,High Elasticity,Promotional Item,Evening,True
+Nutella Croissant,Bakery,Budget,175,C,2275,10,1.0,Low Demand,13.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Shakshuka,Wholesome Breakfast,Mid-range,249,C,2241,7,1.0,Low Demand,10.0,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Iced Café Mocha,Cold Brews,Budget,170,C,2210,12,1.0,Low Demand,46.6667,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Breakfast Burrito,Wholesome Breakfast,Mid-range,269,C,2152,7,1.0,Low Demand,13.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Bounty Hot Chocolate,Hot Chocolate,Budget,190,C,2090,11,1.0,Low Demand,2.5,Highly Elastic,High Elasticity,Promotional Item,Dinner,True
+Butter Croissant,Bakery,Budget,120,C,2040,17,1.0,Low Demand,6.6667,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Chinese Style Greens Panini,Sandwiches Burgers Wraps,Budget,155,C,2015,12,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Eggs To Order Chicken,Classic Eggs,Budget,165,C,1980,11,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Chicken Puff,Bakery,Budget,100,C,1900,17,1.0,Low Demand,6.6667,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Chole Puri,Wholesome Breakfast,Budget,125,C,1750,12,1.0,Low Demand,16.6667,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Chocolate Chip Cookie,Bakery,Budget,50,C,1700,29,1.0,Low Demand,11.6667,Highly Elastic,High Elasticity,Promotional Item,Evening,False
+Paneer Bhurji Pao,Wholesome Breakfast,Budget,160,C,1600,9,1.0,Low Demand,13.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+ABCC Juice,Cold Press Juices,Mid-range,260,C,1560,6,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,True
+Cheesy Potatoes,Wholesome Breakfast,Mid-range,215,C,1505,6,1.0,Low Demand,6.6667,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Orange Tea Cake,Bakery,Budget,110,C,1430,12,1.0,Low Demand,2.6667,Highly Elastic,High Elasticity,Promotional Item,Morning,True
+Stuffed Paratha Paneer,Wholesome Breakfast,Budget,129,C,1419,10,1.0,Low Demand,10.0,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Chocolate Chip Muffin,Bakery,Budget,100,C,1400,11,1.0,Low Demand,10.0,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Nutella Crème Donut,Bakery,Budget,120,C,1320,10,1.0,Low Demand,16.6667,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Set Cheesecake,Dessert,Mid-range,315,C,1260,4,1.0,Low Demand,6.6667,Highly Elastic,High Elasticity,Promotional Item,Dinner,False
+Stuffed Paratha Chicken,Wholesome Breakfast,Mid-range,210,C,1260,5,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Vanilla Muffin,Bakery,Budget,85,C,1105,10,1.0,Low Demand,11.6667,Highly Elastic,High Elasticity,Promotional Item,Afternoon,False
+Ross Omelette,Wholesome Breakfast,Budget,185,C,925,5,1.0,Low Demand,13.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Caramel Hot Chocolate,Hot Chocolate,Budget,180,C,900,4,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Dinner,True
+Stuffed Paratha Aloo,Wholesome Breakfast,Budget,125,C,875,6,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,True
+Cheese Croissant,Bakery,Budget,145,C,725,5,1.0,Low Demand,20.0,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Mediterranean Cooler Salad,Salad Bowls,Mid-range,229,C,687,3,1.0,Low Demand,6.6667,Highly Elastic,High Elasticity,Promotional Item,Afternoon,False
+Bournvita,Hot Beverages,Budget,120,C,480,4,1.0,Low Demand,3.3333,Highly Elastic,High Elasticity,Promotional Item,Morning,False
+Pho,Large Soup Bowls,Mid-range,349,B,4886,11,1.0,Low Demand,0.0,Fixed Demand,Low Elasticity,Review Item,Dinner,False
+Akuri On Toast,Classic Eggs,Budget,125,B,4500,28,1.0,Low Demand,0.4762,Inelastic,Low Elasticity,Review Item,Morning,False
+Mix Veg Double Cheese Burger,Sandwiches Burgers Wraps,Budget,189,B,4158,18,1.0,Low Demand,1.1111,Moderately Elastic,Low Elasticity,Review Item,Evening,False
+Chicken Hakka Dry Chili,Share-A-Plate,Mid-range,359,B,3590,9,1.0,Low Demand,0.0,Fixed Demand,Low Elasticity,Review Item,Dinner,False
+Crème Chocolate Pancakes,Pancakes & Waffwich,Mid-range,275,B,3575,11,1.0,Low Demand,1.6667,Moderately Elastic,Low Elasticity,Review Item,Morning,False
+Korean Breakfast,Wholesome Breakfast,Mid-range,289,B,3179,8,1.0,Low Demand,1.6667,Moderately Elastic,Low Elasticity,Review Item,Morning,False
+Green Tea,Hot Beverages,Budget,150,C,3000,16,1.0,Low Demand,0.0,Fixed Demand,Low Elasticity,Review Item,Evening,False
+Filled Coffee Donut,Bakery,Budget,95,C,2945,28,1.0,Low Demand,1.6667,Moderately Elastic,Low Elasticity,Review Item,Evening,False
+Tempura Vegetables,Share-A-Plate,Budget,155,C,2945,18,1.0,Low Demand,0.0,Fixed Demand,Low Elasticity,Review Item,Dinner,False
+Black Tea,Hot Beverages,Budget,90,C,2520,19,1.0,Low Demand,1.6667,Moderately Elastic,Low Elasticity,Review Item,Morning,False
+Ice-cream Waffwich,Pancakes & Waffwich,Mid-range,269,C,2421,9,1.0,Low Demand,1.6667,Moderately Elastic,Low Elasticity,Review Item,Morning,False
+Veg Puff,Bakery,Budget,55,C,2365,36,1.0,Low Demand,1.4286,Moderately Elastic,Low Elasticity,Review Item,Afternoon,False
+Filled Blueberry Donut,Bakery,Budget,110,C,1980,15,1.0,Low Demand,0.0,Fixed Demand,Low Elasticity,Review Item,Afternoon,False
+Kheema Pao,Wholesome Breakfast,Mid-range,219,C,1752,7,1.0,Low Demand,1.6667,Moderately Elastic,Low Elasticity,Review Item,Morning,False
+Khari,Bakery,Budget,35,C,980,23,1.0,Low Demand,1.6667,Moderately Elastic,Low Elasticity,Review Item,Evening,True

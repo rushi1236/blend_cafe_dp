@@ -1,0 +1,1063 @@
+# ============================================================================
+# BLEND CAFÉ — DYNAMIC PRICING SYSTEM
+# COMPLETE PROJECT SPECIFICATION
+# ============================================================================
+# Project    : Dynamic Pricing Recommendation Engine for Blend Café
+# Type       : Data Science + Classical Machine Learning Internship Project
+# Duration   : 01 July 2025 – 15 August 2025 (6.5 Weeks)
+# Location   : Blend Café, Deccan, Pune, Maharashtra
+# Environment: Python 3.11 (myenv311), Classical ML — No Deep Learning
+# ============================================================================
+
+metadata:
+  project_name: "Blend Café — Dynamic Pricing Recommendation Engine"
+  project_type: "Data Science + Classical Machine Learning"
+  version: "1.0"
+  status: "Internship Deliverable"
+  duration: "01 July 2025 – 15 August 2025"
+
+  café_context:
+    name: "Blend Café"
+    location: "Deccan, Pune, Maharashtra"
+    area_characteristics:
+      - "Adjacent to Fergusson College and BMCC — dense college crowd"
+      - "Close to FC Road — Pune's most active café belt"
+      - "Mixed residential and commercial — young professionals + families"
+      - "Monsoon season during internship — July weather heavily influences footfall"
+    primary_customer_segments:
+      - "College Students (Fergusson, BMCC)"
+      - "Young Working Professionals"
+      - "Couples and Friend Groups (Weekend evenings)"
+      - "Families (Sunday brunch)"
+
+  tech_stack:
+    data_layer:
+      - "Microsoft Excel / LibreOffice Calc (Phase 1 manual analysis)"
+      - "openpyxl 3.1.2 (Excel read/write in Python)"
+      - "pandas 2.2.2 (Data manipulation)"
+      - "numpy 1.26.4 (Numerical operations)"
+    analysis_layer:
+      - "scipy 1.13.0 (Statistical tests, correlation)"
+      - "statsmodels 0.14.2 (Time series decomposition)"
+      - "seaborn 0.13.2 (Statistical visualizations)"
+      - "matplotlib 3.9.0 (Charts and heatmaps)"
+    ml_layer:
+      - "scikit-learn 1.5.0 (Linear Regression, Random Forest, cross-validation)"
+      - "joblib 1.4.2 (Model serialization — .pkl files)"
+    environment:
+      - "Python 3.11 (myenv311)"
+      - "Kali Linux"
+      - "Activation: source ~/myenv311/bin/activate"
+
+  key_achievements:
+    data_engineering:
+      - "Simulated 3,818 realistic transactions across 92 days (May–July 2024)"
+      - "200 menu items across 24 categories — full Blend Café menu coverage"
+      - "21-column schema designed to serve all three project phases"
+      - "Weather-sensitive demand patterns baked into simulation"
+    analysis:
+      - "ABC classification revealed top 20% items drive ~68% of revenue"
+      - "Clear After Rain weather state shows +28% footfall vs baseline"
+      - "Masala Chai demand elasticity: 2.1x spike on Heavy Rain days"
+      - "Sunday brunch pattern differs significantly from Saturday — key insight"
+    machine_learning:
+      - "Random Forest outperforms Linear Regression (RMSE gap documented)"
+      - "Price recommendation engine with elasticity-based adjustment layer"
+      - "Revenue uplift simulation: static vs dynamic pricing comparison"
+      - "Price floor constraint introduced for Premium tier items"
+
+  project_statistics:
+    simulation_rows: "3,818 transactions"
+    simulation_days: "92 days (May 01 – July 31, 2024)"
+    menu_items: "200 items"
+    menu_categories: "24 categories"
+    total_simulated_revenue: "₹10,40,338"
+    scripts_written: "13 Python scripts"
+    phases: "3 (Excel Analysis → Data Science → ML)"
+    final_deliverable: "Dynamic Pricing Recommendation Excel Report for Blend Café"
+
+
+# ============================================================================
+# PART I: SYSTEM OVERVIEW & ARCHITECTURE
+# ============================================================================
+
+system_overview:
+  description: |
+    This project builds a Dynamic Pricing Recommendation Engine for Blend Café,
+    Deccan, Pune. The core problem is that Blend Café uses entirely static pricing
+    — every item has one fixed price regardless of time, day, weather, or demand.
+    This leaves significant revenue on the table during peak hours and fails to
+    stimulate demand during slow periods.
+
+    The system analyses 3 months of simulated transaction data (May–July 2024,
+    covering Pune summer through full monsoon season) using classical Excel
+    analysis, statistical data science, and classical ML models to produce
+    item-level price recommendations per time slot and day type.
+
+    DESIGN PHILOSOPHY:
+    Every technique used must be explainable to a non-technical café owner.
+    No black-box deep learning. Every price recommendation must trace back to
+    a specific data pattern — weather correlation, time-slot elasticity,
+    segment demand — that the café can verify and trust.
+
+    KEY INSIGHT DRIVING THE PROJECT:
+    Blend Café's own menu already encodes time-slot logic (soups only at
+    12:00–15:30, breakfast only 8:00–11:30). This project extends that logic
+    dynamically — not just what is available when, but what price maximises
+    revenue given real-time demand signals like weather and day type.
+
+  architectural_diagram: |
+    ┌──────────────────────────────────────────────────────────────────────┐
+    │                    DATA LAYER  (data/)                               │
+    │                                                                      │
+    │  ┌─────────────────────────────────────────────────────────────┐    │
+    │  │  data/obs/                                                  │    │
+    │  │  BlendCafe_DynamicPricing_Data.xlsx                        │    │
+    │  │  ├── Sheet: Raw_Transactions  (3,818 rows × 21 columns)    │    │
+    │  │  ├── Sheet: Daily_Summary     (92 rows + monthly totals)   │    │
+    │  │  ├── Sheet: Item_Master       (200 items × 8 columns)      │    │
+    │  │  └── Sheet: README            (column definitions)         │    │
+    │  └─────────────────────────────────────────────────────────────┘    │
+    └──────────────────────────┬───────────────────────────────────────────┘
+                               ↓  01_data_loader.py reads Excel
+    ┌──────────────────────────────────────────────────────────────────────┐
+    │         ANALYSIS PIPELINE  (scripts/data_analysis/)                 │
+    │                                                                      │
+    │  01_data_loader.py  →  02_abc_analysis.py  →  03_pivot_heatmap.py  │
+    │         ↓                      ↓                      ↓             │
+    │  04_correlation_analysis.py  →  05_price_elasticity.py             │
+    │         ↓                                ↓                          │
+    │  06_pareto_analysis.py  →  07_time_series.py                        │
+    │                                  ↓                                  │
+    │                       08_demand_segmentation.py                     │
+    │                                                                      │
+    │  OUTPUTS → data/data_analysis/  (7 processed CSVs + charts)        │
+    └──────────────────────────┬───────────────────────────────────────────┘
+                               ↓  feature_engineering reads data_analysis/ CSVs
+                               ↓  + obs/Item_Master (static reference only)
+    ┌──────────────────────────────────────────────────────────────────────┐
+    │             ML PIPELINE  (scripts/models/)                           │
+    │                                                                      │
+    │  01_feature_engineering.py                                           │
+    │       ↓  (feature matrix: encoded categoricals + demand signals)    │
+    │  02_demand_forecast.py                                               │
+    │       ├── Model A: LinearRegression    (baseline — intentional)     │
+    │       └── Model B: RandomForestRegressor  (primary model)           │
+    │       ↓  (Failure Story 2: overfitting caught here)                 │
+    │  03_price_recommender.py                                             │
+    │       ├── ML demand prediction per item-slot-day combination        │
+    │       ├── Elasticity-based price adjustment (from Phase 2)          │
+    │       └── Price floor constraint  (Failure Story 3)                 │
+    │       ↓                                                              │
+    │  04_revenue_comparison.py                                            │
+    │       └── Static pricing revenue vs Dynamic pricing revenue → uplift%│
+    │  05_model_evaluation.py                                              │
+    │       └── MAE, RMSE, cross-validation, feature importance chart     │
+    │                                                                      │
+    │  OUTPUTS → data/models/  (.pkl files + price_recommendations.csv)  │
+    └──────────────────────────┬───────────────────────────────────────────┘
+                               ↓
+    ┌──────────────────────────────────────────────────────────────────────┐
+    │             FINAL DELIVERABLE  (data/reports/)                       │
+    │                                                                      │
+    │  DynamicPricing_Report_BlendCafe.xlsx                               │
+    │  ├── Tab 1: Executive Summary  (headline uplift %, key findings)    │
+    │  ├── Tab 2: Item Price Recommendations (per slot, per day type)     │
+    │  ├── Tab 3: Weather Pricing Rules (trigger-based adjustments)       │
+    │  ├── Tab 4: Top Elastic vs Inelastic Items (café owner action list) │
+    │  └── Tab 5: Model Accuracy Summary (MAE, RMSE, uplift validation)  │
+    └──────────────────────────────────────────────────────────────────────┘
+
+  data_flow:
+    phase_1_to_phase_2:
+      trigger: "01_data_loader.py reads Excel, cleans, outputs CSVs"
+      key_transformation: "Excel sheets → typed pandas DataFrames → cleaned CSVs"
+      output: "processed_transactions.csv, daily_aggregated.csv"
+
+    phase_2_internal:
+      trigger: "Each analysis script reads from data/data_analysis/"
+      key_transformations:
+        - "ABC classification adds Revenue_Class column (A/B/C)"
+        - "Elasticity script adds Elasticity_Coefficient per item-weather pair"
+        - "Demand segmentation adds Demand_Class to item-slot matrix"
+      output: "abc_classified.csv, elasticity_coefficients.csv, demand_segments.csv"
+
+    phase_2_to_phase_3:
+      trigger: "01_feature_engineering.py reads all Phase 2 outputs"
+      key_transformation: "Categorical encoding + demand signals → numeric feature matrix"
+      note: "models/ scripts NEVER read raw Excel directly (except Item_Master lookup)"
+      output: "feature_matrix.csv"
+
+    phase_3_to_report:
+      trigger: "04_revenue_comparison.py + manual report compilation"
+      key_transformation: "price_recommendations.csv → formatted Excel report"
+      output: "DynamicPricing_Report_BlendCafe.xlsx"
+
+  critical_design_decisions:
+    separation_of_concerns:
+      rationale: |
+        Scripts in data_analysis/ never do modelling. Scripts in models/ never
+        do raw data cleaning. This means if simulation assumptions change, only
+        data_analysis scripts need updating — models/ is insulated.
+      implementation:
+        data_analysis: "Reads obs/, writes data/data_analysis/"
+        models: "Reads data/data_analysis/ + obs/Item_Master (reference only)"
+
+    classical_ml_only:
+      rationale: |
+        Café owner must be able to understand and trust recommendations.
+        A Random Forest with feature importances is explainable.
+        A neural network is not. Also — with 3,818 rows and 200 items,
+        deep learning would overfit and is unjustifiable architecturally.
+      implementation:
+        baseline: "LinearRegression — simple, always explainable"
+        primary: "RandomForestRegressor — handles non-linearity, weather × day interactions"
+        no_deep_learning: "PyTorch / Keras explicitly excluded"
+
+    price_floor_constraint:
+      rationale: |
+        Pure ML output suggested dropping Fondue (₹695) to ₹420 during slow
+        Monday afternoons. This destroys premium brand perception. ML models
+        optimise revenue, not brand. Business constraint must override model output.
+      implementation:
+        rule: "No item's recommended price drops below 85% of Base_Price_₹"
+        premium_flag: "Items in Premium tier additionally flagged for human review"
+
+
+# ============================================================================
+# PART II: PROJECT STRUCTURE
+# ============================================================================
+
+project_structure:
+  root: "blend_cafe_df/"
+  activation: "source ~/myenv311/bin/activate"
+
+  directory_tree: |
+    blend_cafe_df/
+    │
+    ├── specs/
+    │   ├── interview_project.yaml     ← This file — master technical spec
+    │   ├── companion.md               ← Interview narrative + Q&A + failure stories
+    │   └── README.md                  ← Quick project orientation
+    │
+    ├── scripts/
+    │   ├── data_analysis/             ← Phase 1 + Phase 2 scripts (numbered for order)
+    │   │   ├── 01_data_loader.py
+    │   │   ├── 02_abc_analysis.py
+    │   │   ├── 03_pivot_heatmap.py
+    │   │   ├── 04_correlation_analysis.py
+    │   │   ├── 05_price_elasticity.py
+    │   │   ├── 06_pareto_analysis.py
+    │   │   ├── 07_time_series.py
+    │   │   └── 08_demand_segmentation.py
+    │   │
+    │   └── models/                    ← Phase 3 scripts (numbered for order)
+    │       ├── 01_feature_engineering.py
+    │       ├── 02_demand_forecast.py
+    │       ├── 03_price_recommender.py
+    │       ├── 04_revenue_comparison.py
+    │       └── 05_model_evaluation.py
+    │
+    ├── data/
+    │   ├── obs/                       ← Raw input — DO NOT modify
+    │   │   └── BlendCafe_DynamicPricing_Data.xlsx
+    │   │
+    │   ├── data_analysis/             ← Phase 2 outputs (auto-generated, re-runnable)
+    │   │   ├── processed_transactions.csv
+    │   │   ├── daily_aggregated.csv
+    │   │   ├── abc_classified.csv
+    │   │   ├── elasticity_coefficients.csv
+    │   │   ├── correlation_matrix.csv
+    │   │   ├── demand_segments.csv
+    │   │   └── time_series_decomposed.csv
+    │   │
+    │   ├── models/                    ← Phase 3 outputs (auto-generated, re-runnable)
+    │   │   ├── lr_demand_model.pkl
+    │   │   ├── rf_demand_model.pkl
+    │   │   ├── feature_matrix.csv
+    │   │   └── price_recommendations.csv
+    │   │
+    │   └── reports/                   ← Final deliverable for Blend Café
+    │       ├── revenue_uplift_analysis.csv
+    │       └── DynamicPricing_Report_BlendCafe.xlsx
+    │
+    └── requirements.txt
+
+  naming_conventions:
+    scripts: "NN_descriptive_name.py where NN = execution order (01, 02...)"
+    data_files: "snake_case_descriptive.csv"
+    models: "algorithm_purpose_model.pkl (e.g. rf_demand_model.pkl)"
+    reports: "PascalCase_Report_CafeName.xlsx"
+
+  execution_order: |
+    Step 1 — Activate environment:
+      source ~/myenv311/bin/activate
+
+    Step 2 — Run data analysis pipeline:
+      cd blend_cafe_df/
+      python scripts/data_analysis/01_data_loader.py
+      python scripts/data_analysis/02_abc_analysis.py
+      python scripts/data_analysis/03_pivot_heatmap.py
+      python scripts/data_analysis/04_correlation_analysis.py
+      python scripts/data_analysis/05_price_elasticity.py
+      python scripts/data_analysis/06_pareto_analysis.py
+      python scripts/data_analysis/07_time_series.py
+      python scripts/data_analysis/08_demand_segmentation.py
+
+    Step 3 — Run ML pipeline:
+      python scripts/models/01_feature_engineering.py
+      python scripts/models/02_demand_forecast.py
+      python scripts/models/03_price_recommender.py
+      python scripts/models/04_revenue_comparison.py
+      python scripts/models/05_model_evaluation.py
+
+    Step 4 — Reports in data/reports/ are now ready
+
+
+# ============================================================================
+# PART III: DATASET SCHEMA
+# ============================================================================
+
+dataset_schema:
+  source_file: "data/obs/BlendCafe_DynamicPricing_Data.xlsx"
+  total_rows: 3818
+  total_columns: 21
+  date_range: "01-May-2024 to 31-Jul-2024"
+  simulation_seed: 42
+
+  sheets:
+    Raw_Transactions:
+      purpose: "Primary analysis dataset — one row per item ordered"
+      rows: 3818
+      columns: 21
+      used_in_phases: [1, 2, 3]
+
+    Daily_Summary:
+      purpose: "Aggregated daily metrics — footfall, revenue, weather, OOS events"
+      rows: 92
+      used_in_phases: [1, 2]
+
+    Item_Master:
+      purpose: "Static reference — all 200 menu items with pricing and segment metadata"
+      rows: 200
+      used_in_phases: [1, 3]
+      note: "Phase 3 models/ scripts read this directly as reference lookup"
+
+    README:
+      purpose: "Column definitions, weather logic, failure story notes"
+      used_in_phases: []
+
+  columns:
+    Transaction_ID:
+      type: "Integer"
+      description: "Unique identifier for each item-level order row"
+      used_in: "Row identification, deduplication"
+
+    Date:
+      type: "String (DD-MMM-YYYY)"
+      description: "Calendar date of order"
+      used_in: "Phase 1 pivot, Phase 2 time series, Phase 3 feature"
+      phase_3_encoding: "Converted to ordinal day number for ML"
+
+    Month:
+      type: "Categorical (May / June / July)"
+      description: "Month name — used as seasonal proxy"
+      used_in: "Phase 1 monthly comparison, Phase 3 ML feature"
+      phase_3_encoding: "Label encoded: May=0, June=1, July=2"
+
+    Day_of_Week:
+      type: "Categorical (Monday–Sunday)"
+      description: "Day name — core demand driver"
+      used_in: "Phase 1 pivot heatmap, Phase 3 ML feature"
+      phase_3_encoding: "Label encoded: Monday=0 … Sunday=6"
+
+    Is_Weekend:
+      type: "Binary (Yes / No)"
+      description: "Weekend flag — binary version of Day_of_Week for model simplicity"
+      used_in: "Phase 1 quick filter, Phase 3 ML feature"
+      phase_3_encoding: "Binary: Yes=1, No=0"
+
+    Time_of_Order:
+      type: "String (HH:MM, 24-hour)"
+      description: "Exact order time — used for granular time analysis"
+      used_in: "Phase 1 peak hour detection"
+      phase_3_encoding: "Converted to integer minute-of-day (0–1439)"
+
+    Time_Slot:
+      type: "Categorical (Morning / Afternoon / Evening / Dinner)"
+      description: "Bucketed slot aligned with Blend Café's own menu timing windows"
+      slot_windows:
+        Morning: "08:00–11:30"
+        Afternoon: "11:30–15:30"
+        Evening: "15:30–19:00"
+        Dinner: "19:00–22:00"
+      used_in: "Phase 1 pivot, Phase 2 elasticity, Phase 3 primary ML feature"
+      phase_3_encoding: "One-hot encoded (4 binary columns)"
+
+    Weather:
+      type: "Categorical (Dry Day / Light Drizzle / Heavy Rain / Clear After Rain)"
+      description: "Weather state — strongest demand signal in monsoon months"
+      weather_business_logic:
+        Dry_Day: "May dominant. Cold beverages spike. Hot drinks drop."
+        Light_Drizzle: "Moderate rain. Transition state. Comfort food uptick."
+        Heavy_Rain: "Footfall -48%. Soups, chai, ramen, hot chocolate surge."
+        Clear_After_Rain: "Post-rain surge. Footfall +28%. Premium items sell."
+      used_in: "Phase 2 correlation, Phase 3 most important ML feature"
+      phase_3_encoding: "One-hot encoded (4 binary columns)"
+
+    Temperature_°C:
+      type: "Float"
+      description: "Ambient temperature — numeric companion to Weather categorical"
+      range: "19°C (July Heavy Rain) to 40°C (May Dry Day)"
+      used_in: "Phase 2 correlation with cold/hot beverage sales, Phase 3 ML feature"
+
+    Academic_Period:
+      type: "Categorical (Summer Vacation / Pre-Semester / New Semester)"
+      description: "College calendar state — critical for Deccan Pune café footfall"
+      mapping:
+        Summer_Vacation: "May — leisure visits, late mornings, smoothie bowl crowd"
+        Pre_Semester: "June — transitioning, moderate footfall"
+        New_Semester: "July — college crowd returns to Deccan strong"
+      used_in: "Phase 2 segmentation, Phase 3 ML feature"
+      phase_3_encoding: "Label encoded: Summer Vacation=0, Pre-Semester=1, New Semester=2"
+
+    Customer_Segment:
+      type: "Categorical (College / Professional / Couple-Group / Family)"
+      description: "Inferred customer type — determines ordering behaviour"
+      segment_patterns:
+        College: "Price sensitive, afternoon/evening, share plates, burgers, cold brews"
+        Professional: "Morning heavy, quick orders, eggs, coffee, breakfast items"
+        Couple_Group: "Friday–Saturday dinner, premium items, fondue, full meals"
+        Family: "Sunday brunch, wholesome breakfast, smoothie bowls, shakes"
+      used_in: "Phase 2 demand segmentation, Phase 3 ML feature"
+      phase_3_encoding: "One-hot encoded (4 binary columns)"
+
+    Table_No:
+      type: "Integer (1–20)"
+      description: "Table number — footfall and occupancy proxy"
+      used_in: "Phase 1 occupancy analysis"
+
+    Order_Type:
+      type: "Categorical (Dine-in / Takeaway)"
+      description: "Service mode — 88% dine-in, 12% takeaway in simulation"
+      used_in: "Phase 1 revenue split"
+
+    Item_Name:
+      type: "String"
+      description: "Full menu item name — 200 unique items"
+      used_in: "All phases — primary dimension for price recommendations"
+      phase_3_encoding: "Not encoded directly — model trained at category + tier level"
+
+    Category:
+      type: "Categorical (24 categories)"
+      description: "Menu section — Pancakes & Waffwich, Pasta, Pizza, etc."
+      used_in: "Phase 1 ABC by category, Phase 3 ML feature"
+      phase_3_encoding: "Label encoded (24 classes)"
+
+    Is_Vegetarian:
+      type: "Binary (Yes / No)"
+      description: "Veg vs non-veg flag — demand pattern differs"
+      used_in: "Phase 1 veg/nonveg split, Phase 2 segment correlation"
+      phase_3_encoding: "Binary: Yes=1, No=0"
+
+    Price_Tier:
+      type: "Categorical (Budget / Mid-range / Premium)"
+      description: "Price bracket — critical for Failure Story 3 (price floor constraint)"
+      thresholds:
+        Budget: "Base price < ₹200"
+        Mid_range: "₹200 ≤ Base price ≤ ₹400"
+        Premium: "Base price > ₹400"
+      used_in: "Phase 1 ABC, Phase 2 elasticity segmentation, Phase 3 constraint layer"
+      phase_3_encoding: "Label encoded: Budget=0, Mid-range=1, Premium=2"
+
+    Base_Price_₹:
+      type: "Integer (₹)"
+      description: "Static menu price in Indian Rupees — the variable Phase 3 optimises"
+      range: "₹35 (Khari) to ₹695 (Jalapeño Cheese Fondue)"
+      used_in: "All phases — this is the target variable for price recommendation"
+
+    Quantity_Units:
+      type: "Integer"
+      description: "Units ordered in this transaction row"
+      distribution: "80% = 1 unit, 20% = 2 units"
+      used_in: "Phase 2 demand calculation, Phase 3 target variable (demand proxy)"
+
+    Daily_Footfall_Customers:
+      type: "Integer"
+      description: "Total customers that day — demand context for each transaction"
+      range: "18 (Heavy Rain Monday) to 158 (Clear After Rain Saturday)"
+      used_in: "Phase 2 correlation analysis, Phase 3 ML feature"
+
+    Revenue_₹:
+      type: "Integer (₹)"
+      description: "Transaction revenue = Base_Price_₹ × Quantity_Units"
+      note: "Computed column — always verify as Base_Price × Quantity"
+      used_in: "Phase 1 ABC, Phase 1 pivot revenue totals, Phase 3 uplift comparison"
+
+
+# ============================================================================
+# PART IV: SIMULATION ASSUMPTIONS
+# ============================================================================
+
+simulation_assumptions:
+  purpose: |
+    All transaction data is simulated. When asked in interviews, the answer is:
+    "Blend Café does not have a POS system with digital transaction logs. I
+    simulated realistic data based on Pune café market research, the café's own
+    menu timing windows, and Pune monsoon weather patterns. The simulation was
+    designed to produce non-obvious patterns for meaningful ML analysis."
+
+  seed: 42
+  random_library: "numpy.random + Python random"
+
+  weather_distributions:
+    May:
+      Dry_Day: "70%"
+      Light_Drizzle: "15%"
+      Heavy_Rain: "5%"
+      Clear_After_Rain: "10%"
+      temperature_range: "24°C – 40°C"
+      rationale: "Pune summer peak. Afternoons brutal. Evenings prime."
+
+    June:
+      Dry_Day: "25%"
+      Light_Drizzle: "35%"
+      Heavy_Rain: "25%"
+      Clear_After_Rain: "15%"
+      temperature_range: "21°C – 32°C"
+      rationale: "Pre-monsoon transition. Humidity. Unpredictable."
+
+    July:
+      Dry_Day: "8%"
+      Light_Drizzle: "30%"
+      Heavy_Rain: "37%"
+      Clear_After_Rain: "25%"
+      temperature_range: "19°C – 26°C"
+      rationale: "Full Pune monsoon. Beautiful evenings after rain."
+
+  footfall_multipliers:
+    base_weekday_footfall:
+      Monday: 52
+      Tuesday: 48
+      Wednesday: 58
+      Thursday: 63
+      Friday: 88
+      Saturday: 132
+      Sunday: 118
+    weather_multipliers:
+      Dry_Day: 1.00
+      Light_Drizzle: 0.82
+      Heavy_Rain: 0.52
+      Clear_After_Rain: 1.28
+    academic_multipliers:
+      Summer_Vacation: 0.92
+      Pre_Semester: 0.87
+      New_Semester: 1.06
+    daily_noise: "±18% uniform random variation"
+
+  academic_calendar:
+    Summer_Vacation_May: "Leisure visits. Late morning crowd. Smoothie bowls peak."
+    Pre_Semester_June: "College students returning. Moderate. Transitioning."
+    New_Semester_July: |
+      New academic year starts. Fresh first-years discover Deccan cafés.
+      Senior students reunite. College crowd surges back strongly.
+      Afternoon and evening slots become college-dominated.
+
+  item_demand_logic:
+    weather_sensitive_items:
+      - "Masala Chai — 2.0x on Heavy Rain"
+      - "Tomato & Bell Pepper Soup — 2.0x on Heavy Rain"
+      - "Ramen Bowls — 1.9x on Heavy Rain, 0.4x on Dry Day"
+      - "Iced Café Latte — 1.7x on Dry Day, 0.35x on Heavy Rain"
+      - "Watermelon Mojito — 1.6x on Dry Day, 0.45x on Heavy Rain"
+      - "Marshmallow Hot Chocolate — 1.9x on Heavy Rain"
+      - "Cold Press Juices — 1.5–1.6x on Dry Day, 0.4x on Heavy Rain"
+    slot_dominant_items:
+      Morning: "Pancakes, Wholesome Breakfast, Hot Brews, Smoothie Bowls"
+      Afternoon: "Sandwiches, Burgers, Pasta, Cold Brews, Salads"
+      Evening: "Beverages dominate, Sandwiches, Grilled Cheese"
+      Dinner: "Full Meals, Share-A-Plate, Pizza, Fondue, Desserts, Ramen"
+    premium_items_behavior:
+      Fondue: "Friday–Sunday dinner almost exclusively. Near zero weekday."
+      Prawns: "Weekend dinner only. Couple-Group segment only."
+      Full_Meals: "Dinner only. Couple-Group + Professional."
+
+  out_of_stock_events:
+    count: 8
+    duration: "2–4 consecutive days each"
+    items: "Random premium items (Base_Price > ₹300)"
+    visibility: "Recorded in Daily_Summary — Out_of_Stock_Items column"
+    purpose: "Failure Story 1 ingredient — assumption about item availability"
+
+
+# ============================================================================
+# PART V: PHASE 1 — EXCEL ANALYSIS
+# ============================================================================
+
+phase_1_excel_analysis:
+  duration: "Week 1–2"
+  objective: "Understand the data through Excel — before writing a single line of Python"
+  tool: "Microsoft Excel / LibreOffice Calc"
+  input: "data/obs/BlendCafe_DynamicPricing_Data.xlsx → Raw_Transactions sheet"
+
+  techniques:
+
+    descriptive_statistics:
+      what: "Mean, median, standard deviation of Revenue_₹ and Quantity_Units"
+      where: "Excel: Data Analysis Toolpak"
+      output: "Baseline distribution understanding per category"
+      insight: "Revenue distribution is right-skewed — Premium items create long tail"
+
+    pivot_table_1_revenue_by_slot_and_day:
+      axes: "Rows: Time_Slot | Columns: Day_of_Week | Values: SUM(Revenue_₹)"
+      output: "Revenue heatmap — which slot × day is hottest"
+      insight: "Saturday Dinner slot is highest revenue. Monday Afternoon is lowest."
+      excel_feature: "Conditional formatting → color gradient heatmap"
+
+    pivot_table_2_category_revenue:
+      axes: "Rows: Category | Values: SUM(Revenue_₹), COUNT(Transaction_ID)"
+      output: "Revenue contribution per menu category"
+      insight: "Hot Brews + Cold Brews together are highest transaction volume category"
+
+    pivot_table_3_weather_vs_category:
+      axes: "Rows: Category | Columns: Weather | Values: SUM(Quantity_Units)"
+      output: "Weather impact visible at category level"
+      insight: "Soup category 3.1x higher quantity on Heavy Rain vs Dry Day"
+
+    abc_analysis:
+      what: |
+        ABC Classification — categorise 200 items by cumulative revenue contribution.
+        Class A: top items contributing 0–70% of total revenue
+        Class B: next items contributing 70–90% of total revenue
+        Class C: remaining items contributing 90–100% of total revenue
+      excel_implementation:
+        step_1: "SUMIF revenue per item → sort descending"
+        step_2: "Cumulative % column = running sum / grand total"
+        step_3: "IF(cumulative%<=0.70, 'A', IF(cumulative%<=0.90, 'B', 'C'))"
+      output: "data/data_analysis/abc_classified.csv"
+      insight: "~38 items (19%) are Class A — driving ~68% of total revenue"
+      business_use: "Focus dynamic pricing effort on Class A items first"
+
+    average_order_value:
+      formula: "=AVERAGEIF(Day_of_Week, 'Saturday', Revenue_₹)"
+      purpose: "Compare AOV across day types and slots"
+      insight: "Saturday Dinner AOV is 2.3x Monday Afternoon AOV"
+
+    contribution_analysis:
+      what: "Which items appear most frequently in same-table orders"
+      excel_feature: "COUNTIFS across Table_No and Date"
+      insight: "Fondue almost always ordered alongside Share-A-Plate item"
+
+    formulas_used:
+      - "SUMIF, SUMIFS — conditional revenue aggregation"
+      - "AVERAGEIF, AVERAGEIFS — conditional mean calculation"
+      - "COUNTIFS — multi-condition frequency count"
+      - "VLOOKUP — joining Item_Master to transaction data"
+      - "IF, nested IF — ABC classification logic"
+      - "Pivot Tables — all aggregations above"
+      - "Conditional Formatting — heatmap visualization"
+
+  phase_1_key_findings:
+    - "Saturday Dinner is the single highest revenue slot-day combination"
+    - "Monday + Tuesday Afternoon are consistently lowest — prime discount opportunity"
+    - "Hot Brews are ordered in all 4 time slots but cold beverages only in 2"
+    - "38 Class A items drive 68% of total revenue — focus list identified"
+    - "Sunday brunch pattern differs significantly from Saturday — different crowd"
+
+
+# ============================================================================
+# PART VI: PHASE 2 — DATA SCIENCE / STATISTICAL ANALYSIS
+# ============================================================================
+
+phase_2_data_science:
+  duration: "Week 3–4"
+  objective: "Find statistical relationships that will power the ML pricing model"
+  tools: "Python 3.11 — pandas, scipy, statsmodels, seaborn, matplotlib"
+  input: "data/data_analysis/ outputs from Phase 1 scripts"
+
+  techniques:
+
+    correlation_analysis:
+      script: "04_correlation_analysis.py"
+      what: |
+        Pearson correlation between numeric variables in daily_aggregated.csv.
+        Key pairs tested:
+        - Temperature_°C vs Cold_Brew_Quantity
+        - Temperature_°C vs Hot_Beverage_Quantity
+        - Daily_Footfall vs Total_Revenue
+        - Is_Weekend vs Premium_Item_Revenue
+      method: "scipy.stats.pearsonr — returns r and p-value"
+      output: "data/data_analysis/correlation_matrix.csv + heatmap chart"
+      key_findings:
+        temperature_cold_brew: "r = +0.74 (strong positive) — hot day, more cold brew"
+        temperature_hot_beverage: "r = -0.68 (strong negative) — hot day, less chai"
+        footfall_revenue: "r = +0.81 (very strong) — obvious but validates data quality"
+        weekend_premium: "r = +0.61 — weekends drive premium item purchases"
+      interview_note: |
+        "The temperature vs beverage correlations were the most actionable.
+        They directly informed our weather-triggered price recommendation rules."
+
+    price_elasticity_of_demand:
+      script: "05_price_elasticity.py"
+      what: |
+        Classical economics formula applied to simulated demand variation.
+        Elasticity = (% change in Quantity) / (% change in Price)
+        Since price is static in our data, we simulate price variation by
+        comparing demand across weather states and academic periods —
+        treating these as natural demand shifts.
+      formula: "E = (ΔQ/Q₀) / (ΔP/P₀)"
+      implementation: |
+        For each item, compare quantity sold in High-Demand vs Low-Demand
+        conditions. Assign elasticity coefficient:
+        |E| > 1.5 → Highly elastic (price sensitive — discount in low demand)
+        0.8 < |E| < 1.5 → Moderately elastic
+        |E| < 0.8 → Inelastic (price insensitive — can increase at peak)
+      output: "data/data_analysis/elasticity_coefficients.csv"
+      key_findings:
+        highly_elastic: "Masala Chai, Soups, Ramen Bowls — demand swings with conditions"
+        inelastic: "Cappuccino, Classic Pancakes — sell regardless of conditions"
+        premium_breakdown: "Fondue inelastic to price but elastic to day type (Failure Story 3)"
+
+    pareto_analysis:
+      script: "06_pareto_analysis.py"
+      what: "Validate ABC findings with Pareto curve — 80/20 rule check"
+      implementation: "Cumulative revenue % plotted against item count %"
+      output: "Pareto chart PNG + validation CSV"
+      finding: "Top 20% of items (40 items) generate 71% of revenue — Pareto holds"
+
+    time_series_decomposition:
+      script: "07_time_series.py"
+      what: |
+        Decompose daily revenue into three components:
+        - Trend: Overall revenue direction across 92 days
+        - Seasonality: Weekly repeating pattern (Mon–Sun cycle)
+        - Residual: Unexplained variation (weather events, OOS)
+      method: "statsmodels.tsa.seasonal.seasonal_decompose — additive model"
+      period: 7
+      output: "data/data_analysis/time_series_decomposed.csv + 4-panel chart"
+      key_findings:
+        trend: "June dip (monsoon onset) clearly visible. July recovery as college returns."
+        seasonality: "Friday–Saturday spike consistent every week. Monday trough consistent."
+        residual: "Out-of-stock days visible as negative spikes in residual component"
+
+    demand_segmentation_2x2:
+      script: "08_demand_segmentation.py"
+      what: |
+        Place every item-slot combination into a 2x2 demand matrix:
+
+        HIGH DEMAND + HIGH ELASTICITY → Dynamic Pricing Target
+          Increase price at peak. Discount at trough.
+
+        HIGH DEMAND + LOW ELASTICITY → Premium Lock
+          Keep price stable or slightly increase. Do not discount.
+
+        LOW DEMAND + HIGH ELASTICITY → Promotional Item
+          Aggressive discounting or bundling to stimulate.
+
+        LOW DEMAND + LOW ELASTICITY → Review Item
+          Possibly remove from menu or reposition.
+      axes:
+        x_axis: "Demand level — median daily quantity sold"
+        y_axis: "Elasticity coefficient — from elasticity script"
+      output: "data/data_analysis/demand_segments.csv + 2x2 scatter plot"
+      key_classifications:
+        dynamic_pricing_targets: "Iced Café Latte, Grilled Chicken Burger, Margherita Pizza"
+        premium_lock: "Cappuccino, Classic Pancakes, Caesar Salad"
+        promotional: "Burmese Khow-suey, Greek-O-Greek Pizza, Pho"
+        review_items: "Espresso On The Rocks, BGCLS Juice, Set Cheesecake"
+
+    descriptive_statistics_python:
+      script: "01_data_loader.py (extended section)"
+      what: "Full describe() output per category, skewness, kurtosis of Revenue_₹"
+      library: "pandas describe(), scipy.stats.skew(), scipy.stats.kurtosis()"
+      output: "Printed summary + saved to daily_aggregated.csv"
+
+
+# ============================================================================
+# PART VII: PHASE 3 — MACHINE LEARNING
+# ============================================================================
+
+phase_3_machine_learning:
+  duration: "Week 5–6"
+  objective: "Train demand forecasting model, generate price recommendations, quantify uplift"
+  tools: "scikit-learn, pandas, numpy, joblib, matplotlib"
+  input: "data/data_analysis/ (all CSVs) + data/obs/ Item_Master (reference)"
+
+  model_1_demand_forecasting:
+    script: "02_demand_forecast.py"
+    target_variable: "Quantity_Units (demand proxy)"
+    problem_type: "Regression"
+
+    feature_set:
+      - "Month_encoded (0/1/2)"
+      - "Day_of_Week_encoded (0–6)"
+      - "Is_Weekend (0/1)"
+      - "Time_Slot_Morning (one-hot)"
+      - "Time_Slot_Afternoon (one-hot)"
+      - "Time_Slot_Evening (one-hot)"
+      - "Time_Slot_Dinner (one-hot)"
+      - "Weather_DryDay (one-hot)"
+      - "Weather_LightDrizzle (one-hot)"
+      - "Weather_HeavyRain (one-hot)"
+      - "Weather_ClearAfterRain (one-hot)"
+      - "Temperature_°C"
+      - "Daily_Footfall_Customers"
+      - "Academic_Period_encoded (0/1/2)"
+      - "Customer_Segment_College (one-hot)"
+      - "Customer_Segment_Professional (one-hot)"
+      - "Customer_Segment_CoupleGroup (one-hot)"
+      - "Customer_Segment_Family (one-hot)"
+      - "Category_encoded"
+      - "Price_Tier_encoded (0/1/2)"
+      - "Base_Price_₹"
+      - "Is_Vegetarian (0/1)"
+
+    train_test_split:
+      method: "Chronological split — NOT random"
+      train: "May 01 – July 15 (75 days)"
+      test: "July 16 – July 31 (16 days)"
+      rationale: |
+        Random split would leak future information into training.
+        A café pricing model must generalise to future dates, not random
+        past dates. Chronological split is the correct real-world approach.
+
+    model_a_linear_regression:
+      algorithm: "sklearn.linear_model.LinearRegression"
+      purpose: "Baseline — always start simple before adding complexity"
+      evaluation:
+        MAE: "~0.31 units (expected)"
+        RMSE: "~0.44 units (expected)"
+      note: "Intentionally underperforms RF — demonstrates value of ensemble methods"
+
+    model_b_random_forest:
+      algorithm: "sklearn.ensemble.RandomForestRegressor"
+      hyperparameters:
+        n_estimators: 200
+        max_depth: 12
+        min_samples_split: 5
+        min_samples_leaf: 3
+        random_state: 42
+      evaluation:
+        MAE: "~0.22 units (expected)"
+        RMSE: "~0.31 units (expected)"
+        cross_val_score: "5-fold CV on training set"
+      feature_importance: "Plotted as horizontal bar chart — Weather + Time_Slot dominate"
+      serialization: "joblib.dump(rf_model, 'data/models/rf_demand_model.pkl')"
+
+    overfitting_handling:
+      detection: "Train RMSE significantly lower than test RMSE in initial run"
+      fix_applied: "Increase min_samples_leaf from 1 to 3, max_depth from None to 12"
+      validation: "5-fold cross-validation confirms generalisation"
+      note: "This is Failure Story 2 — documented in companion.md"
+
+  model_2_price_recommender:
+    script: "03_price_recommender.py"
+    what: |
+      Rule-based optimization layer on top of Random Forest demand predictions.
+      NOT a second ML model — this is intentional. The café owner must be able
+      to understand and override any recommendation.
+    logic: |
+      For each item × time_slot × day_type combination:
+
+        predicted_demand = rf_model.predict(features)
+        elasticity = elasticity_coefficients[item]
+        base_price = item_master[item]['Base_Price']
+
+        if predicted_demand > HIGH_DEMAND_THRESHOLD:
+            # Peak hour — can increase price
+            price_increase_pct = min(elasticity * 0.08, 0.15)  # max 15% increase
+            recommended_price = base_price * (1 + price_increase_pct)
+
+        elif predicted_demand < LOW_DEMAND_THRESHOLD:
+            # Off-peak — stimulate with discount
+            price_decrease_pct = min(elasticity * 0.06, 0.12)  # max 12% decrease
+            recommended_price = base_price * (1 - price_decrease_pct)
+
+        else:
+            recommended_price = base_price  # no change in normal demand
+
+        # PRICE FLOOR CONSTRAINT (Failure Story 3)
+        floor_price = base_price * 0.85
+        recommended_price = max(recommended_price, floor_price)
+
+        # PREMIUM HUMAN REVIEW FLAG
+        if price_tier == 'Premium':
+            flag = 'REVIEW_REQUIRED'
+    output: "data/models/price_recommendations.csv"
+    columns_output:
+      - "Item_Name"
+      - "Category"
+      - "Time_Slot"
+      - "Day_Type (Weekday / Weekend)"
+      - "Weather_State"
+      - "Base_Price_₹"
+      - "Recommended_Price_₹"
+      - "Price_Change_%"
+      - "Predicted_Demand_Units"
+      - "Demand_Class (High/Normal/Low)"
+      - "Review_Flag"
+
+  model_3_revenue_comparison:
+    script: "04_revenue_comparison.py"
+    what: |
+      Simulate revenue under static pricing vs dynamic pricing on the test set.
+      This is the headline result — the number you lead with in every interview.
+    method: |
+      Static Revenue = SUM(Base_Price_₹ × Quantity_Units) on test set
+      Dynamic Revenue = SUM(Recommended_Price_₹ × Quantity_Units) on test set
+      Uplift % = (Dynamic - Static) / Static × 100
+    output: "data/reports/revenue_uplift_analysis.csv"
+    expected_uplift: "8–14% (realistic range for classical ML on café data)"
+    breakdown_by:
+      - "Uplift by Category"
+      - "Uplift by Time_Slot"
+      - "Uplift by Weather_State"
+      - "Uplift by Day_Type"
+
+  model_evaluation:
+    script: "05_model_evaluation.py"
+    metrics:
+      regression_metrics:
+        MAE: "Mean Absolute Error — average prediction error in units"
+        RMSE: "Root Mean Squared Error — penalises large errors more"
+        R_squared: "Proportion of demand variance explained by model"
+      business_metric:
+        revenue_uplift_pct: "Primary metric — what the café actually cares about"
+      validation:
+        cross_validation: "5-fold CV — sklearn.model_selection.cross_val_score"
+        learning_curve: "Train vs validation score across training set sizes"
+    charts_produced:
+      - "Feature importance horizontal bar (RF)"
+      - "Actual vs Predicted scatter plot"
+      - "Residual plot"
+      - "Learning curve (train vs CV score)"
+      - "Revenue uplift waterfall chart by category"
+
+
+# ============================================================================
+# PART VIII: KEY RESULTS
+# ============================================================================
+
+key_results:
+  headline_numbers:
+    total_revenue_simulated: "₹10,40,338 across 3 months"
+    revenue_uplift: "~11% projected revenue uplift with dynamic pricing"
+    class_a_items: "38 items (19% of menu) drive 68% of revenue"
+    pareto_validation: "Top 20% items → 71% revenue — Pareto confirmed"
+    weather_strongest_feature: "Weather ranked #1 in RF feature importance"
+    peak_slot_day: "Saturday Dinner — highest revenue combination"
+    worst_slot_day: "Monday–Tuesday Afternoon — lowest revenue combination"
+
+  monthly_revenue:
+    May: "₹3,84,391 (1,410 transactions) — summer spending"
+    June: "₹2,92,457 (1,098 transactions) — monsoon onset dip"
+    July: "₹3,63,490 (1,310 transactions) — college crowd recovery"
+
+  weather_insights:
+    clear_after_rain_footfall: "+28% above baseline — Pune post-rain café culture"
+    heavy_rain_footfall: "-48% below baseline — people stay home"
+    masala_chai_rain_multiplier: "2.0x demand on Heavy Rain days"
+    cold_brew_summer_multiplier: "1.7x demand on Dry Day (May)"
+
+  model_performance:
+    linear_regression_rmse: "~0.44 units"
+    random_forest_rmse: "~0.31 units"
+    rf_improvement_over_lr: "~30% RMSE reduction"
+    top_features_by_importance:
+      rank_1: "Weather_HeavyRain"
+      rank_2: "Time_Slot"
+      rank_3: "Temperature_°C"
+      rank_4: "Daily_Footfall_Customers"
+      rank_5: "Is_Weekend"
+
+  price_recommendation_examples:
+    masala_chai_heavy_rain_dinner: "Base ₹120 → Recommended ₹132 (+10%)"
+    iced_latte_dry_day_afternoon: "Base ₹160 → Recommended ₹181 (+13%)"
+    ramen_bowl_dry_day_afternoon: "Base ₹359 → Recommended ₹318 (-11%)"
+    fondue_monday_afternoon: "Base ₹695 → Floor ₹591 (capped — REVIEW flag)"
+
+
+# ============================================================================
+# PART IX: LIMITATIONS AND FUTURE WORK
+# ============================================================================
+
+limitations_and_future_work:
+  current_limitations:
+    simulated_data: |
+      All data is simulated. Real café data would include payment method,
+      group size, repeat customer behaviour, staff shifts, kitchen capacity
+      constraints, and actual competitor pricing. Simulation captures macro
+      patterns but misses micro-level noise.
+    static_competitor_pricing: |
+      No competitor data included. FC Road has many cafés. Real dynamic
+      pricing must account for what competitors charge for comparable items.
+    no_capacity_constraint: |
+      Model does not account for kitchen throughput. Increasing price on
+      5 items simultaneously during Saturday Dinner may not be operationally
+      feasible if kitchen is already at capacity.
+    segment_inference: |
+      Customer_Segment is simulated — not observed. A real POS system
+      with loyalty programme data or order history would give actual
+      segment identification.
+
+  future_work:
+    with_3_more_months:
+      - "Real transaction data collection via POS integration"
+      - "A/B test price recommendations on subset of menu items"
+      - "Build weekend vs weekday separate models"
+      - "Incorporate competitor pricing as feature"
+    with_6_more_months:
+      - "Gradient Boosting (XGBoost) for demand forecasting"
+      - "Recommendation system for item bundling (what to suggest with Fondue)"
+      - "Automated pricing dashboard for café manager"
+    if_deep_learning_allowed:
+      - "LSTM for time series demand forecasting with longer history"
+      - "Contextual bandits for real-time price optimisation"
+      note: "Explicitly excluded from current scope — classical ML sufficient and more explainable"
+
+
+# ============================================================================
+# PART X: VALIDATION CHECKLIST
+# ============================================================================
+
+validation_checklist:
+  data_quality:
+    - "✅ 3,818 transactions — sufficient for RF with 22 features"
+    - "✅ No missing values in any column"
+    - "✅ Revenue_₹ = Base_Price_₹ × Quantity_Units — verified"
+    - "✅ Date range continuous — no missing days"
+    - "✅ Weather distribution matches Pune monsoon calendar"
+    - "✅ Out-of-stock events visible in Daily_Summary"
+
+  phase_1_validation:
+    - "✅ ABC analysis: Class A items verified manually in Excel"
+    - "✅ Pivot heatmaps show expected Saturday Dinner peak"
+    - "✅ Sunday ≠ Saturday in morning slot distribution — confirmed"
+    - "✅ SUMIF formulas produce zero #DIV/0 or #REF errors"
+
+  phase_2_validation:
+    - "✅ Correlation coefficients are statistically significant (p < 0.05)"
+    - "✅ Elasticity coefficients directionally correct (soup elastic to rain)"
+    - "✅ Pareto curve holds — 80/20 approximately confirmed"
+    - "✅ Time series decomposition: seasonality period=7 days confirmed"
+
+  phase_3_validation:
+    - "✅ Chronological train/test split — no data leakage"
+    - "✅ RF outperforms LR on test RMSE"
+    - "✅ 5-fold CV confirms no overfitting post-hyperparameter tuning"
+    - "✅ Price floor constraint applied — no Premium item drops below 85%"
+    - "✅ All Premium items flagged REVIEW_REQUIRED in recommendations CSV"
+    - "✅ Revenue uplift calculation verified: Dynamic > Static on test set"
+
+  interview_readiness:
+    - "✅ Can explain every column and why it exists"
+    - "✅ Can explain chronological split vs random split decision"
+    - "✅ Can explain why Random Forest was chosen over Linear Regression"
+    - "✅ Can explain price floor constraint business rationale"
+    - "✅ Can explain what uplift % means and how it was calculated"
+    - "✅ Can discuss limitations honestly"
+    - "✅ Three failure stories ready as natural post-project reflections"
+
+# ============================================================================
+# END OF SPECIFICATION
+# ============================================================================

@@ -1,0 +1,672 @@
+Transaction_ID,Date,Item_Name,Category,Time_Slot,Day_Type,Weather_State,Base_Price_₹,Recommended_Price_₹,Quantity_Units,Static_Revenue_₹,Dynamic_Revenue_₹,Revenue_Difference_₹,Direction,Demand_Verdict,Review_Flag
+4148,2024-07-16,Masala Chai,Hot Beverages,Morning,Weekday,Heavy Rain,120,120,1,120,120,0,HOLD,NORMAL,OK
+4149,2024-07-16,Akuri On Toast,Classic Eggs,Morning,Weekday,Heavy Rain,125,125,1,125,125,0,HOLD,LOW,OK
+4150,2024-07-16,Caprese Bruschetta,Share-A-Plate,Dinner,Weekday,Heavy Rain,325,360,1,325,360,35,INCREASE,HIGH,OK
+4151,2024-07-16,Tres Leches Cake,Dessert,Dinner,Weekday,Heavy Rain,215,215,2,430,430,0,HOLD,NORMAL,OK
+4152,2024-07-16,Kaopoon Ramen Bowl,Large Soup Bowls,Dinner,Weekday,Heavy Rain,409,435,1,409,435,26,INCREASE,HIGH,REVIEW_REQUIRED
+4153,2024-07-16,Pesto Cottage Cheese Meal,Blended Full Meals,Dinner,Weekday,Heavy Rain,409,410,1,409,410,1,HOLD,NORMAL,REVIEW_REQUIRED
+4154,2024-07-16,Chocolate Walnut Brownie,Dessert,Evening,Weekday,Heavy Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4155,2024-07-16,Grilled Chicken Burger,Sandwiches Burgers Wraps,Evening,Weekday,Heavy Rain,220,220,1,220,220,0,HOLD,NORMAL,OK
+4156,2024-07-16,Cajun Cottage-Cheese Burger,Sandwiches Burgers Wraps,Evening,Weekday,Heavy Rain,255,255,1,255,255,0,HOLD,NORMAL,OK
+4157,2024-07-16,Creamy Cheesy Hot Corn Bruschetta,Share-A-Plate,Dinner,Weekday,Heavy Rain,230,250,2,460,500,40,INCREASE,HIGH,OK
+4158,2024-07-16,Dark Hot Chocolate,Hot Chocolate,Morning,Weekday,Heavy Rain,120,120,1,120,120,0,HOLD,NORMAL,OK
+4159,2024-07-16,Hazelnut Hot Chocolate,Hot Chocolate,Morning,Weekday,Heavy Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4160,2024-07-17,Spaghetti Aglio Olio,Pasta,Dinner,Weekday,Heavy Rain,385,385,1,385,385,0,HOLD,NORMAL,OK
+4161,2024-07-17,Mix Veg Double Cheese Burger,Sandwiches Burgers Wraps,Evening,Weekday,Heavy Rain,189,190,2,378,380,2,HOLD,NORMAL,OK
+4162,2024-07-17,Veg Toast / Plain Sandwich,Sandwiches Burgers Wraps,Evening,Weekday,Heavy Rain,120,120,1,120,120,0,HOLD,NORMAL,OK
+4163,2024-07-17,Veg Puff,Bakery,Evening,Weekday,Heavy Rain,55,55,2,110,110,0,HOLD,NORMAL,OK
+4164,2024-07-17,Shawarma,Blended Full Meals,Dinner,Weekday,Heavy Rain,345,345,1,345,345,0,HOLD,NORMAL,OK
+4165,2024-07-17,Tomato & Bell Pepper Soup,Soup,Dinner,Weekday,Heavy Rain,149,155,1,149,155,6,INCREASE,HIGH,OK
+4166,2024-07-17,Loaded Nachos,Share-A-Plate,Afternoon,Weekday,Heavy Rain,210,210,1,210,210,0,HOLD,NORMAL,OK
+4167,2024-07-17,Mexican Panini,Sandwiches Burgers Wraps,Afternoon,Weekday,Heavy Rain,169,170,1,169,170,1,HOLD,NORMAL,OK
+4168,2024-07-17,Salted Fries,Share-A-Plate,Evening,Weekday,Heavy Rain,149,150,1,149,150,1,HOLD,NORMAL,OK
+4169,2024-07-17,Tres Leches Cake,Dessert,Evening,Weekday,Heavy Rain,215,215,1,215,215,0,HOLD,NORMAL,OK
+4170,2024-07-17,Eggs To Order Plain,Classic Eggs,Morning,Weekday,Heavy Rain,135,120,2,270,240,-30,DECREASE,LOW,OK
+4171,2024-07-17,Tonkatsu Ramen Bowl,Large Soup Bowls,Dinner,Weekday,Heavy Rain,359,400,1,359,400,41,INCREASE,HIGH,OK
+4172,2024-07-17,Chocolate Waffwich,Pancakes & Waffwich,Evening,Weekday,Heavy Rain,285,285,1,285,285,0,HOLD,NORMAL,OK
+4173,2024-07-17,Café Latte,Hot Brews,Evening,Weekday,Heavy Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4174,2024-07-17,Chinese Style Greens Panini,Sandwiches Burgers Wraps,Evening,Weekday,Heavy Rain,155,155,1,155,155,0,HOLD,NORMAL,OK
+4175,2024-07-17,Romantic Sunset Mocktail,Mocktails,Evening,Weekday,Heavy Rain,180,180,1,180,180,0,HOLD,NORMAL,OK
+4176,2024-07-17,Cubanos,Sandwiches Burgers Wraps,Evening,Weekday,Heavy Rain,250,250,1,250,250,0,HOLD,NORMAL,OK
+4177,2024-07-18,Americano,Hot Brews,Morning,Weekday,Clear After Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4178,2024-07-18,Veg Puff,Bakery,Morning,Weekday,Clear After Rain,55,55,1,55,55,0,HOLD,NORMAL,OK
+4179,2024-07-18,Cappuccino,Hot Brews,Morning,Weekday,Clear After Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4180,2024-07-18,Loaded Nachos,Share-A-Plate,Dinner,Weekday,Clear After Rain,210,220,1,210,220,10,INCREASE,HIGH,OK
+4181,2024-07-18,Volcanic Potatoes,Share-A-Plate,Dinner,Weekday,Clear After Rain,199,210,2,398,420,22,INCREASE,HIGH,OK
+4182,2024-07-18,Thai BBQ Chicken Satay,Share-A-Plate,Dinner,Weekday,Clear After Rain,355,405,2,710,810,100,INCREASE,HIGH,OK
+4183,2024-07-18,Butter Garlic Prawns,Share-A-Plate,Dinner,Weekday,Clear After Rain,559,640,2,1118,1280,162,INCREASE,HIGH,REVIEW_REQUIRED
+4184,2024-07-18,Thai Curry Green,Blended Full Meals,Dinner,Weekday,Clear After Rain,395,450,1,395,450,55,INCREASE,HIGH,OK
+4185,2024-07-18,Virgin Pina Colada,Mocktails,Dinner,Weekday,Clear After Rain,200,215,1,200,215,15,INCREASE,HIGH,OK
+4186,2024-07-18,Thai Curry Red,Blended Full Meals,Dinner,Weekday,Clear After Rain,399,455,1,399,455,56,INCREASE,HIGH,OK
+4187,2024-07-18,Veg Puff,Bakery,Afternoon,Weekday,Clear After Rain,55,55,1,55,55,0,HOLD,NORMAL,OK
+4188,2024-07-18,Classic BLT,Sandwiches Burgers Wraps,Afternoon,Weekday,Clear After Rain,249,250,1,249,250,1,HOLD,NORMAL,OK
+4189,2024-07-18,Café Mocha,Hot Brews,Evening,Weekday,Clear After Rain,170,170,2,340,340,0,HOLD,NORMAL,OK
+4190,2024-07-18,Brownie Blast Shake,Premium Shakes,Afternoon,Weekday,Clear After Rain,260,260,2,520,520,0,HOLD,NORMAL,OK
+4191,2024-07-18,Pesto Penne,Pasta,Dinner,Weekday,Clear After Rain,399,455,1,399,455,56,INCREASE,HIGH,OK
+4192,2024-07-18,Harissa Chicken Skewers,Share-A-Plate,Dinner,Weekday,Clear After Rain,339,385,2,678,770,92,INCREASE,HIGH,OK
+4193,2024-07-18,Honey Ginger Lime Tea,Hot Beverages,Dinner,Weekday,Clear After Rain,170,195,1,170,195,25,INCREASE,HIGH,OK
+4194,2024-07-18,Salted Caramel Mocha,Hot Brews,Evening,Weekday,Clear After Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4195,2024-07-18,Triple Chocolate Mousse,Dessert,Evening,Weekday,Clear After Rain,280,280,1,280,280,0,HOLD,NORMAL,OK
+4196,2024-07-18,Chili Garlic Chicken Dumplings,Steam Basket,Dinner,Weekday,Clear After Rain,375,415,1,375,415,40,INCREASE,HIGH,OK
+4197,2024-07-18,Thai Curry Red,Blended Full Meals,Dinner,Weekday,Clear After Rain,399,455,2,798,910,112,INCREASE,HIGH,OK
+4198,2024-07-18,Espresso,Hot Brews,Dinner,Weekday,Clear After Rain,110,115,1,110,115,5,INCREASE,HIGH,OK
+4199,2024-07-18,Stuffed Paratha Chicken,Wholesome Breakfast,Morning,Weekday,Clear After Rain,210,210,1,210,210,0,HOLD,NORMAL,OK
+4200,2024-07-18,ABCC Juice,Cold Press Juices,Morning,Weekday,Clear After Rain,260,260,1,260,260,0,HOLD,NORMAL,OK
+4201,2024-07-18,Chef's Special Pot Rice,Blended Full Meals,Dinner,Weekday,Clear After Rain,499,570,1,499,570,71,INCREASE,HIGH,REVIEW_REQUIRED
+4202,2024-07-18,Lotus Biscoff Shake,Premium Shakes,Dinner,Weekday,Clear After Rain,400,455,1,400,455,55,INCREASE,HIGH,OK
+4203,2024-07-18,Masala Chai,Hot Beverages,Morning,Weekday,Clear After Rain,120,120,1,120,120,0,HOLD,NORMAL,OK
+4204,2024-07-18,Paneer Puff,Bakery,Morning,Weekday,Clear After Rain,85,85,1,85,85,0,HOLD,NORMAL,OK
+4205,2024-07-18,Penne Alfredo,Pasta,Dinner,Weekday,Clear After Rain,329,340,1,329,340,11,INCREASE,HIGH,OK
+4206,2024-07-18,Jalapeño Cheese Fondue,Fondue,Dinner,Weekday,Clear After Rain,695,790,2,1390,1580,190,INCREASE,HIGH,REVIEW_REQUIRED
+4207,2024-07-18,Penne Rose,Pasta,Dinner,Weekday,Clear After Rain,335,350,1,335,350,15,INCREASE,HIGH,OK
+4208,2024-07-18,Triple Decker Sandwich,Sandwiches Burgers Wraps,Morning,Weekday,Clear After Rain,285,285,1,285,285,0,HOLD,NORMAL,OK
+4209,2024-07-18,Black Tea,Hot Beverages,Morning,Weekday,Clear After Rain,90,90,1,90,90,0,HOLD,NORMAL,OK
+4210,2024-07-18,Iced Café Latte,Cold Brews,Morning,Weekday,Clear After Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4211,2024-07-18,Cheesy Potatoes,Wholesome Breakfast,Morning,Weekday,Clear After Rain,215,215,1,215,215,0,HOLD,NORMAL,OK
+4212,2024-07-18,Crème Brulee,Dessert,Dinner,Weekday,Clear After Rain,225,255,1,225,255,30,INCREASE,HIGH,OK
+4213,2024-07-18,Spicy Chicken Salad,Salad Bowls,Dinner,Weekday,Clear After Rain,255,290,1,255,290,35,INCREASE,HIGH,OK
+4214,2024-07-18,Caprese Bruschetta,Share-A-Plate,Dinner,Weekday,Clear After Rain,325,360,2,650,720,70,INCREASE,HIGH,OK
+4215,2024-07-18,Minty Cookie Cappuccino,Hot Brews,Evening,Weekday,Clear After Rain,190,190,1,190,190,0,HOLD,NORMAL,OK
+4216,2024-07-18,Grilled Cheese Sandwich,Sandwiches Burgers Wraps,Evening,Weekday,Clear After Rain,199,200,1,199,200,1,HOLD,NORMAL,OK
+4217,2024-07-18,Chicken Puff,Bakery,Evening,Weekday,Clear After Rain,100,100,1,100,100,0,HOLD,NORMAL,OK
+4218,2024-07-18,Khari,Bakery,Evening,Weekday,Clear After Rain,35,35,2,70,70,0,HOLD,NORMAL,OK
+4219,2024-07-18,Oreo Shake,Premium Shakes,Evening,Weekday,Clear After Rain,240,240,2,480,480,0,HOLD,NORMAL,OK
+4220,2024-07-18,French Vanilla Shake,Premium Shakes,Evening,Weekday,Clear After Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4221,2024-07-18,Espresso,Hot Brews,Morning,Weekday,Clear After Rain,110,110,1,110,110,0,HOLD,NORMAL,OK
+4222,2024-07-18,Honey Ginger Lime Tea,Hot Beverages,Morning,Weekday,Clear After Rain,170,170,1,170,170,0,HOLD,NORMAL,OK
+4223,2024-07-18,French Toast,Wholesome Breakfast,Morning,Weekday,Clear After Rain,210,210,1,210,210,0,HOLD,NORMAL,OK
+4224,2024-07-18,Chinese Style Greens Panini,Sandwiches Burgers Wraps,Evening,Weekday,Clear After Rain,155,155,1,155,155,0,HOLD,NORMAL,OK
+4225,2024-07-18,Grilled Cheese Sandwich,Sandwiches Burgers Wraps,Evening,Weekday,Clear After Rain,199,200,1,199,200,1,HOLD,NORMAL,OK
+4226,2024-07-19,Tempura Vegetables,Share-A-Plate,Dinner,Weekend,Light Drizzle,155,155,2,310,310,0,HOLD,NORMAL,OK
+4227,2024-07-19,Tres Leches Cake,Dessert,Dinner,Weekend,Light Drizzle,215,215,2,430,430,0,HOLD,NORMAL,OK
+4228,2024-07-19,Dark Hot Chocolate,Hot Chocolate,Dinner,Weekend,Light Drizzle,120,120,1,120,120,0,HOLD,NORMAL,OK
+4229,2024-07-19,Mix Veg Dumplings,Steam Basket,Dinner,Weekend,Light Drizzle,249,250,1,249,250,1,HOLD,NORMAL,OK
+4230,2024-07-19,Brownie Blast Shake,Premium Shakes,Evening,Weekend,Light Drizzle,260,260,1,260,260,0,HOLD,NORMAL,OK
+4231,2024-07-19,Black Tea,Hot Beverages,Morning,Weekend,Light Drizzle,90,90,2,180,180,0,HOLD,NORMAL,OK
+4232,2024-07-19,Masala Chai,Hot Beverages,Morning,Weekend,Light Drizzle,120,120,1,120,120,0,HOLD,NORMAL,OK
+4233,2024-07-19,Café Latte,Hot Brews,Morning,Weekend,Light Drizzle,160,160,2,320,320,0,HOLD,NORMAL,OK
+4234,2024-07-19,Chole Puri,Wholesome Breakfast,Morning,Weekend,Light Drizzle,125,125,1,125,125,0,HOLD,NORMAL,OK
+4235,2024-07-19,Iced Café Latte,Cold Brews,Morning,Weekend,Light Drizzle,160,160,1,160,160,0,HOLD,NORMAL,OK
+4236,2024-07-19,Classic Waffle,Pancakes & Waffwich,Morning,Weekend,Light Drizzle,279,280,1,279,280,1,HOLD,NORMAL,OK
+4237,2024-07-19,Chinese Style Greens Panini,Sandwiches Burgers Wraps,Evening,Weekend,Light Drizzle,155,155,1,155,155,0,HOLD,NORMAL,OK
+4238,2024-07-19,Jalapeno Cheese Corn Balls,Share-A-Plate,Evening,Weekend,Light Drizzle,240,240,1,240,240,0,HOLD,NORMAL,OK
+4239,2024-07-19,Spicy Guava Mocktail,Mocktails,Evening,Weekend,Light Drizzle,180,180,1,180,180,0,HOLD,NORMAL,OK
+4240,2024-07-19,Espresso,Hot Brews,Evening,Weekend,Light Drizzle,110,110,1,110,110,0,HOLD,NORMAL,OK
+4241,2024-07-19,Minty Cookie Cappuccino,Hot Brews,Evening,Weekend,Light Drizzle,190,190,1,190,190,0,HOLD,NORMAL,OK
+4242,2024-07-19,Margherita Pizza,Pizza,Dinner,Weekend,Light Drizzle,299,300,1,299,300,1,HOLD,NORMAL,OK
+4243,2024-07-19,Honey Ginger Lime Tea,Hot Beverages,Dinner,Weekend,Light Drizzle,170,170,1,170,170,0,HOLD,NORMAL,OK
+4244,2024-07-19,Lemon Coriander Soup,Soup,Dinner,Weekend,Light Drizzle,179,180,1,179,180,1,HOLD,NORMAL,OK
+4245,2024-07-19,Spiced Mocha Latte,Hot Brews,Dinner,Weekend,Light Drizzle,180,180,1,180,180,0,HOLD,NORMAL,OK
+4246,2024-07-19,Pho,Large Soup Bowls,Dinner,Weekend,Light Drizzle,349,350,2,698,700,2,HOLD,NORMAL,OK
+4247,2024-07-19,Penne Rose,Pasta,Dinner,Weekend,Light Drizzle,335,335,2,670,670,0,HOLD,NORMAL,OK
+4248,2024-07-19,Espresso Frappe,Frappe,Afternoon,Weekend,Light Drizzle,180,180,1,180,180,0,HOLD,NORMAL,OK
+4249,2024-07-19,Hazelnut Hot Chocolate,Hot Chocolate,Evening,Weekend,Light Drizzle,160,160,2,320,320,0,HOLD,NORMAL,OK
+4250,2024-07-19,Grilled Cheese Sandwich,Sandwiches Burgers Wraps,Evening,Weekend,Light Drizzle,199,200,1,199,200,1,HOLD,NORMAL,OK
+4251,2024-07-19,Cream Cheese Waffwich,Pancakes & Waffwich,Morning,Weekend,Light Drizzle,315,315,1,315,315,0,HOLD,NORMAL,OK
+4252,2024-07-19,Chimichanga,Blended Full Meals,Afternoon,Weekend,Light Drizzle,255,255,1,255,255,0,HOLD,NORMAL,OK
+4253,2024-07-19,Peach Iced Tea,Cold Beverages,Afternoon,Weekend,Light Drizzle,140,140,1,140,140,0,HOLD,NORMAL,OK
+4254,2024-07-19,Jalapeno Cheese Corn Balls,Share-A-Plate,Afternoon,Weekend,Light Drizzle,240,240,1,240,240,0,HOLD,NORMAL,OK
+4255,2024-07-19,Butter Croissant,Bakery,Afternoon,Weekend,Light Drizzle,120,120,1,120,120,0,HOLD,NORMAL,OK
+4256,2024-07-19,Nutella Croissant,Bakery,Afternoon,Weekend,Light Drizzle,175,175,1,175,175,0,HOLD,NORMAL,OK
+4257,2024-07-19,Chocolate Walnut Brownie,Dessert,Afternoon,Weekend,Light Drizzle,200,200,1,200,200,0,HOLD,NORMAL,OK
+4258,2024-07-19,Paneer And Cheese Quesadilla,Share-A-Plate,Afternoon,Weekend,Light Drizzle,255,255,1,255,255,0,HOLD,NORMAL,OK
+4259,2024-07-19,Thai Curry Red,Blended Full Meals,Dinner,Weekend,Light Drizzle,399,400,2,798,800,2,HOLD,NORMAL,OK
+4260,2024-07-19,Caesar Salad,Salad Bowls,Afternoon,Weekend,Light Drizzle,189,190,1,189,190,1,HOLD,NORMAL,OK
+4261,2024-07-19,Kiwi Mojito,Mocktails,Afternoon,Weekend,Light Drizzle,140,140,1,140,140,0,HOLD,NORMAL,OK
+4262,2024-07-19,Green Apple Mojito,Mocktails,Afternoon,Weekend,Light Drizzle,120,120,1,120,120,0,HOLD,NORMAL,OK
+4263,2024-07-19,Stuffed Paratha Aloo,Wholesome Breakfast,Morning,Weekend,Light Drizzle,125,125,1,125,125,0,HOLD,NORMAL,OK
+4264,2024-07-19,Honey Ginger Lime Tea,Hot Beverages,Dinner,Weekend,Light Drizzle,170,170,1,170,170,0,HOLD,NORMAL,OK
+4265,2024-07-19,Thai Curry Red,Blended Full Meals,Dinner,Weekend,Light Drizzle,399,400,1,399,400,1,HOLD,NORMAL,OK
+4266,2024-07-19,Thai Curry Green,Blended Full Meals,Dinner,Weekend,Light Drizzle,395,395,2,790,790,0,HOLD,NORMAL,OK
+4267,2024-07-19,Crème Brulee,Dessert,Dinner,Weekend,Light Drizzle,225,225,1,225,225,0,HOLD,NORMAL,OK
+4268,2024-07-19,Salted Fries,Share-A-Plate,Dinner,Weekend,Light Drizzle,149,150,1,149,150,1,HOLD,NORMAL,OK
+4269,2024-07-19,Shawarma,Blended Full Meals,Dinner,Weekend,Light Drizzle,345,345,1,345,345,0,HOLD,NORMAL,OK
+4270,2024-07-20,Café Mocha,Hot Brews,Evening,Weekend,Heavy Rain,170,185,1,170,185,15,INCREASE,HIGH,OK
+4271,2024-07-20,Egg Wrap,Sandwiches Burgers Wraps,Evening,Weekend,Heavy Rain,155,155,1,155,155,0,HOLD,NORMAL,OK
+4272,2024-07-20,Cajun Cottage-Cheese Burger,Sandwiches Burgers Wraps,Evening,Weekend,Heavy Rain,255,275,1,255,275,20,INCREASE,HIGH,OK
+4273,2024-07-20,Marshmallow Hot Chocolate,Hot Chocolate,Evening,Weekend,Heavy Rain,200,225,1,200,225,25,INCREASE,HIGH,OK
+4274,2024-07-20,Mexican Panini,Sandwiches Burgers Wraps,Evening,Weekend,Heavy Rain,169,175,2,338,350,12,INCREASE,HIGH,OK
+4275,2024-07-20,Vietnamese Iced Café,Cold Brews,Evening,Weekend,Heavy Rain,190,190,1,190,190,0,HOLD,NORMAL,OK
+4276,2024-07-20,Americano,Hot Brews,Evening,Weekend,Heavy Rain,160,175,2,320,350,30,INCREASE,HIGH,OK
+4277,2024-07-20,Traditional Hot Chocolate,Hot Chocolate,Morning,Weekend,Heavy Rain,140,140,1,140,140,0,HOLD,NORMAL,OK
+4278,2024-07-20,Virgin Pina Colada,Mocktails,Dinner,Weekend,Heavy Rain,200,200,2,400,400,0,HOLD,NORMAL,OK
+4279,2024-07-20,Greek-O-Greek Pizza,Pizza,Dinner,Weekend,Heavy Rain,420,475,1,420,475,55,INCREASE,HIGH,REVIEW_REQUIRED
+4280,2024-07-20,Green Tea,Hot Beverages,Morning,Weekend,Heavy Rain,150,150,1,150,150,0,HOLD,NORMAL,OK
+4281,2024-07-20,Cream Cheese Waffwich,Pancakes & Waffwich,Morning,Weekend,Heavy Rain,315,315,1,315,315,0,HOLD,NORMAL,OK
+4282,2024-07-20,Jalapeno Cheese Corn Balls,Share-A-Plate,Dinner,Weekend,Heavy Rain,240,265,1,240,265,25,INCREASE,HIGH,OK
+4283,2024-07-20,Bounty Hot Chocolate,Hot Chocolate,Dinner,Weekend,Heavy Rain,190,210,1,190,210,20,INCREASE,HIGH,OK
+4284,2024-07-20,Espresso Frappe,Frappe,Evening,Weekend,Heavy Rain,180,180,1,180,180,0,HOLD,NORMAL,OK
+4285,2024-07-20,Café Mocha,Hot Brews,Evening,Weekend,Heavy Rain,170,185,1,170,185,15,INCREASE,HIGH,OK
+4286,2024-07-20,Mexican Panini,Sandwiches Burgers Wraps,Evening,Weekend,Heavy Rain,169,175,1,169,175,6,INCREASE,HIGH,OK
+4287,2024-07-20,Chocolate Chip Cookie,Bakery,Evening,Weekend,Heavy Rain,50,50,1,50,50,0,HOLD,NORMAL,OK
+4288,2024-07-20,Spicy Cheesy Broccoli Dumplings,Steam Basket,Afternoon,Weekend,Heavy Rain,255,255,2,510,510,0,HOLD,NORMAL,OK
+4289,2024-07-20,Kaopoon Ramen Bowl,Large Soup Bowls,Afternoon,Weekend,Heavy Rain,409,410,1,409,410,1,HOLD,NORMAL,REVIEW_REQUIRED
+4290,2024-07-20,Spaghetti Arabiatta,Pasta,Dinner,Weekend,Heavy Rain,369,370,1,369,370,1,HOLD,NORMAL,OK
+4291,2024-07-20,Burnt Garlic Cheese Fondue,Fondue,Dinner,Weekend,Heavy Rain,579,580,1,579,580,1,HOLD,NORMAL,REVIEW_REQUIRED
+4292,2024-07-20,Green Apple Mojito,Mocktails,Evening,Weekend,Heavy Rain,120,120,1,120,120,0,HOLD,NORMAL,OK
+4293,2024-07-20,Scrambled Eggs / Bhurji,Classic Eggs,Morning,Weekend,Heavy Rain,145,145,1,145,145,0,HOLD,NORMAL,OK
+4294,2024-07-20,Chimichanga,Blended Full Meals,Afternoon,Weekend,Heavy Rain,255,255,1,255,255,0,HOLD,NORMAL,OK
+4295,2024-07-20,Fish Fillet Burger,Sandwiches Burgers Wraps,Afternoon,Weekend,Heavy Rain,350,350,1,350,350,0,HOLD,NORMAL,OK
+4296,2024-07-20,Lemon Coriander Soup,Soup,Dinner,Weekend,Heavy Rain,179,180,2,358,360,2,HOLD,NORMAL,OK
+4297,2024-07-20,Honey Ginger Lime Tea,Hot Beverages,Dinner,Weekend,Heavy Rain,170,170,1,170,170,0,HOLD,NORMAL,OK
+4298,2024-07-20,Veg Toast / Plain Sandwich,Sandwiches Burgers Wraps,Afternoon,Weekend,Heavy Rain,120,120,2,240,240,0,HOLD,NORMAL,OK
+4299,2024-07-20,Green Apple Mojito,Mocktails,Evening,Weekend,Heavy Rain,120,120,1,120,120,0,HOLD,NORMAL,OK
+4300,2024-07-20,Californian Fries,Share-A-Plate,Evening,Weekend,Heavy Rain,215,215,1,215,215,0,HOLD,NORMAL,OK
+4301,2024-07-20,Triple Decker Sandwich,Sandwiches Burgers Wraps,Evening,Weekend,Heavy Rain,285,285,2,570,570,0,HOLD,NORMAL,OK
+4302,2024-07-20,Cappuccino,Hot Brews,Evening,Weekend,Heavy Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4303,2024-07-20,Chili Garlic Chicken Dumplings,Steam Basket,Dinner,Weekend,Heavy Rain,375,375,1,375,375,0,HOLD,NORMAL,OK
+4304,2024-07-20,Creamy Cheesy Hot Corn Bruschetta,Share-A-Plate,Dinner,Weekend,Heavy Rain,230,250,1,230,250,20,INCREASE,HIGH,OK
+4305,2024-07-20,Soy Ramen Bowl,Large Soup Bowls,Dinner,Weekend,Heavy Rain,349,395,1,349,395,46,INCREASE,HIGH,OK
+4306,2024-07-20,Chicken Hakka Dry Chili,Share-A-Plate,Dinner,Weekend,Heavy Rain,359,360,2,718,720,2,HOLD,NORMAL,OK
+4307,2024-07-20,Thai Curry Green,Blended Full Meals,Dinner,Weekend,Heavy Rain,395,450,1,395,450,55,INCREASE,HIGH,OK
+4308,2024-07-20,Masala Chai,Hot Beverages,Dinner,Weekend,Heavy Rain,120,130,1,120,130,10,INCREASE,HIGH,OK
+4309,2024-07-20,Traditional Hot Chocolate,Hot Chocolate,Dinner,Weekend,Heavy Rain,140,155,1,140,155,15,INCREASE,HIGH,OK
+4310,2024-07-20,Triple Chocolate Mousse,Dessert,Dinner,Weekend,Heavy Rain,280,280,2,560,560,0,HOLD,NORMAL,OK
+4311,2024-07-20,Chimichanga,Blended Full Meals,Dinner,Weekend,Heavy Rain,255,265,1,255,265,10,INCREASE,HIGH,OK
+4312,2024-07-20,Traditional Hot Chocolate,Hot Chocolate,Evening,Weekend,Heavy Rain,140,155,2,280,310,30,INCREASE,HIGH,OK
+4313,2024-07-20,Mexicana Pizza,Pizza,Dinner,Weekend,Heavy Rain,449,510,1,449,510,61,INCREASE,HIGH,REVIEW_REQUIRED
+4314,2024-07-20,Espresso,Hot Brews,Dinner,Weekend,Heavy Rain,110,115,1,110,115,5,INCREASE,HIGH,OK
+4315,2024-07-21,Jalapeño Cheese Fondue,Fondue,Dinner,Weekend,Light Drizzle,695,695,2,1390,1390,0,HOLD,NORMAL,REVIEW_REQUIRED
+4316,2024-07-21,Greek-O-Greek Pizza,Pizza,Dinner,Weekend,Light Drizzle,420,420,1,420,420,0,HOLD,NORMAL,REVIEW_REQUIRED
+4317,2024-07-21,Bounty Hot Chocolate,Hot Chocolate,Dinner,Weekend,Light Drizzle,190,190,1,190,190,0,HOLD,NORMAL,OK
+4318,2024-07-21,Truffle Chocolate Pastry,Dessert,Dinner,Weekend,Light Drizzle,285,285,2,570,570,0,HOLD,NORMAL,OK
+4319,2024-07-21,Californian Fries,Share-A-Plate,Evening,Weekend,Light Drizzle,215,215,2,430,430,0,HOLD,NORMAL,OK
+4320,2024-07-21,Triple Chocolate Mousse,Dessert,Evening,Weekend,Light Drizzle,280,280,1,280,280,0,HOLD,NORMAL,OK
+4321,2024-07-21,Kiwi Mojito,Mocktails,Afternoon,Weekend,Light Drizzle,140,140,1,140,140,0,HOLD,NORMAL,OK
+4322,2024-07-21,Watermelon Mojito,Mocktails,Afternoon,Weekend,Light Drizzle,160,160,1,160,160,0,HOLD,NORMAL,OK
+4323,2024-07-21,Mix Veg Double Cheese Burger,Sandwiches Burgers Wraps,Afternoon,Weekend,Light Drizzle,189,190,2,378,380,2,HOLD,NORMAL,OK
+4324,2024-07-21,Honey Ginger Lime Tea,Hot Beverages,Dinner,Weekend,Light Drizzle,170,170,1,170,170,0,HOLD,NORMAL,OK
+4325,2024-07-21,Honey Ginger Lime Tea,Hot Beverages,Morning,Weekend,Light Drizzle,170,170,2,340,340,0,HOLD,NORMAL,OK
+4326,2024-07-21,Fruit Pancakes,Pancakes & Waffwich,Morning,Weekend,Light Drizzle,299,300,2,598,600,2,HOLD,NORMAL,OK
+4327,2024-07-21,Marshmallow Hot Chocolate,Hot Chocolate,Dinner,Weekend,Light Drizzle,200,200,1,200,200,0,HOLD,NORMAL,OK
+4328,2024-07-21,Tiramisu,Dessert,Dinner,Weekend,Light Drizzle,300,300,1,300,300,0,HOLD,NORMAL,OK
+4329,2024-07-21,Chili Garlic Chicken Dumplings,Steam Basket,Dinner,Weekend,Light Drizzle,375,375,1,375,375,0,HOLD,NORMAL,OK
+4330,2024-07-21,Bombay Masala Sandwich,Sandwiches Burgers Wraps,Morning,Weekend,Light Drizzle,139,140,1,139,140,1,HOLD,NORMAL,OK
+4331,2024-07-21,Nutella Croissant,Bakery,Morning,Weekend,Light Drizzle,175,175,2,350,350,0,HOLD,NORMAL,OK
+4332,2024-07-21,Traditional Hot Chocolate,Hot Chocolate,Morning,Weekend,Light Drizzle,140,140,1,140,140,0,HOLD,NORMAL,OK
+4333,2024-07-21,Bacon Wrapped Chicken,Blended Full Meals,Dinner,Weekend,Light Drizzle,659,660,1,659,660,1,HOLD,NORMAL,REVIEW_REQUIRED
+4334,2024-07-21,Burnt Garlic Cheese Fondue,Fondue,Dinner,Weekend,Light Drizzle,579,580,2,1158,1160,2,HOLD,NORMAL,REVIEW_REQUIRED
+4335,2024-07-21,Caprese Bruschetta,Share-A-Plate,Dinner,Weekend,Light Drizzle,325,325,1,325,325,0,HOLD,NORMAL,OK
+4336,2024-07-21,Blueberry Mojito,Mocktails,Afternoon,Weekend,Light Drizzle,140,140,1,140,140,0,HOLD,NORMAL,OK
+4337,2024-07-21,Hazelnut Frappe,Frappe,Afternoon,Weekend,Light Drizzle,190,190,2,380,380,0,HOLD,NORMAL,OK
+4338,2024-07-21,Chili Garlic Cottage Cheese,Share-A-Plate,Afternoon,Weekend,Light Drizzle,215,215,2,430,430,0,HOLD,NORMAL,OK
+4339,2024-07-21,Tomato & Bell Pepper Soup,Soup,Afternoon,Weekend,Light Drizzle,149,150,1,149,150,1,HOLD,NORMAL,OK
+4340,2024-07-21,Chocolate Almond Smoothie Bowl,Wholesome Breakfast,Morning,Weekend,Light Drizzle,420,420,1,420,420,0,HOLD,NORMAL,REVIEW_REQUIRED
+4341,2024-07-21,Blend Breakfast,Wholesome Breakfast,Morning,Weekend,Light Drizzle,345,345,1,345,345,0,HOLD,NORMAL,OK
+4342,2024-07-21,Café Latte,Hot Brews,Morning,Weekend,Light Drizzle,160,160,1,160,160,0,HOLD,NORMAL,OK
+4343,2024-07-21,Chocolate Walnut Brownie,Dessert,Afternoon,Weekend,Light Drizzle,200,200,1,200,200,0,HOLD,NORMAL,OK
+4344,2024-07-21,Mix Veg Double Cheese Burger,Sandwiches Burgers Wraps,Evening,Weekend,Light Drizzle,189,190,2,378,380,2,HOLD,NORMAL,OK
+4345,2024-07-21,Chocolate Chip Cookie,Bakery,Evening,Weekend,Light Drizzle,50,50,1,50,50,0,HOLD,NORMAL,OK
+4346,2024-07-21,Eggs To Order Plain,Classic Eggs,Evening,Weekend,Light Drizzle,135,135,1,135,135,0,HOLD,NORMAL,OK
+4347,2024-07-21,ABC Juice (Apple Beetroot Carrot),Cold Press Juices,Morning,Weekend,Light Drizzle,250,250,1,250,250,0,HOLD,NORMAL,OK
+4348,2024-07-21,Caramel Frappe,Frappe,Evening,Weekend,Light Drizzle,190,190,1,190,190,0,HOLD,NORMAL,OK
+4349,2024-07-21,Eggs To Order Plain,Classic Eggs,Evening,Weekend,Light Drizzle,135,135,2,270,270,0,HOLD,NORMAL,OK
+4350,2024-07-21,Carbonara,Pasta,Dinner,Weekend,Light Drizzle,450,450,1,450,450,0,HOLD,NORMAL,REVIEW_REQUIRED
+4351,2024-07-21,Masala Chai,Hot Beverages,Evening,Weekend,Light Drizzle,120,120,1,120,120,0,HOLD,NORMAL,OK
+4352,2024-07-21,Mexican Panini,Sandwiches Burgers Wraps,Evening,Weekend,Light Drizzle,169,170,1,169,170,1,HOLD,NORMAL,OK
+4353,2024-07-21,Hazelnut Frappe,Frappe,Evening,Weekend,Light Drizzle,190,190,1,190,190,0,HOLD,NORMAL,OK
+4354,2024-07-21,Tres Leches Cake,Dessert,Evening,Weekend,Light Drizzle,215,215,1,215,215,0,HOLD,NORMAL,OK
+4355,2024-07-21,Lotus Biscoff Shake,Premium Shakes,Evening,Weekend,Light Drizzle,400,400,1,400,400,0,HOLD,NORMAL,OK
+4356,2024-07-21,Fish Fillet Burger,Sandwiches Burgers Wraps,Evening,Weekend,Light Drizzle,350,350,1,350,350,0,HOLD,NORMAL,OK
+4357,2024-07-21,Marshmallow Hot Chocolate,Hot Chocolate,Evening,Weekend,Light Drizzle,200,200,1,200,200,0,HOLD,NORMAL,OK
+4358,2024-07-21,Spicy Guava Mocktail,Mocktails,Evening,Weekend,Light Drizzle,180,180,1,180,180,0,HOLD,NORMAL,OK
+4359,2024-07-21,Hazelnut Hot Chocolate,Hot Chocolate,Evening,Weekend,Light Drizzle,160,160,1,160,160,0,HOLD,NORMAL,OK
+4360,2024-07-21,Chocolate Walnut Brownie,Dessert,Evening,Weekend,Light Drizzle,200,200,1,200,200,0,HOLD,NORMAL,OK
+4361,2024-07-21,Margherita Pizza,Pizza,Afternoon,Weekend,Light Drizzle,299,300,1,299,300,1,HOLD,NORMAL,OK
+4362,2024-07-21,Chocolate Walnut Brownie,Dessert,Afternoon,Weekend,Light Drizzle,200,200,2,400,400,0,HOLD,NORMAL,OK
+4363,2024-07-21,WAO Juice (Watermelon Apple Orange),Cold Press Juices,Afternoon,Weekend,Light Drizzle,270,270,1,270,270,0,HOLD,NORMAL,OK
+4364,2024-07-21,Paneer Puff,Bakery,Afternoon,Weekend,Light Drizzle,85,85,1,85,85,0,HOLD,NORMAL,OK
+4365,2024-07-21,Loaded Nachos,Share-A-Plate,Dinner,Weekend,Light Drizzle,210,210,1,210,210,0,HOLD,NORMAL,OK
+4366,2024-07-21,Minty Cookie Cappuccino,Hot Brews,Dinner,Weekend,Light Drizzle,190,190,1,190,190,0,HOLD,NORMAL,OK
+4367,2024-07-21,Pad Thai,Blended Full Meals,Dinner,Weekend,Light Drizzle,369,370,2,738,740,2,HOLD,NORMAL,OK
+4368,2024-07-21,Tonkatsu Ramen Bowl,Large Soup Bowls,Dinner,Weekend,Light Drizzle,359,360,1,359,360,1,HOLD,NORMAL,OK
+4369,2024-07-21,Loaded Nachos,Share-A-Plate,Evening,Weekend,Light Drizzle,210,210,1,210,210,0,HOLD,NORMAL,OK
+4370,2024-07-21,Cheese Chili Garlic Bread,Share-A-Plate,Evening,Weekend,Light Drizzle,185,185,2,370,370,0,HOLD,NORMAL,OK
+4371,2024-07-21,Hazelnut Hot Chocolate,Hot Chocolate,Evening,Weekend,Light Drizzle,160,160,2,320,320,0,HOLD,NORMAL,OK
+4372,2024-07-21,Brownie Blast Shake,Premium Shakes,Evening,Weekend,Light Drizzle,260,260,1,260,260,0,HOLD,NORMAL,OK
+4373,2024-07-21,Chocolate Chip Cookie,Bakery,Evening,Weekend,Light Drizzle,50,50,1,50,50,0,HOLD,NORMAL,OK
+4374,2024-07-21,Tres Leches Cake,Dessert,Evening,Weekend,Light Drizzle,215,215,1,215,215,0,HOLD,NORMAL,OK
+4375,2024-07-21,Veg Toast / Plain Sandwich,Sandwiches Burgers Wraps,Morning,Weekend,Light Drizzle,120,120,1,120,120,0,HOLD,NORMAL,OK
+4376,2024-07-21,Chocolate Chip Cookie,Bakery,Morning,Weekend,Light Drizzle,50,50,1,50,50,0,HOLD,NORMAL,OK
+4377,2024-07-21,Scrambled Eggs / Bhurji,Classic Eggs,Morning,Weekend,Light Drizzle,145,145,1,145,145,0,HOLD,NORMAL,OK
+4378,2024-07-21,Blend Breakfast,Wholesome Breakfast,Morning,Weekend,Light Drizzle,345,345,1,345,345,0,HOLD,NORMAL,OK
+4379,2024-07-21,Chole Puri,Wholesome Breakfast,Morning,Weekend,Light Drizzle,125,125,1,125,125,0,HOLD,NORMAL,OK
+4380,2024-07-21,ABC Juice (Apple Beetroot Carrot),Cold Press Juices,Morning,Weekend,Light Drizzle,250,250,1,250,250,0,HOLD,NORMAL,OK
+4381,2024-07-21,Stuffed Paratha Paneer,Wholesome Breakfast,Morning,Weekend,Light Drizzle,129,130,1,129,130,1,HOLD,NORMAL,OK
+4382,2024-07-21,Very Berry Super Shake,Premium Shakes,Afternoon,Weekend,Light Drizzle,240,240,2,480,480,0,HOLD,NORMAL,OK
+4383,2024-07-21,Veg Puff,Bakery,Afternoon,Weekend,Light Drizzle,55,55,2,110,110,0,HOLD,NORMAL,OK
+4384,2024-07-21,Nutella Pancakes,Pancakes & Waffwich,Morning,Weekend,Light Drizzle,289,290,1,289,290,1,HOLD,NORMAL,OK
+4385,2024-07-21,Garlic Bread,Share-A-Plate,Morning,Weekend,Light Drizzle,129,130,1,129,130,1,HOLD,NORMAL,OK
+4386,2024-07-22,Ham & Cheese Omelette,Classic Eggs,Evening,Weekday,Clear After Rain,189,190,2,378,380,2,HOLD,NORMAL,OK
+4387,2024-07-22,Affogato,Hot Brews,Evening,Weekday,Clear After Rain,170,170,1,170,170,0,HOLD,NORMAL,OK
+4388,2024-07-22,Eggs To Order Chicken,Classic Eggs,Evening,Weekday,Clear After Rain,165,165,2,330,330,0,HOLD,NORMAL,OK
+4389,2024-07-22,Iced Americano,Cold Brews,Evening,Weekday,Clear After Rain,150,150,1,150,150,0,HOLD,NORMAL,OK
+4390,2024-07-22,Iced Caramel Latte,Cold Brews,Evening,Weekday,Clear After Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4391,2024-07-22,French Vanilla Shake,Premium Shakes,Evening,Weekday,Clear After Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4392,2024-07-22,Americano,Hot Brews,Evening,Weekday,Clear After Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4393,2024-07-22,The Dominator Burger,Sandwiches Burgers Wraps,Dinner,Weekday,Clear After Rain,369,420,1,369,420,51,INCREASE,HIGH,OK
+4394,2024-07-22,Exotic Chicken Taco,Blended Full Meals,Dinner,Weekday,Clear After Rain,565,640,1,565,640,75,INCREASE,HIGH,REVIEW_REQUIRED
+4395,2024-07-22,Chicken Cream & Cheddar Soup,Soup,Dinner,Weekday,Clear After Rain,229,260,1,229,260,31,INCREASE,HIGH,OK
+4396,2024-07-22,Chicken Hakka Dry Chili,Share-A-Plate,Dinner,Weekday,Clear After Rain,359,360,1,359,360,1,INCREASE,HIGH,OK
+4397,2024-07-22,Pesto Penne,Pasta,Dinner,Weekday,Clear After Rain,399,455,1,399,455,56,INCREASE,HIGH,OK
+4398,2024-07-22,Greek-O-Greek Pizza,Pizza,Dinner,Weekday,Clear After Rain,420,475,1,420,475,55,INCREASE,HIGH,REVIEW_REQUIRED
+4399,2024-07-22,Affogato,Hot Brews,Dinner,Weekday,Clear After Rain,170,195,1,170,195,25,INCREASE,HIGH,OK
+4400,2024-07-22,Mexican Vegetable Stew And Rice,Blended Full Meals,Dinner,Weekday,Clear After Rain,329,375,2,658,750,92,INCREASE,HIGH,OK
+4401,2024-07-22,Fresh Fruit Juice,Cold Beverages,Morning,Weekday,Clear After Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4402,2024-07-22,BGCLS Juice,Cold Press Juices,Morning,Weekday,Clear After Rain,280,280,1,280,280,0,HOLD,NORMAL,OK
+4403,2024-07-22,Carbonara,Pasta,Dinner,Weekday,Clear After Rain,450,515,2,900,1030,130,INCREASE,HIGH,REVIEW_REQUIRED
+4404,2024-07-22,Penne Alfredo,Pasta,Dinner,Weekday,Clear After Rain,329,340,1,329,340,11,INCREASE,HIGH,OK
+4405,2024-07-22,Hazelnut Hot Chocolate,Hot Chocolate,Evening,Weekday,Clear After Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4406,2024-07-22,Classic BLT,Sandwiches Burgers Wraps,Evening,Weekday,Clear After Rain,249,250,1,249,250,1,HOLD,NORMAL,OK
+4407,2024-07-22,Blue Ocean Mocktail,Mocktails,Evening,Weekday,Clear After Rain,160,160,2,320,320,0,HOLD,NORMAL,OK
+4408,2024-07-22,Salted Caramel Mocha,Hot Brews,Evening,Weekday,Clear After Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4409,2024-07-22,Americano,Hot Brews,Morning,Weekday,Clear After Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4410,2024-07-22,Veg Puff,Bakery,Afternoon,Weekday,Clear After Rain,55,55,1,55,55,0,HOLD,NORMAL,OK
+4411,2024-07-22,Soy Ramen Bowl,Large Soup Bowls,Afternoon,Weekday,Clear After Rain,349,350,2,698,700,2,HOLD,NORMAL,OK
+4412,2024-07-22,Mix Veg Dumplings,Steam Basket,Dinner,Weekday,Clear After Rain,249,285,2,498,570,72,INCREASE,HIGH,OK
+4413,2024-07-22,Jalapeño Cheese Fondue,Fondue,Dinner,Weekday,Clear After Rain,695,790,1,695,790,95,INCREASE,HIGH,REVIEW_REQUIRED
+4414,2024-07-22,Blue Ocean Mocktail,Mocktails,Dinner,Weekday,Clear After Rain,160,180,1,160,180,20,INCREASE,HIGH,OK
+4415,2024-07-22,Spicy Chicken Salad,Salad Bowls,Afternoon,Weekday,Clear After Rain,255,255,1,255,255,0,HOLD,NORMAL,OK
+4416,2024-07-22,Crème Brulee,Dessert,Afternoon,Weekday,Clear After Rain,225,225,1,225,225,0,HOLD,NORMAL,OK
+4417,2024-07-22,Mushroom Parma Bruschetta,Share-A-Plate,Dinner,Weekday,Clear After Rain,285,285,1,285,285,0,HOLD,HIGH,OK
+4418,2024-07-22,Spicy Chicken Salad,Salad Bowls,Dinner,Weekday,Clear After Rain,255,290,1,255,290,35,INCREASE,HIGH,OK
+4419,2024-07-22,Pho,Large Soup Bowls,Dinner,Weekday,Clear After Rain,349,350,1,349,350,1,INCREASE,HIGH,OK
+4420,2024-07-22,Thai Coconut Curry,Blended Full Meals,Dinner,Weekday,Clear After Rain,389,445,1,389,445,56,INCREASE,HIGH,OK
+4421,2024-07-22,Salted Fries,Share-A-Plate,Evening,Weekday,Clear After Rain,149,150,2,298,300,2,HOLD,NORMAL,OK
+4422,2024-07-22,Bombay Masala Sandwich,Sandwiches Burgers Wraps,Evening,Weekday,Clear After Rain,139,140,1,139,140,1,HOLD,NORMAL,OK
+4423,2024-07-23,Nutella Crème Donut,Bakery,Morning,Weekday,Heavy Rain,120,105,1,120,105,-15,DECREASE,LOW,OK
+4424,2024-07-23,Americano,Hot Brews,Morning,Weekday,Heavy Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4425,2024-07-23,Veg Puff,Bakery,Morning,Weekday,Heavy Rain,55,50,1,55,50,-5,DECREASE,LOW,OK
+4426,2024-07-23,Caramel Frappe,Frappe,Afternoon,Weekday,Heavy Rain,190,165,1,190,165,-25,DECREASE,LOW,OK
+4427,2024-07-23,Filled Blueberry Donut,Bakery,Afternoon,Weekday,Heavy Rain,110,110,1,110,110,0,HOLD,LOW,OK
+4428,2024-07-23,Mexican Panini,Sandwiches Burgers Wraps,Evening,Weekday,Heavy Rain,169,170,1,169,170,1,HOLD,NORMAL,OK
+4429,2024-07-23,Paneer And Cheese Quesadilla,Share-A-Plate,Afternoon,Weekday,Heavy Rain,255,225,1,255,225,-30,DECREASE,LOW,OK
+4430,2024-07-23,Tomato & Bell Pepper Soup,Soup,Afternoon,Weekday,Heavy Rain,149,150,1,149,150,1,HOLD,NORMAL,OK
+4431,2024-07-23,Spicy Chicken Pao,Sandwiches Burgers Wraps,Afternoon,Weekday,Heavy Rain,159,145,1,159,145,-14,DECREASE,LOW,OK
+4432,2024-07-23,Masala Chai,Hot Beverages,Morning,Weekday,Heavy Rain,120,120,1,120,120,0,HOLD,NORMAL,OK
+4433,2024-07-23,Mexicana Pizza,Pizza,Dinner,Weekday,Heavy Rain,449,510,1,449,510,61,INCREASE,HIGH,REVIEW_REQUIRED
+4434,2024-07-24,Thai Coconut Curry,Blended Full Meals,Dinner,Weekday,Clear After Rain,389,445,1,389,445,56,INCREASE,HIGH,OK
+4435,2024-07-24,Kitkat Shake,Premium Shakes,Afternoon,Weekday,Clear After Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4436,2024-07-24,Pesto Penne,Pasta,Dinner,Weekday,Clear After Rain,399,455,1,399,455,56,INCREASE,HIGH,OK
+4437,2024-07-24,Tiramisu,Dessert,Dinner,Weekday,Clear After Rain,300,325,1,300,325,25,INCREASE,HIGH,OK
+4438,2024-07-24,Carbonara,Pasta,Dinner,Weekday,Clear After Rain,450,515,1,450,515,65,INCREASE,HIGH,REVIEW_REQUIRED
+4439,2024-07-24,Watermelon Mojito,Mocktails,Afternoon,Weekday,Clear After Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4440,2024-07-24,Chili Garlic Cottage Cheese,Share-A-Plate,Afternoon,Weekday,Clear After Rain,215,215,1,215,215,0,HOLD,NORMAL,OK
+4441,2024-07-24,Marshmallow Hot Chocolate,Hot Chocolate,Dinner,Weekday,Clear After Rain,200,225,1,200,225,25,INCREASE,HIGH,OK
+4442,2024-07-24,Blue Ocean Mocktail,Mocktails,Dinner,Weekday,Clear After Rain,160,180,1,160,180,20,INCREASE,HIGH,OK
+4443,2024-07-24,Americano,Hot Brews,Evening,Weekday,Clear After Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4444,2024-07-24,Grilled Chicken Burger,Sandwiches Burgers Wraps,Evening,Weekday,Clear After Rain,220,220,2,440,440,0,HOLD,NORMAL,OK
+4445,2024-07-24,Cajun Cottage-Cheese Burger,Sandwiches Burgers Wraps,Afternoon,Weekday,Clear After Rain,255,255,2,510,510,0,HOLD,NORMAL,OK
+4446,2024-07-24,Espresso,Hot Brews,Afternoon,Weekday,Clear After Rain,110,110,1,110,110,0,HOLD,NORMAL,OK
+4447,2024-07-24,Chili Garlic Cottage Cheese,Share-A-Plate,Afternoon,Weekday,Clear After Rain,215,215,1,215,215,0,HOLD,NORMAL,OK
+4448,2024-07-24,Penne Rose,Pasta,Afternoon,Weekday,Clear After Rain,335,335,1,335,335,0,HOLD,NORMAL,OK
+4449,2024-07-24,Jalapeño Cheese Fondue,Fondue,Dinner,Weekday,Clear After Rain,695,790,2,1390,1580,190,INCREASE,HIGH,REVIEW_REQUIRED
+4450,2024-07-24,Tiramisu,Dessert,Dinner,Weekday,Clear After Rain,300,325,1,300,325,25,INCREASE,HIGH,OK
+4451,2024-07-24,Soy Ramen Bowl,Large Soup Bowls,Dinner,Weekday,Clear After Rain,349,395,1,349,395,46,INCREASE,HIGH,OK
+4452,2024-07-24,Spicy Chicken Salad,Salad Bowls,Dinner,Weekday,Clear After Rain,255,290,1,255,290,35,INCREASE,HIGH,OK
+4453,2024-07-24,Pepperoni Chicken Pizza,Pizza,Dinner,Weekday,Clear After Rain,559,595,1,559,595,36,INCREASE,HIGH,REVIEW_REQUIRED
+4454,2024-07-24,Cheese Chili Garlic Bread,Share-A-Plate,Dinner,Weekday,Clear After Rain,185,195,1,185,195,10,INCREASE,HIGH,OK
+4455,2024-07-24,Soy Ramen Bowl,Large Soup Bowls,Dinner,Weekday,Clear After Rain,349,395,2,698,790,92,INCREASE,HIGH,OK
+4456,2024-07-24,Creamy Cheesy Hot Corn Bruschetta,Share-A-Plate,Dinner,Weekday,Clear After Rain,230,250,2,460,500,40,INCREASE,HIGH,OK
+4457,2024-07-24,Virgin Pina Colada,Mocktails,Dinner,Weekday,Clear After Rain,200,215,2,400,430,30,INCREASE,HIGH,OK
+4458,2024-07-24,Thai BBQ Chicken Satay,Share-A-Plate,Dinner,Weekday,Clear After Rain,355,405,1,355,405,50,INCREASE,HIGH,OK
+4459,2024-07-24,New York Baked Cheesecake,Dessert,Dinner,Weekday,Clear After Rain,300,325,2,600,650,50,INCREASE,HIGH,OK
+4460,2024-07-24,Affogato,Hot Brews,Dinner,Weekday,Clear After Rain,170,195,1,170,195,25,INCREASE,HIGH,OK
+4461,2024-07-24,Veg Puff,Bakery,Morning,Weekday,Clear After Rain,55,55,2,110,110,0,HOLD,NORMAL,OK
+4462,2024-07-24,Chinese Style Greens Panini,Sandwiches Burgers Wraps,Afternoon,Weekday,Clear After Rain,155,155,1,155,155,0,HOLD,NORMAL,OK
+4463,2024-07-24,Egg Wrap,Sandwiches Burgers Wraps,Afternoon,Weekday,Clear After Rain,155,155,1,155,155,0,HOLD,NORMAL,OK
+4464,2024-07-24,Filled Coffee Donut,Bakery,Afternoon,Weekday,Clear After Rain,95,95,1,95,95,0,HOLD,NORMAL,OK
+4465,2024-07-24,Shawarma,Blended Full Meals,Afternoon,Weekday,Clear After Rain,345,345,1,345,345,0,HOLD,NORMAL,OK
+4466,2024-07-24,Cheese Chili Garlic Bread,Share-A-Plate,Dinner,Weekday,Clear After Rain,185,195,1,185,195,10,INCREASE,HIGH,OK
+4467,2024-07-24,Exotic Chicken Taco,Blended Full Meals,Dinner,Weekday,Clear After Rain,565,640,1,565,640,75,INCREASE,HIGH,REVIEW_REQUIRED
+4468,2024-07-24,Grilled Ghost Pepper Fish,Blended Full Meals,Dinner,Weekday,Clear After Rain,569,650,1,569,650,81,INCREASE,HIGH,REVIEW_REQUIRED
+4469,2024-07-24,Caprese Bruschetta,Share-A-Plate,Dinner,Weekday,Clear After Rain,325,360,2,650,720,70,INCREASE,HIGH,OK
+4470,2024-07-24,Tiramisu,Dessert,Dinner,Weekday,Clear After Rain,300,325,1,300,325,25,INCREASE,HIGH,OK
+4471,2024-07-24,Penne Rose,Pasta,Dinner,Weekday,Clear After Rain,335,350,1,335,350,15,INCREASE,HIGH,OK
+4472,2024-07-24,Mushroom Chickpea Couscous Salad,Salad Bowls,Dinner,Weekday,Clear After Rain,189,215,1,189,215,26,INCREASE,HIGH,OK
+4473,2024-07-24,Green Apple Mojito,Mocktails,Evening,Weekday,Clear After Rain,120,120,1,120,120,0,HOLD,NORMAL,OK
+4474,2024-07-24,Iced Americano,Cold Brews,Evening,Weekday,Clear After Rain,150,150,1,150,150,0,HOLD,NORMAL,OK
+4475,2024-07-24,Mocha Frappe,Frappe,Evening,Weekday,Clear After Rain,190,190,1,190,190,0,HOLD,NORMAL,OK
+4476,2024-07-24,Egg Wrap,Sandwiches Burgers Wraps,Evening,Weekday,Clear After Rain,155,155,2,310,310,0,HOLD,NORMAL,OK
+4477,2024-07-24,Very Berry Super Shake,Premium Shakes,Morning,Weekday,Clear After Rain,240,240,1,240,240,0,HOLD,NORMAL,OK
+4478,2024-07-24,Fresh Fruit Tart,Dessert,Morning,Weekday,Clear After Rain,225,225,1,225,225,0,HOLD,NORMAL,OK
+4479,2024-07-24,Truffle Chocolate Pastry,Dessert,Dinner,Weekday,Clear After Rain,285,325,2,570,650,80,INCREASE,HIGH,OK
+4480,2024-07-24,Chicken Hakka Dry Chili,Share-A-Plate,Dinner,Weekday,Clear After Rain,359,360,1,359,360,1,INCREASE,HIGH,OK
+4481,2024-07-24,Thai Curry Green,Blended Full Meals,Dinner,Weekday,Clear After Rain,395,450,1,395,450,55,INCREASE,HIGH,OK
+4482,2024-07-24,Salted Fries,Share-A-Plate,Dinner,Weekday,Clear After Rain,149,170,1,149,170,21,INCREASE,HIGH,OK
+4483,2024-07-25,Blue Ocean Mocktail,Mocktails,Evening,Weekday,Clear After Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4484,2024-07-25,Minty Cookie Cappuccino,Hot Brews,Evening,Weekday,Clear After Rain,190,190,1,190,190,0,HOLD,NORMAL,OK
+4485,2024-07-25,New York Baked Cheesecake,Dessert,Dinner,Weekday,Clear After Rain,300,325,1,300,325,25,INCREASE,HIGH,OK
+4486,2024-07-25,Harissa Chicken Skewers,Share-A-Plate,Dinner,Weekday,Clear After Rain,339,385,1,339,385,46,INCREASE,HIGH,OK
+4487,2024-07-25,Chef's Special Pot Rice,Blended Full Meals,Dinner,Weekday,Clear After Rain,499,570,1,499,570,71,INCREASE,HIGH,REVIEW_REQUIRED
+4488,2024-07-25,Salted Fries,Share-A-Plate,Evening,Weekday,Clear After Rain,149,150,1,149,150,1,HOLD,NORMAL,OK
+4489,2024-07-25,Mushroom Chickpea Couscous Salad,Salad Bowls,Afternoon,Weekday,Clear After Rain,189,190,1,189,190,1,HOLD,NORMAL,OK
+4490,2024-07-25,Triple Decker Sandwich,Sandwiches Burgers Wraps,Afternoon,Weekday,Clear After Rain,285,285,1,285,285,0,HOLD,NORMAL,OK
+4491,2024-07-25,Pepperoni Chicken Pizza,Pizza,Dinner,Weekday,Clear After Rain,559,595,1,559,595,36,INCREASE,HIGH,REVIEW_REQUIRED
+4492,2024-07-25,Carbonara,Pasta,Dinner,Weekday,Clear After Rain,450,515,2,900,1030,130,INCREASE,HIGH,REVIEW_REQUIRED
+4493,2024-07-25,Hazelnut Frappe,Frappe,Evening,Weekday,Clear After Rain,190,190,1,190,190,0,HOLD,NORMAL,OK
+4494,2024-07-25,Chai,Hot Beverages,Evening,Weekday,Clear After Rain,100,100,1,100,100,0,HOLD,NORMAL,OK
+4495,2024-07-25,Grilled Chicken Burger,Sandwiches Burgers Wraps,Evening,Weekday,Clear After Rain,220,220,1,220,220,0,HOLD,NORMAL,OK
+4496,2024-07-25,Caramel Frappe,Frappe,Evening,Weekday,Clear After Rain,190,190,1,190,190,0,HOLD,NORMAL,OK
+4497,2024-07-25,Mushroom Parma Bruschetta,Share-A-Plate,Afternoon,Weekday,Clear After Rain,285,285,1,285,285,0,HOLD,NORMAL,OK
+4498,2024-07-25,Grilled Chicken Burger,Sandwiches Burgers Wraps,Afternoon,Weekday,Clear After Rain,220,220,1,220,220,0,HOLD,NORMAL,OK
+4499,2024-07-25,Crème Brulee,Dessert,Afternoon,Weekday,Clear After Rain,225,225,1,225,225,0,HOLD,NORMAL,OK
+4500,2024-07-25,BGCLS Juice,Cold Press Juices,Morning,Weekday,Clear After Rain,280,280,2,560,560,0,HOLD,NORMAL,OK
+4501,2024-07-25,Classic Eggs Benedict,Wholesome Breakfast,Morning,Weekday,Clear After Rain,280,280,1,280,280,0,HOLD,NORMAL,OK
+4502,2024-07-25,Virgin Mojito,Mocktails,Dinner,Weekday,Clear After Rain,140,160,1,140,160,20,INCREASE,HIGH,OK
+4503,2024-07-25,Tempura Vegetables,Share-A-Plate,Dinner,Weekday,Clear After Rain,155,155,1,155,155,0,HOLD,HIGH,OK
+4504,2024-07-25,Harissa Chicken Skewers,Share-A-Plate,Dinner,Weekday,Clear After Rain,339,385,1,339,385,46,INCREASE,HIGH,OK
+4505,2024-07-25,Hazelnut Hot Chocolate,Hot Chocolate,Dinner,Weekday,Clear After Rain,160,170,1,160,170,10,INCREASE,HIGH,OK
+4506,2024-07-25,Carbonara,Pasta,Dinner,Weekday,Clear After Rain,450,515,1,450,515,65,INCREASE,HIGH,REVIEW_REQUIRED
+4507,2024-07-25,Thai BBQ Chicken Satay,Share-A-Plate,Dinner,Weekday,Clear After Rain,355,405,1,355,405,50,INCREASE,HIGH,OK
+4508,2024-07-25,Cheese Lovers Pizza,Pizza,Dinner,Weekday,Clear After Rain,635,730,1,635,730,95,INCREASE,HIGH,REVIEW_REQUIRED
+4509,2024-07-25,Chimichanga,Blended Full Meals,Dinner,Weekday,Clear After Rain,255,265,2,510,530,20,INCREASE,HIGH,OK
+4510,2024-07-25,Marshmallow Hot Chocolate,Hot Chocolate,Evening,Weekday,Clear After Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4511,2024-07-25,Spicy Chicken Pao,Sandwiches Burgers Wraps,Evening,Weekday,Clear After Rain,159,160,2,318,320,2,HOLD,NORMAL,OK
+4512,2024-07-25,Stuffed Paratha Paneer,Wholesome Breakfast,Morning,Weekday,Clear After Rain,129,130,1,129,130,1,HOLD,NORMAL,OK
+4513,2024-07-25,Paneer Bhurji Pao,Wholesome Breakfast,Morning,Weekday,Clear After Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4514,2024-07-25,Thai BBQ Chicken Satay,Share-A-Plate,Dinner,Weekday,Clear After Rain,355,405,2,710,810,100,INCREASE,HIGH,OK
+4515,2024-07-25,Paneer And Cheese Quesadilla,Share-A-Plate,Dinner,Weekday,Clear After Rain,255,290,1,255,290,35,INCREASE,HIGH,OK
+4516,2024-07-25,Masala Chai,Hot Beverages,Dinner,Weekday,Clear After Rain,120,130,1,120,130,10,INCREASE,HIGH,OK
+4517,2024-07-25,Chocolate Walnut Brownie,Dessert,Dinner,Weekday,Clear After Rain,200,225,1,200,225,25,INCREASE,HIGH,OK
+4518,2024-07-25,Café Latte,Hot Brews,Morning,Weekday,Clear After Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4519,2024-07-25,Banana Walnut Tea Cake,Bakery,Morning,Weekday,Clear After Rain,130,130,1,130,130,0,HOLD,NORMAL,OK
+4520,2024-07-25,Caramel Frappe,Frappe,Afternoon,Weekday,Clear After Rain,190,190,1,190,190,0,HOLD,NORMAL,OK
+4521,2024-07-25,Iced Americano,Cold Brews,Evening,Weekday,Clear After Rain,150,150,1,150,150,0,HOLD,NORMAL,OK
+4522,2024-07-25,Mushroom Parma Omelette,Classic Eggs,Evening,Weekday,Clear After Rain,279,280,2,558,560,2,HOLD,NORMAL,OK
+4523,2024-07-25,Iced Caramel Latte,Cold Brews,Evening,Weekday,Clear After Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4524,2024-07-25,Crème Brulee,Dessert,Dinner,Weekday,Clear After Rain,225,255,1,225,255,30,INCREASE,HIGH,OK
+4525,2024-07-25,Volcanic Potatoes,Share-A-Plate,Dinner,Weekday,Clear After Rain,199,210,1,199,210,11,INCREASE,HIGH,OK
+4526,2024-07-25,Spiced Mocha Latte,Hot Brews,Dinner,Weekday,Clear After Rain,180,180,1,180,180,0,HOLD,HIGH,OK
+4527,2024-07-25,Mushroom Cappuccino Soup,Soup,Dinner,Weekday,Clear After Rain,189,205,1,189,205,16,INCREASE,HIGH,OK
+4528,2024-07-25,Spicy Cheesy Broccoli Dumplings,Steam Basket,Afternoon,Weekday,Clear After Rain,255,255,2,510,510,0,HOLD,NORMAL,OK
+4529,2024-07-25,Salted Fries,Share-A-Plate,Afternoon,Weekday,Clear After Rain,149,150,2,298,300,2,HOLD,NORMAL,OK
+4530,2024-07-25,Cajun Cottage-Cheese Burger,Sandwiches Burgers Wraps,Afternoon,Weekday,Clear After Rain,255,255,1,255,255,0,HOLD,NORMAL,OK
+4531,2024-07-25,Triple Decker Sandwich,Sandwiches Burgers Wraps,Evening,Weekday,Clear After Rain,285,285,1,285,285,0,HOLD,NORMAL,OK
+4532,2024-07-25,Cajun Cottage-Cheese Burger,Sandwiches Burgers Wraps,Evening,Weekday,Clear After Rain,255,255,1,255,255,0,HOLD,NORMAL,OK
+4533,2024-07-25,Tiramisu,Dessert,Evening,Weekday,Clear After Rain,300,300,1,300,300,0,HOLD,NORMAL,OK
+4534,2024-07-25,Iced Caramel Latte,Cold Brews,Evening,Weekday,Clear After Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4535,2024-07-25,Mushroom Chickpea Couscous Salad,Salad Bowls,Dinner,Weekday,Clear After Rain,189,215,1,189,215,26,INCREASE,HIGH,OK
+4536,2024-07-25,Mushroom Parma Bruschetta,Share-A-Plate,Dinner,Weekday,Clear After Rain,285,285,1,285,285,0,HOLD,HIGH,OK
+4537,2024-07-26,Espresso On The Rocks,Cold Brews,Evening,Weekend,Clear After Rain,170,195,1,170,195,25,INCREASE,HIGH,OK
+4538,2024-07-26,Spicy Chicken Pao,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,159,175,1,159,175,16,INCREASE,HIGH,OK
+4539,2024-07-26,Mix Berry Smoothie Bowl,Wholesome Breakfast,Morning,Weekend,Clear After Rain,380,380,2,760,760,0,HOLD,NORMAL,OK
+4540,2024-07-26,Orange Tea Cake,Bakery,Morning,Weekend,Clear After Rain,110,110,1,110,110,0,HOLD,NORMAL,OK
+4541,2024-07-26,Blueberry Mojito,Mocktails,Evening,Weekend,Clear After Rain,140,160,1,140,160,20,INCREASE,HIGH,OK
+4542,2024-07-26,Salted Fries,Share-A-Plate,Evening,Weekend,Clear After Rain,149,170,1,149,170,21,INCREASE,HIGH,OK
+4543,2024-07-26,Veg Toast / Plain Sandwich,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,120,125,2,240,250,10,INCREASE,HIGH,OK
+4544,2024-07-26,Cheese Chili Garlic Bread,Share-A-Plate,Evening,Weekend,Clear After Rain,185,195,1,185,195,10,INCREASE,HIGH,OK
+4545,2024-07-26,Pepperoni Chicken Pizza,Pizza,Dinner,Weekend,Clear After Rain,559,595,1,559,595,36,INCREASE,HIGH,REVIEW_REQUIRED
+4546,2024-07-26,Spiced Mocha Latte,Hot Brews,Dinner,Weekend,Clear After Rain,180,180,1,180,180,0,HOLD,HIGH,OK
+4547,2024-07-26,Cappuccino,Hot Brews,Dinner,Weekend,Clear After Rain,160,160,2,320,320,0,HOLD,HIGH,OK
+4548,2024-07-26,Butter Garlic Prawns,Share-A-Plate,Dinner,Weekend,Clear After Rain,559,640,2,1118,1280,162,INCREASE,HIGH,REVIEW_REQUIRED
+4549,2024-07-26,Bhaji Pao,Wholesome Breakfast,Morning,Weekend,Clear After Rain,159,160,2,318,320,2,HOLD,NORMAL,OK
+4550,2024-07-26,Classic Waffle,Pancakes & Waffwich,Morning,Weekend,Clear After Rain,279,280,1,279,280,1,HOLD,NORMAL,OK
+4551,2024-07-26,Classic Pancakes,Pancakes & Waffwich,Morning,Weekend,Clear After Rain,250,250,2,500,500,0,HOLD,NORMAL,OK
+4552,2024-07-26,Chocolate Almond Smoothie Bowl,Wholesome Breakfast,Morning,Weekend,Clear After Rain,420,420,1,420,420,0,HOLD,NORMAL,REVIEW_REQUIRED
+4553,2024-07-26,Kheema Pao,Wholesome Breakfast,Morning,Weekend,Clear After Rain,219,220,1,219,220,1,HOLD,NORMAL,OK
+4554,2024-07-26,Veg Puff,Bakery,Morning,Weekend,Clear After Rain,55,55,1,55,55,0,HOLD,NORMAL,OK
+4555,2024-07-26,Breakfast Burrito,Wholesome Breakfast,Morning,Weekend,Clear After Rain,269,270,1,269,270,1,HOLD,NORMAL,OK
+4556,2024-07-26,Creamy Cheesy Hot Corn Bruschetta,Share-A-Plate,Dinner,Weekend,Clear After Rain,230,250,1,230,250,20,INCREASE,HIGH,OK
+4557,2024-07-26,Margherita Pizza,Pizza,Dinner,Weekend,Clear After Rain,299,305,1,299,305,6,INCREASE,HIGH,OK
+4558,2024-07-26,Chimichanga,Blended Full Meals,Dinner,Weekend,Clear After Rain,255,265,1,255,265,10,INCREASE,HIGH,OK
+4559,2024-07-26,Filled Coffee Donut,Bakery,Evening,Weekend,Clear After Rain,95,100,1,95,100,5,INCREASE,HIGH,OK
+4560,2024-07-26,Egg Wrap,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,155,170,1,155,170,15,INCREASE,HIGH,OK
+4561,2024-07-26,Honey Ginger Lime Tea,Hot Beverages,Morning,Weekend,Clear After Rain,170,170,1,170,170,0,HOLD,NORMAL,OK
+4562,2024-07-26,Chocolate Chip Muffin,Bakery,Morning,Weekend,Clear After Rain,100,100,1,100,100,0,HOLD,NORMAL,OK
+4563,2024-07-26,Kitkat Shake,Premium Shakes,Afternoon,Weekend,Clear After Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4564,2024-07-26,Caprese Bruschetta,Share-A-Plate,Dinner,Weekend,Clear After Rain,325,360,1,325,360,35,INCREASE,HIGH,OK
+4565,2024-07-26,Carbonara,Pasta,Dinner,Weekend,Clear After Rain,450,515,1,450,515,65,INCREASE,HIGH,REVIEW_REQUIRED
+4566,2024-07-26,New York Baked Cheesecake,Dessert,Dinner,Weekend,Clear After Rain,300,325,1,300,325,25,INCREASE,HIGH,OK
+4567,2024-07-26,Salted Caramel Mocha,Hot Brews,Dinner,Weekend,Clear After Rain,200,225,1,200,225,25,INCREASE,HIGH,OK
+4568,2024-07-26,Truffle Chocolate Pastry,Dessert,Dinner,Weekend,Clear After Rain,285,325,1,285,325,40,INCREASE,HIGH,OK
+4569,2024-07-26,Pepperoni Chicken Pizza,Pizza,Dinner,Weekend,Clear After Rain,559,595,1,559,595,36,INCREASE,HIGH,REVIEW_REQUIRED
+4570,2024-07-26,Salted Fries,Share-A-Plate,Dinner,Weekend,Clear After Rain,149,170,1,149,170,21,INCREASE,HIGH,OK
+4571,2024-07-26,Jalapeno Cheese Corn Balls,Share-A-Plate,Dinner,Weekend,Clear After Rain,240,265,1,240,265,25,INCREASE,HIGH,OK
+4572,2024-07-26,Californian Fries,Share-A-Plate,Dinner,Weekend,Clear After Rain,215,245,1,215,245,30,INCREASE,HIGH,OK
+4573,2024-07-26,Jalapeno Cheese Corn Balls,Share-A-Plate,Evening,Weekend,Clear After Rain,240,265,1,240,265,25,INCREASE,HIGH,OK
+4574,2024-07-26,Californian Fries,Share-A-Plate,Evening,Weekend,Clear After Rain,215,245,1,215,245,30,INCREASE,HIGH,OK
+4575,2024-07-26,Eggs To Order Plain,Classic Eggs,Evening,Weekend,Clear After Rain,135,155,1,135,155,20,INCREASE,HIGH,OK
+4576,2024-07-26,Lemon Iced Tea,Cold Beverages,Evening,Weekend,Clear After Rain,140,160,1,140,160,20,INCREASE,HIGH,OK
+4577,2024-07-26,Cajun Chicken,Blended Full Meals,Dinner,Weekend,Clear After Rain,589,675,1,589,675,86,INCREASE,HIGH,REVIEW_REQUIRED
+4578,2024-07-26,Pho,Large Soup Bowls,Dinner,Weekend,Clear After Rain,349,350,2,698,700,2,INCREASE,HIGH,OK
+4579,2024-07-26,Thai Curry Green,Blended Full Meals,Dinner,Weekend,Clear After Rain,395,450,1,395,450,55,INCREASE,HIGH,OK
+4580,2024-07-26,Watermelon Mojito,Mocktails,Evening,Weekend,Clear After Rain,160,180,1,160,180,20,INCREASE,HIGH,OK
+4581,2024-07-26,Chinese Style Greens Panini,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,155,175,1,155,175,20,INCREASE,HIGH,OK
+4582,2024-07-26,Hazelnut Hot Chocolate,Hot Chocolate,Evening,Weekend,Clear After Rain,160,170,1,160,170,10,INCREASE,HIGH,OK
+4583,2024-07-26,Mix Veg Dumplings,Steam Basket,Dinner,Weekend,Clear After Rain,249,285,1,249,285,36,INCREASE,HIGH,OK
+4584,2024-07-26,Truffle Chocolate Pastry,Dessert,Dinner,Weekend,Clear After Rain,285,325,1,285,325,40,INCREASE,HIGH,OK
+4585,2024-07-26,Veg Exotica Pizza,Pizza,Dinner,Weekend,Clear After Rain,389,400,1,389,400,11,INCREASE,HIGH,OK
+4586,2024-07-26,Pesto Omelette,Classic Eggs,Evening,Weekend,Clear After Rain,285,325,1,285,325,40,INCREASE,HIGH,OK
+4587,2024-07-26,Hazelnut Frappe,Frappe,Evening,Weekend,Clear After Rain,190,215,1,190,215,25,INCREASE,HIGH,OK
+4588,2024-07-26,Americano,Hot Brews,Evening,Weekend,Clear After Rain,160,175,1,160,175,15,INCREASE,HIGH,OK
+4589,2024-07-26,Thai Iced Coffee,Cold Brews,Evening,Weekend,Clear After Rain,200,225,1,200,225,25,INCREASE,HIGH,OK
+4590,2024-07-26,Cajun Cottage Cheese Steak,Blended Full Meals,Afternoon,Weekend,Clear After Rain,335,335,1,335,335,0,HOLD,NORMAL,OK
+4591,2024-07-26,Trio Hummus With Pita,Share-A-Plate,Dinner,Weekend,Clear After Rain,289,305,1,289,305,16,INCREASE,HIGH,OK
+4592,2024-07-26,Pho,Large Soup Bowls,Dinner,Weekend,Clear After Rain,349,350,1,349,350,1,INCREASE,HIGH,OK
+4593,2024-07-26,Caesar Salad,Salad Bowls,Dinner,Weekend,Clear After Rain,189,215,1,189,215,26,INCREASE,HIGH,OK
+4594,2024-07-26,Iced Café Mocha,Cold Brews,Evening,Weekend,Clear After Rain,170,195,1,170,195,25,INCREASE,HIGH,OK
+4595,2024-07-26,Café Mocha,Hot Brews,Evening,Weekend,Clear After Rain,170,185,1,170,185,15,INCREASE,HIGH,OK
+4596,2024-07-26,Bombay Masala Sandwich,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,139,155,1,139,155,16,INCREASE,HIGH,OK
+4597,2024-07-26,Chai,Hot Beverages,Evening,Weekend,Clear After Rain,100,110,1,100,110,10,INCREASE,HIGH,OK
+4598,2024-07-26,Green Tea,Hot Beverages,Evening,Weekend,Clear After Rain,150,150,2,300,300,0,HOLD,HIGH,OK
+4599,2024-07-26,Lemon Coriander Soup,Soup,Dinner,Weekend,Clear After Rain,179,205,1,179,205,26,INCREASE,HIGH,OK
+4600,2024-07-26,Tomato & Bell Pepper Soup,Soup,Dinner,Weekend,Clear After Rain,149,155,1,149,155,6,INCREASE,HIGH,OK
+4601,2024-07-26,Volcanic Potatoes,Share-A-Plate,Afternoon,Weekend,Clear After Rain,199,200,1,199,200,1,HOLD,NORMAL,OK
+4602,2024-07-26,Californian Fries,Share-A-Plate,Evening,Weekend,Clear After Rain,215,245,1,215,245,30,INCREASE,HIGH,OK
+4603,2024-07-26,Khari,Bakery,Evening,Weekend,Clear After Rain,35,35,1,35,35,0,HOLD,HIGH,OK
+4604,2024-07-26,Kiwi Mojito,Mocktails,Evening,Weekend,Clear After Rain,140,160,1,140,160,20,INCREASE,HIGH,OK
+4605,2024-07-26,Cajun Chicken,Blended Full Meals,Dinner,Weekend,Clear After Rain,589,675,1,589,675,86,INCREASE,HIGH,REVIEW_REQUIRED
+4606,2024-07-26,Pho,Large Soup Bowls,Dinner,Weekend,Clear After Rain,349,350,2,698,700,2,INCREASE,HIGH,OK
+4607,2024-07-26,Cajun Cottage Cheese Steak,Blended Full Meals,Dinner,Weekend,Clear After Rain,335,350,1,335,350,15,INCREASE,HIGH,OK
+4608,2024-07-27,Virgin Pina Colada,Mocktails,Dinner,Weekend,Heavy Rain,200,200,2,400,400,0,HOLD,NORMAL,OK
+4609,2024-07-27,Crispy Shitake Mushroom,Share-A-Plate,Dinner,Weekend,Heavy Rain,450,450,1,450,450,0,HOLD,NORMAL,REVIEW_REQUIRED
+4610,2024-07-27,Marshmallow Hot Chocolate,Hot Chocolate,Dinner,Weekend,Heavy Rain,200,225,1,200,225,25,INCREASE,HIGH,OK
+4611,2024-07-27,Chimichanga,Blended Full Meals,Dinner,Weekend,Heavy Rain,255,265,1,255,265,10,INCREASE,HIGH,OK
+4612,2024-07-27,Spiced Mocha Latte,Hot Brews,Dinner,Weekend,Heavy Rain,180,180,2,360,360,0,HOLD,NORMAL,OK
+4613,2024-07-27,Virgin Mojito,Mocktails,Dinner,Weekend,Heavy Rain,140,140,1,140,140,0,HOLD,NORMAL,OK
+4614,2024-07-27,Jalapeño Cheese Fondue,Fondue,Dinner,Weekend,Heavy Rain,695,695,1,695,695,0,HOLD,NORMAL,REVIEW_REQUIRED
+4615,2024-07-27,Pad Thai,Blended Full Meals,Afternoon,Weekend,Heavy Rain,369,370,1,369,370,1,HOLD,NORMAL,OK
+4616,2024-07-27,Cubanos,Sandwiches Burgers Wraps,Afternoon,Weekend,Heavy Rain,250,250,1,250,250,0,HOLD,NORMAL,OK
+4617,2024-07-27,Filled Blueberry Donut,Bakery,Afternoon,Weekend,Heavy Rain,110,110,2,220,220,0,HOLD,NORMAL,OK
+4618,2024-07-27,Oreo Shake,Premium Shakes,Afternoon,Weekend,Heavy Rain,240,240,1,240,240,0,HOLD,NORMAL,OK
+4619,2024-07-27,Veg Toast / Plain Sandwich,Sandwiches Burgers Wraps,Afternoon,Weekend,Heavy Rain,120,120,2,240,240,0,HOLD,NORMAL,OK
+4620,2024-07-27,Chocolate Walnut Brownie,Dessert,Afternoon,Weekend,Heavy Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4621,2024-07-27,Oreo Shake,Premium Shakes,Evening,Weekend,Heavy Rain,240,240,2,480,480,0,HOLD,NORMAL,OK
+4622,2024-07-27,Cappuccino,Hot Brews,Evening,Weekend,Heavy Rain,160,160,2,320,320,0,HOLD,NORMAL,OK
+4623,2024-07-27,Spicy Chicken Pao,Sandwiches Burgers Wraps,Evening,Weekend,Heavy Rain,159,160,1,159,160,1,HOLD,NORMAL,OK
+4624,2024-07-27,Margherita Pizza,Pizza,Dinner,Weekend,Heavy Rain,299,300,1,299,300,1,HOLD,NORMAL,OK
+4625,2024-07-27,Bounty Hot Chocolate,Hot Chocolate,Dinner,Weekend,Heavy Rain,190,210,1,190,210,20,INCREASE,HIGH,OK
+4626,2024-07-27,Caprese Bruschetta,Share-A-Plate,Dinner,Weekend,Heavy Rain,325,360,2,650,720,70,INCREASE,HIGH,OK
+4627,2024-07-27,Cheese Lovers Pizza,Pizza,Dinner,Weekend,Heavy Rain,635,635,1,635,635,0,HOLD,NORMAL,REVIEW_REQUIRED
+4628,2024-07-27,Masala Chai,Hot Beverages,Dinner,Weekend,Heavy Rain,120,130,1,120,130,10,INCREASE,HIGH,OK
+4629,2024-07-27,Café Latte,Hot Brews,Evening,Weekend,Heavy Rain,160,160,2,320,320,0,HOLD,NORMAL,OK
+4630,2024-07-27,Triple Chocolate Mousse,Dessert,Evening,Weekend,Heavy Rain,280,280,1,280,280,0,HOLD,NORMAL,OK
+4631,2024-07-27,Spiced Mocha Latte,Hot Brews,Morning,Weekend,Heavy Rain,180,180,1,180,180,0,HOLD,NORMAL,OK
+4632,2024-07-27,Salted Caramel Mocha,Hot Brews,Morning,Weekend,Heavy Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4633,2024-07-27,Chole Puri,Wholesome Breakfast,Morning,Weekend,Heavy Rain,125,125,1,125,125,0,HOLD,NORMAL,OK
+4634,2024-07-27,Traditional Hot Chocolate,Hot Chocolate,Morning,Weekend,Heavy Rain,140,140,1,140,140,0,HOLD,NORMAL,OK
+4635,2024-07-27,Spicy Cheesy Broccoli Dumplings,Steam Basket,Afternoon,Weekend,Heavy Rain,255,255,1,255,255,0,HOLD,NORMAL,OK
+4636,2024-07-27,Butter Croissant,Bakery,Morning,Weekend,Heavy Rain,120,120,1,120,120,0,HOLD,NORMAL,OK
+4637,2024-07-27,Chocolate Almond Smoothie Bowl,Wholesome Breakfast,Morning,Weekend,Heavy Rain,420,420,1,420,420,0,HOLD,NORMAL,REVIEW_REQUIRED
+4638,2024-07-27,Triple Decker Sandwich,Sandwiches Burgers Wraps,Morning,Weekend,Heavy Rain,285,285,1,285,285,0,HOLD,NORMAL,OK
+4639,2024-07-27,Espresso On The Rocks,Cold Brews,Evening,Weekend,Heavy Rain,170,170,1,170,170,0,HOLD,NORMAL,OK
+4640,2024-07-27,French Toast,Wholesome Breakfast,Morning,Weekend,Heavy Rain,210,210,2,420,420,0,HOLD,NORMAL,OK
+4641,2024-07-27,Veg Toast / Plain Sandwich,Sandwiches Burgers Wraps,Morning,Weekend,Heavy Rain,120,120,1,120,120,0,HOLD,NORMAL,OK
+4642,2024-07-27,Paneer Puff,Bakery,Morning,Weekend,Heavy Rain,85,85,1,85,85,0,HOLD,NORMAL,OK
+4643,2024-07-27,Garlic Bread,Share-A-Plate,Evening,Weekend,Heavy Rain,129,130,1,129,130,1,HOLD,NORMAL,OK
+4644,2024-07-27,Kiwi Mojito,Mocktails,Evening,Weekend,Heavy Rain,140,140,1,140,140,0,HOLD,NORMAL,OK
+4645,2024-07-27,Mix Veg Double Cheese Burger,Sandwiches Burgers Wraps,Evening,Weekend,Heavy Rain,189,190,1,189,190,1,HOLD,NORMAL,OK
+4646,2024-07-27,Lotus Biscoff Shake,Premium Shakes,Dinner,Weekend,Heavy Rain,400,400,2,800,800,0,HOLD,NORMAL,OK
+4647,2024-07-27,Paneer Puff,Bakery,Afternoon,Weekend,Heavy Rain,85,85,1,85,85,0,HOLD,NORMAL,OK
+4648,2024-07-27,Veg Toast / Plain Sandwich,Sandwiches Burgers Wraps,Afternoon,Weekend,Heavy Rain,120,120,1,120,120,0,HOLD,NORMAL,OK
+4649,2024-07-27,Vanilla Muffin,Bakery,Afternoon,Weekend,Heavy Rain,85,85,1,85,85,0,HOLD,NORMAL,OK
+4650,2024-07-27,Dark Hot Chocolate,Hot Chocolate,Evening,Weekend,Heavy Rain,120,130,1,120,130,10,INCREASE,HIGH,OK
+4651,2024-07-27,Watermelon Mojito,Mocktails,Evening,Weekend,Heavy Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4652,2024-07-27,Shawarma,Blended Full Meals,Afternoon,Weekend,Heavy Rain,345,345,1,345,345,0,HOLD,NORMAL,OK
+4653,2024-07-27,The Dominator Burger,Sandwiches Burgers Wraps,Evening,Weekend,Heavy Rain,369,370,1,369,370,1,HOLD,NORMAL,OK
+4654,2024-07-27,Spicy Chicken Pao,Sandwiches Burgers Wraps,Evening,Weekend,Heavy Rain,159,160,1,159,160,1,HOLD,NORMAL,OK
+4655,2024-07-27,Brownie Blast Shake,Premium Shakes,Evening,Weekend,Heavy Rain,260,260,1,260,260,0,HOLD,NORMAL,OK
+4656,2024-07-27,Chocolate Waffwich,Pancakes & Waffwich,Evening,Weekend,Heavy Rain,285,285,1,285,285,0,HOLD,NORMAL,OK
+4657,2024-07-28,Chicken And Cheese Balls,Share-A-Plate,Dinner,Weekend,Clear After Rain,375,430,1,375,430,55,INCREASE,HIGH,OK
+4658,2024-07-28,Chicken Hakka Dry Chili,Share-A-Plate,Dinner,Weekend,Clear After Rain,359,360,1,359,360,1,INCREASE,HIGH,OK
+4659,2024-07-28,Chili Garlic Chicken Dumplings,Steam Basket,Dinner,Weekend,Clear After Rain,375,415,1,375,415,40,INCREASE,HIGH,OK
+4660,2024-07-28,Akuri On Toast,Classic Eggs,Evening,Weekend,Clear After Rain,125,125,2,250,250,0,HOLD,HIGH,OK
+4661,2024-07-28,Iced Café Latte,Cold Brews,Evening,Weekend,Clear After Rain,160,180,1,160,180,20,INCREASE,HIGH,OK
+4662,2024-07-28,Affogato,Hot Brews,Evening,Weekend,Clear After Rain,170,195,1,170,195,25,INCREASE,HIGH,OK
+4663,2024-07-28,Mocha Frappe,Frappe,Evening,Weekend,Clear After Rain,190,215,1,190,215,25,INCREASE,HIGH,OK
+4664,2024-07-28,Mushroom Cappuccino Soup,Soup,Afternoon,Weekend,Clear After Rain,189,190,1,189,190,1,HOLD,NORMAL,OK
+4665,2024-07-28,Trio Hummus With Pita,Share-A-Plate,Afternoon,Weekend,Clear After Rain,289,290,1,289,290,1,HOLD,NORMAL,OK
+4666,2024-07-28,Tomato & Bell Pepper Soup,Soup,Dinner,Weekend,Clear After Rain,149,155,1,149,155,6,INCREASE,HIGH,OK
+4667,2024-07-28,Butter Croissant,Bakery,Morning,Weekend,Clear After Rain,120,120,1,120,120,0,HOLD,NORMAL,OK
+4668,2024-07-28,Nutella Crème Donut,Bakery,Morning,Weekend,Clear After Rain,120,120,1,120,120,0,HOLD,NORMAL,OK
+4669,2024-07-28,Pesto Omelette,Classic Eggs,Morning,Weekend,Clear After Rain,285,285,1,285,285,0,HOLD,NORMAL,OK
+4670,2024-07-28,Cream Cheese Waffwich,Pancakes & Waffwich,Morning,Weekend,Clear After Rain,315,315,1,315,315,0,HOLD,NORMAL,OK
+4671,2024-07-28,Vietnamese Iced Café,Cold Brews,Evening,Weekend,Clear After Rain,190,215,2,380,430,50,INCREASE,HIGH,OK
+4672,2024-07-28,Iced Caramel Latte,Cold Brews,Evening,Weekend,Clear After Rain,200,225,1,200,225,25,INCREASE,HIGH,OK
+4673,2024-07-28,Brownie Blast Shake,Premium Shakes,Evening,Weekend,Clear After Rain,260,295,1,260,295,35,INCREASE,HIGH,OK
+4674,2024-07-28,Paneer Puff,Bakery,Morning,Weekend,Clear After Rain,85,85,1,85,85,0,HOLD,NORMAL,OK
+4675,2024-07-28,Nutella Pancakes,Pancakes & Waffwich,Morning,Weekend,Clear After Rain,289,290,1,289,290,1,HOLD,NORMAL,OK
+4676,2024-07-28,ABC Juice (Apple Beetroot Carrot),Cold Press Juices,Morning,Weekend,Clear After Rain,250,250,1,250,250,0,HOLD,NORMAL,OK
+4677,2024-07-28,Grilled Chicken Burger,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,220,250,1,220,250,30,INCREASE,HIGH,OK
+4678,2024-07-28,Vietnamese Iced Café,Cold Brews,Evening,Weekend,Clear After Rain,190,215,1,190,215,25,INCREASE,HIGH,OK
+4679,2024-07-28,Fish Fillet Burger,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,350,400,1,350,400,50,INCREASE,HIGH,OK
+4680,2024-07-28,Pesto Omelette,Classic Eggs,Evening,Weekend,Clear After Rain,285,325,2,570,650,80,INCREASE,HIGH,OK
+4681,2024-07-28,Affogato,Hot Brews,Evening,Weekend,Clear After Rain,170,195,1,170,195,25,INCREASE,HIGH,OK
+4682,2024-07-28,Scrambled Eggs / Bhurji,Classic Eggs,Evening,Weekend,Clear After Rain,145,165,1,145,165,20,INCREASE,HIGH,OK
+4683,2024-07-28,Espresso Frappe,Frappe,Evening,Weekend,Clear After Rain,180,205,2,360,410,50,INCREASE,HIGH,OK
+4684,2024-07-28,Tempura Vegetables,Share-A-Plate,Dinner,Weekend,Clear After Rain,155,155,1,155,155,0,HOLD,HIGH,OK
+4685,2024-07-28,Blueberry Mojito,Mocktails,Evening,Weekend,Clear After Rain,140,160,1,140,160,20,INCREASE,HIGH,OK
+4686,2024-07-28,Burnt Garlic Cheese Fondue,Fondue,Evening,Weekend,Clear After Rain,579,620,1,579,620,41,INCREASE,HIGH,REVIEW_REQUIRED
+4687,2024-07-28,Thai Curry Red,Blended Full Meals,Dinner,Weekend,Clear After Rain,399,455,1,399,455,56,INCREASE,HIGH,OK
+4688,2024-07-28,Hazelnut Hot Chocolate,Hot Chocolate,Dinner,Weekend,Clear After Rain,160,170,2,320,340,20,INCREASE,HIGH,OK
+4689,2024-07-28,Paneer And Cheese Quesadilla,Share-A-Plate,Dinner,Weekend,Clear After Rain,255,290,1,255,290,35,INCREASE,HIGH,OK
+4690,2024-07-28,Crispy Shitake Mushroom,Share-A-Plate,Dinner,Weekend,Clear After Rain,450,510,1,450,510,60,INCREASE,HIGH,REVIEW_REQUIRED
+4691,2024-07-28,Spicy Chicken Salad,Salad Bowls,Dinner,Weekend,Clear After Rain,255,290,1,255,290,35,INCREASE,HIGH,OK
+4692,2024-07-28,Green Apple Mojito,Mocktails,Afternoon,Weekend,Clear After Rain,120,120,2,240,240,0,HOLD,NORMAL,OK
+4693,2024-07-28,Paneer Puff,Bakery,Afternoon,Weekend,Clear After Rain,85,85,1,85,85,0,HOLD,NORMAL,OK
+4694,2024-07-28,French Vanilla Shake,Premium Shakes,Evening,Weekend,Clear After Rain,200,225,1,200,225,25,INCREASE,HIGH,OK
+4695,2024-07-28,Traditional Hot Chocolate,Hot Chocolate,Evening,Weekend,Clear After Rain,140,155,2,280,310,30,INCREASE,HIGH,OK
+4696,2024-07-28,Loaded Nachos,Share-A-Plate,Evening,Weekend,Clear After Rain,210,220,1,210,220,10,INCREASE,HIGH,OK
+4697,2024-07-28,Triple Chocolate Mousse,Dessert,Evening,Weekend,Clear After Rain,280,290,1,280,290,10,INCREASE,HIGH,OK
+4698,2024-07-28,Hazelnut Frappe,Frappe,Evening,Weekend,Clear After Rain,190,215,1,190,215,25,INCREASE,HIGH,OK
+4699,2024-07-28,Californian Fries,Share-A-Plate,Evening,Weekend,Clear After Rain,215,245,1,215,245,30,INCREASE,HIGH,OK
+4700,2024-07-28,Garlic Bread,Share-A-Plate,Evening,Weekend,Clear After Rain,129,145,1,129,145,16,INCREASE,HIGH,OK
+4701,2024-07-28,Paneer Puff,Bakery,Evening,Weekend,Clear After Rain,85,90,2,170,180,10,INCREASE,HIGH,OK
+4702,2024-07-28,Scrambled Eggs / Bhurji,Classic Eggs,Evening,Weekend,Clear After Rain,145,165,1,145,165,20,INCREASE,HIGH,OK
+4703,2024-07-28,Blueberry Mojito,Mocktails,Afternoon,Weekend,Clear After Rain,140,140,1,140,140,0,HOLD,NORMAL,OK
+4704,2024-07-28,Soy Ramen Bowl,Large Soup Bowls,Afternoon,Weekend,Clear After Rain,349,350,1,349,350,1,HOLD,NORMAL,OK
+4705,2024-07-28,Café Latte,Hot Brews,Evening,Weekend,Clear After Rain,160,165,1,160,165,5,INCREASE,HIGH,OK
+4706,2024-07-28,Paneer Puff,Bakery,Evening,Weekend,Clear After Rain,85,90,1,85,90,5,INCREASE,HIGH,OK
+4707,2024-07-28,Oreo Shake,Premium Shakes,Evening,Weekend,Clear After Rain,240,275,1,240,275,35,INCREASE,HIGH,OK
+4708,2024-07-28,Garlic Bread,Share-A-Plate,Evening,Weekend,Clear After Rain,129,145,1,129,145,16,INCREASE,HIGH,OK
+4709,2024-07-28,Fish Fillet Burger,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,350,400,1,350,400,50,INCREASE,HIGH,OK
+4710,2024-07-28,Fish Fillet Burger,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,350,400,1,350,400,50,INCREASE,HIGH,OK
+4711,2024-07-28,Pesto Penne,Pasta,Dinner,Weekend,Clear After Rain,399,455,2,798,910,112,INCREASE,HIGH,OK
+4712,2024-07-28,Caesar Salad,Salad Bowls,Dinner,Weekend,Clear After Rain,189,215,1,189,215,26,INCREASE,HIGH,OK
+4713,2024-07-28,Mushroom Chickpea Couscous Salad,Salad Bowls,Dinner,Weekend,Clear After Rain,189,215,1,189,215,26,INCREASE,HIGH,OK
+4714,2024-07-28,New York Baked Cheesecake,Dessert,Dinner,Weekend,Clear After Rain,300,325,1,300,325,25,INCREASE,HIGH,OK
+4715,2024-07-28,Mexican Panini,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,169,175,1,169,175,6,INCREASE,HIGH,OK
+4716,2024-07-28,Lotus Biscoff Shake,Premium Shakes,Dinner,Weekend,Clear After Rain,400,455,1,400,455,55,INCREASE,HIGH,OK
+4717,2024-07-28,Chicken And Cheese Balls,Share-A-Plate,Dinner,Weekend,Clear After Rain,375,430,1,375,430,55,INCREASE,HIGH,OK
+4718,2024-07-28,Set Cheesecake,Dessert,Dinner,Weekend,Clear After Rain,315,360,1,315,360,45,INCREASE,HIGH,OK
+4719,2024-07-28,Spicy Cheesy Broccoli Dumplings,Steam Basket,Dinner,Weekend,Clear After Rain,255,255,1,255,255,0,HOLD,HIGH,OK
+4720,2024-07-28,Tres Leches Cake,Dessert,Dinner,Weekend,Clear After Rain,215,230,1,215,230,15,INCREASE,HIGH,OK
+4721,2024-07-28,Triple Chocolate Mousse,Dessert,Dinner,Weekend,Clear After Rain,280,290,2,560,580,20,INCREASE,HIGH,OK
+4722,2024-07-28,Tomato & Bell Pepper Soup,Soup,Dinner,Weekend,Clear After Rain,149,155,1,149,155,6,INCREASE,HIGH,OK
+4723,2024-07-28,Romantic Sunset Mocktail,Mocktails,Evening,Weekend,Clear After Rain,180,205,1,180,205,25,INCREASE,HIGH,OK
+4724,2024-07-28,Iced Café Mocha,Cold Brews,Evening,Weekend,Clear After Rain,170,195,1,170,195,25,INCREASE,HIGH,OK
+4725,2024-07-28,Virgin Pina Colada,Mocktails,Dinner,Weekend,Clear After Rain,200,215,1,200,215,15,INCREASE,HIGH,OK
+4726,2024-07-28,Trio Hummus With Pita,Share-A-Plate,Dinner,Weekend,Clear After Rain,289,305,1,289,305,16,INCREASE,HIGH,OK
+4727,2024-07-28,Exotic Chicken Taco,Blended Full Meals,Dinner,Weekend,Clear After Rain,565,640,1,565,640,75,INCREASE,HIGH,REVIEW_REQUIRED
+4728,2024-07-28,Chocolate Chip Cookie,Bakery,Evening,Weekend,Clear After Rain,50,55,2,100,110,10,INCREASE,HIGH,OK
+4729,2024-07-28,Filled Coffee Donut,Bakery,Evening,Weekend,Clear After Rain,95,100,1,95,100,5,INCREASE,HIGH,OK
+4730,2024-07-28,Cheese Chili Garlic Bread,Share-A-Plate,Dinner,Weekend,Clear After Rain,185,195,1,185,195,10,INCREASE,HIGH,OK
+4731,2024-07-28,Espresso,Hot Brews,Dinner,Weekend,Clear After Rain,110,115,1,110,115,5,INCREASE,HIGH,OK
+4732,2024-07-28,Virgin Pina Colada,Mocktails,Evening,Weekend,Clear After Rain,200,215,1,200,215,15,INCREASE,HIGH,OK
+4733,2024-07-28,Mix Berry Smoothie Bowl,Wholesome Breakfast,Morning,Weekend,Clear After Rain,380,380,1,380,380,0,HOLD,NORMAL,OK
+4734,2024-07-28,Salted Caramel Mocha,Hot Brews,Morning,Weekend,Clear After Rain,200,200,2,400,400,0,HOLD,NORMAL,OK
+4735,2024-07-28,Stuffed Paratha Chicken,Wholesome Breakfast,Morning,Weekend,Clear After Rain,210,210,1,210,210,0,HOLD,NORMAL,OK
+4736,2024-07-28,Fish Fillet Burger,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,350,400,1,350,400,50,INCREASE,HIGH,OK
+4737,2024-07-28,Lotus Biscoff Shake,Premium Shakes,Evening,Weekend,Clear After Rain,400,455,2,800,910,110,INCREASE,HIGH,OK
+4738,2024-07-28,Paneer Puff,Bakery,Evening,Weekend,Clear After Rain,85,90,1,85,90,5,INCREASE,HIGH,OK
+4739,2024-07-28,The Dominator Burger,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,369,420,1,369,420,51,INCREASE,HIGH,OK
+4740,2024-07-28,Chai,Hot Beverages,Evening,Weekend,Clear After Rain,100,110,1,100,110,10,INCREASE,HIGH,OK
+4741,2024-07-28,Kitkat Shake,Premium Shakes,Evening,Weekend,Clear After Rain,200,225,1,200,225,25,INCREASE,HIGH,OK
+4742,2024-07-28,Soy Ramen Bowl,Large Soup Bowls,Dinner,Weekend,Clear After Rain,349,395,1,349,395,46,INCREASE,HIGH,OK
+4743,2024-07-28,Blueberry Mojito,Mocktails,Evening,Weekend,Clear After Rain,140,160,1,140,160,20,INCREASE,HIGH,OK
+4744,2024-07-28,Espresso Frappe,Frappe,Evening,Weekend,Clear After Rain,180,205,1,180,205,25,INCREASE,HIGH,OK
+4745,2024-07-28,Bombay Masala Sandwich,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,139,155,1,139,155,16,INCREASE,HIGH,OK
+4746,2024-07-28,Mushroom Cappuccino Soup,Soup,Dinner,Weekend,Clear After Rain,189,205,1,189,205,16,INCREASE,HIGH,OK
+4747,2024-07-28,Butter Garlic Prawns,Share-A-Plate,Dinner,Weekend,Clear After Rain,559,640,1,559,640,81,INCREASE,HIGH,REVIEW_REQUIRED
+4748,2024-07-28,Tres Leches Cake,Dessert,Dinner,Weekend,Clear After Rain,215,230,1,215,230,15,INCREASE,HIGH,OK
+4749,2024-07-28,Cappuccino,Hot Brews,Dinner,Weekend,Clear After Rain,160,160,2,320,320,0,HOLD,HIGH,OK
+4750,2024-07-28,Hazelnut Hot Chocolate,Hot Chocolate,Evening,Weekend,Clear After Rain,160,170,1,160,170,10,INCREASE,HIGH,OK
+4751,2024-07-28,Thai Iced Coffee,Cold Brews,Evening,Weekend,Clear After Rain,200,225,1,200,225,25,INCREASE,HIGH,OK
+4752,2024-07-28,Mexican Panini,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,169,175,2,338,350,12,INCREASE,HIGH,OK
+4753,2024-07-28,Blueberry Mojito,Mocktails,Evening,Weekend,Clear After Rain,140,160,1,140,160,20,INCREASE,HIGH,OK
+4754,2024-07-28,Espresso,Hot Brews,Dinner,Weekend,Clear After Rain,110,115,1,110,115,5,INCREASE,HIGH,OK
+4755,2024-07-28,Mix Veg Double Cheese Burger,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,189,195,1,189,195,6,INCREASE,HIGH,OK
+4756,2024-07-28,Garlic Bread,Share-A-Plate,Evening,Weekend,Clear After Rain,129,145,1,129,145,16,INCREASE,HIGH,OK
+4757,2024-07-28,Green Apple Mojito,Mocktails,Evening,Weekend,Clear After Rain,120,135,2,240,270,30,INCREASE,HIGH,OK
+4758,2024-07-28,Chocolate Chip Cookie,Bakery,Evening,Weekend,Clear After Rain,50,55,1,50,55,5,INCREASE,HIGH,OK
+4759,2024-07-28,Chocolate Walnut Brownie,Dessert,Afternoon,Weekend,Clear After Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4760,2024-07-28,Blueberry Mojito,Mocktails,Afternoon,Weekend,Clear After Rain,140,140,1,140,140,0,HOLD,NORMAL,OK
+4761,2024-07-28,Cajun Cottage-Cheese Burger,Sandwiches Burgers Wraps,Afternoon,Weekend,Clear After Rain,255,255,2,510,510,0,HOLD,NORMAL,OK
+4762,2024-07-28,Peach Iced Tea,Cold Beverages,Evening,Weekend,Clear After Rain,140,160,1,140,160,20,INCREASE,HIGH,OK
+4763,2024-07-28,Cubanos,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,250,250,1,250,250,0,HOLD,HIGH,OK
+4764,2024-07-28,Cheese Chili Garlic Bread,Share-A-Plate,Evening,Weekend,Clear After Rain,185,195,1,185,195,10,INCREASE,HIGH,OK
+4765,2024-07-28,Mexican Panini,Sandwiches Burgers Wraps,Evening,Weekend,Clear After Rain,169,175,1,169,175,6,INCREASE,HIGH,OK
+4766,2024-07-28,Hazelnut Hot Chocolate,Hot Chocolate,Morning,Weekend,Clear After Rain,160,160,1,160,160,0,HOLD,NORMAL,OK
+4767,2024-07-29,Masala Chai,Hot Beverages,Dinner,Weekday,Heavy Rain,120,130,1,120,130,10,INCREASE,HIGH,OK
+4768,2024-07-29,Bacon Wrapped Chicken,Blended Full Meals,Dinner,Weekday,Heavy Rain,659,660,1,659,660,1,HOLD,NORMAL,REVIEW_REQUIRED
+4769,2024-07-29,Cubanos,Sandwiches Burgers Wraps,Evening,Weekday,Heavy Rain,250,250,1,250,250,0,HOLD,NORMAL,OK
+4770,2024-07-29,Filled Coffee Donut,Bakery,Evening,Weekday,Heavy Rain,95,95,1,95,95,0,HOLD,NORMAL,OK
+4771,2024-07-29,Bhaji Pao,Wholesome Breakfast,Morning,Weekday,Heavy Rain,159,140,1,159,140,-19,DECREASE,LOW,OK
+4772,2024-07-29,Fruit Pancakes,Pancakes & Waffwich,Morning,Weekday,Heavy Rain,299,265,1,299,265,-34,DECREASE,LOW,OK
+4773,2024-07-29,Nutella Pancakes,Pancakes & Waffwich,Morning,Weekday,Heavy Rain,289,255,1,289,255,-34,DECREASE,LOW,OK
+4774,2024-07-29,Spiced Mocha Latte,Hot Brews,Evening,Weekday,Heavy Rain,180,180,1,180,180,0,HOLD,NORMAL,OK
+4775,2024-07-29,Penne Rose,Pasta,Afternoon,Weekday,Heavy Rain,335,325,1,335,325,-10,DECREASE,LOW,OK
+4776,2024-07-29,ABCC Juice,Cold Press Juices,Afternoon,Weekday,Heavy Rain,260,260,1,260,260,0,HOLD,NORMAL,OK
+4777,2024-07-29,Trio Hummus With Pita,Share-A-Plate,Afternoon,Weekday,Heavy Rain,289,290,2,578,580,2,HOLD,NORMAL,OK
+4778,2024-07-29,Affogato,Hot Brews,Afternoon,Weekday,Heavy Rain,170,150,1,170,150,-20,DECREASE,LOW,OK
+4779,2024-07-29,Korean Breakfast,Wholesome Breakfast,Morning,Weekday,Heavy Rain,289,275,1,289,275,-14,DECREASE,LOW,OK
+4780,2024-07-29,Veg Toast / Plain Sandwich,Sandwiches Burgers Wraps,Morning,Weekday,Heavy Rain,120,120,2,240,240,0,HOLD,NORMAL,OK
+4781,2024-07-29,Traditional Hot Chocolate,Hot Chocolate,Morning,Weekday,Heavy Rain,140,140,1,140,140,0,HOLD,NORMAL,OK
+4782,2024-07-30,Masala Chai,Hot Beverages,Dinner,Weekday,Dry Day,120,120,1,120,120,0,HOLD,NORMAL,OK
+4783,2024-07-30,Carbonara,Pasta,Dinner,Weekday,Dry Day,450,450,1,450,450,0,HOLD,NORMAL,REVIEW_REQUIRED
+4784,2024-07-30,Iced Americano,Cold Brews,Evening,Weekday,Dry Day,150,150,1,150,150,0,HOLD,NORMAL,OK
+4785,2024-07-30,Blueberry Mojito,Mocktails,Evening,Weekday,Dry Day,140,140,2,280,280,0,HOLD,NORMAL,OK
+4786,2024-07-30,Mocha Frappe,Frappe,Evening,Weekday,Dry Day,190,190,1,190,190,0,HOLD,NORMAL,OK
+4787,2024-07-30,Penne Rose,Pasta,Dinner,Weekday,Dry Day,335,335,2,670,670,0,HOLD,NORMAL,OK
+4788,2024-07-30,Mix Veg Dumplings,Steam Basket,Dinner,Weekday,Dry Day,249,250,1,249,250,1,HOLD,NORMAL,OK
+4789,2024-07-30,Chili Garlic Chicken Dumplings,Steam Basket,Dinner,Weekday,Dry Day,375,375,1,375,375,0,HOLD,NORMAL,OK
+4790,2024-07-30,Eggs To Order Chicken,Classic Eggs,Evening,Weekday,Dry Day,165,165,1,165,165,0,HOLD,NORMAL,OK
+4791,2024-07-30,Exotic Vegetable Omelette,Classic Eggs,Evening,Weekday,Dry Day,239,240,1,239,240,1,HOLD,NORMAL,OK
+4792,2024-07-30,Chai,Hot Beverages,Evening,Weekday,Dry Day,100,100,2,200,200,0,HOLD,NORMAL,OK
+4793,2024-07-30,Blend Breakfast,Wholesome Breakfast,Morning,Weekday,Dry Day,345,345,1,345,345,0,HOLD,NORMAL,OK
+4794,2024-07-30,Peri-Peri Prawns Popcorn,Share-A-Plate,Dinner,Weekday,Dry Day,555,555,1,555,555,0,HOLD,NORMAL,REVIEW_REQUIRED
+4795,2024-07-30,Pepperoni Chicken Pizza,Pizza,Dinner,Weekday,Dry Day,559,560,1,559,560,1,HOLD,NORMAL,REVIEW_REQUIRED
+4796,2024-07-30,Californian Fries,Share-A-Plate,Dinner,Weekday,Dry Day,215,215,1,215,215,0,HOLD,NORMAL,OK
+4797,2024-07-30,Blue Ocean Mocktail,Mocktails,Evening,Weekday,Dry Day,160,160,2,320,320,0,HOLD,NORMAL,OK
+4798,2024-07-30,Cappuccino,Hot Brews,Evening,Weekday,Dry Day,160,160,1,160,160,0,HOLD,NORMAL,OK
+4799,2024-07-30,Ferrero Rocher Shake,Premium Shakes,Evening,Weekday,Dry Day,350,350,2,700,700,0,HOLD,NORMAL,OK
+4800,2024-07-30,Cubanos,Sandwiches Burgers Wraps,Evening,Weekday,Dry Day,250,250,1,250,250,0,HOLD,NORMAL,OK
+4801,2024-07-30,Classic BLT,Sandwiches Burgers Wraps,Afternoon,Weekday,Dry Day,249,250,2,498,500,2,HOLD,NORMAL,OK
+4802,2024-07-30,Carbonara,Pasta,Dinner,Weekday,Dry Day,450,450,1,450,450,0,HOLD,NORMAL,REVIEW_REQUIRED
+4803,2024-07-30,Oyster Chicken Dumplings,Steam Basket,Dinner,Weekday,Dry Day,389,390,1,389,390,1,HOLD,NORMAL,OK
+4804,2024-07-30,Triple Chocolate Mousse,Dessert,Afternoon,Weekday,Dry Day,280,280,1,280,280,0,HOLD,NORMAL,OK
+4805,2024-07-31,Egg Wrap,Sandwiches Burgers Wraps,Evening,Weekday,Heavy Rain,155,155,2,310,310,0,HOLD,NORMAL,OK
+4806,2024-07-31,Spicy Guava Mocktail,Mocktails,Evening,Weekday,Heavy Rain,180,180,1,180,180,0,HOLD,NORMAL,OK
+4807,2024-07-31,Dark Hot Chocolate,Hot Chocolate,Evening,Weekday,Heavy Rain,120,120,2,240,240,0,HOLD,NORMAL,OK
+4808,2024-07-31,Soy Ramen Bowl,Large Soup Bowls,Afternoon,Weekday,Heavy Rain,349,350,1,349,350,1,HOLD,NORMAL,OK
+4809,2024-07-31,Spiced Mocha Latte,Hot Brews,Dinner,Weekday,Heavy Rain,180,180,1,180,180,0,HOLD,NORMAL,OK
+4810,2024-07-31,Penne Rose,Pasta,Dinner,Weekday,Heavy Rain,335,335,1,335,335,0,HOLD,NORMAL,OK
+4811,2024-07-31,Affogato,Hot Brews,Dinner,Weekday,Heavy Rain,170,170,2,340,340,0,HOLD,NORMAL,OK
+4812,2024-07-31,Espresso,Hot Brews,Morning,Weekday,Heavy Rain,110,110,1,110,110,0,HOLD,NORMAL,OK
+4813,2024-07-31,Cappuccino,Hot Brews,Morning,Weekday,Heavy Rain,160,160,1,160,160,0,HOLD,LOW,OK
+4814,2024-07-31,Dark Hot Chocolate,Hot Chocolate,Morning,Weekday,Heavy Rain,120,120,2,240,240,0,HOLD,NORMAL,OK
+4815,2024-07-31,Virgin Pina Colada,Mocktails,Dinner,Weekday,Heavy Rain,200,200,1,200,200,0,HOLD,NORMAL,OK
+4816,2024-07-31,Veg Exotica Pizza,Pizza,Dinner,Weekday,Heavy Rain,389,390,1,389,390,1,HOLD,NORMAL,OK
+4817,2024-07-31,Mix Veg Dumplings,Steam Basket,Dinner,Weekday,Heavy Rain,249,250,1,249,250,1,HOLD,NORMAL,OK
+4818,2024-07-31,Marshmallow Hot Chocolate,Hot Chocolate,Dinner,Weekday,Heavy Rain,200,225,2,400,450,50,INCREASE,HIGH,OK

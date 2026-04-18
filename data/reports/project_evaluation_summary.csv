@@ -1,0 +1,24 @@
+Metric,Value
+Simulation Period,May 01 - Jul 31 2024 (92 days)
+Total Transactions,"3,818"
+Total Menu Items,200 across 24 categories
+Total Revenue Simulated,"₹10,40,338"
+ABC Class A Items,95 items (47.5% of menu)
+ABC Class A Revenue Share,69.63%
+Pareto 80% crossover,119 items (59.5% of menu)
+LR Test RMSE,0.3972
+RF Test RMSE,0.4024
+RF CV RMSE,0.3961
+RF R² Test,-0.0428
+Temperature vs Cold Brew r,+0.503 (p=3.15e-07)
+Footfall vs Revenue r,+0.906 (p=2.65e-35)
+Rain Boost Items,38 items
+Dynamic Pricing Targets,69 items
+Premium Lock Items,31 items
+Test Period Static Revenue,"₹1,89,322"
+Test Period Dynamic Revenue,"₹1,98,115"
+Revenue Uplift ₹,"₹8,793"
+Revenue Uplift %,4.64%
+Best Slot Uplift,Dinner +7.35%
+Best Weather Uplift,Clear After Rain +7.60%
+Best Condition,Dinner x Clear After Rain +10.90%

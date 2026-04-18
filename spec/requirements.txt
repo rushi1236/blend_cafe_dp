@@ -1,0 +1,64 @@
+# ============================================================================
+# BLEND CAFÉ — DYNAMIC PRICING PROJECT
+# Python 3.11 Requirements
+# Environment: source ~/myenv311/bin/activate
+# Install: pip install -r requirements.txt
+# ============================================================================
+
+# ── Core Data Manipulation ───────────────────────────────────────────────────
+pandas==2.2.2               # DataFrames, CSV I/O, groupby, pivot, resample
+numpy==1.26.4               # Array ops, random seed, numerical computation
+
+# ── Excel I/O ────────────────────────────────────────────────────────────────
+openpyxl==3.1.2             # Read/write .xlsx — obs/ input + reports/ output
+
+# ── Statistical Analysis (Phase 2) ───────────────────────────────────────────
+scipy==1.13.0               # pearsonr (correlation), stats tests, elasticity calc
+statsmodels==0.14.2         # seasonal_decompose (time series), OLS if needed
+
+# ── Machine Learning (Phase 3) ───────────────────────────────────────────────
+scikit-learn==1.5.0         # LinearRegression, RandomForestRegressor,
+                            # cross_val_score, train_test_split,
+                            # LabelEncoder, OneHotEncoder, StandardScaler
+                            # mean_absolute_error, mean_squared_error, r2_score
+
+# ── Model Serialization ───────────────────────────────────────────────────────
+joblib==1.4.2               # dump/load .pkl files for trained models
+
+# ── Visualization ─────────────────────────────────────────────────────────────
+matplotlib==3.9.0           # Base plotting — heatmaps, bar charts, line plots,
+                            # learning curves, residual plots
+seaborn==0.13.2             # Statistical plots — correlation heatmap,
+                            # distribution plots, pair plots, 2x2 scatter
+
+# ── Utility ───────────────────────────────────────────────────────────────────
+python-dateutil==2.9.0      # Date parsing helpers
+pytz==2024.1                # Timezone support (IST for Pune timestamps)
+tqdm==4.66.4                # Progress bars for longer model training loops
+
+# ============================================================================
+# INSTALLATION NOTES
+# ============================================================================
+#
+# 1. Activate environment first:
+#    source ~/myenv311/bin/activate
+#
+# 2. Install all dependencies:
+#    pip install -r requirements.txt
+#
+# 3. Verify key imports after installation:
+#    python -c "import pandas, numpy, sklearn, statsmodels, seaborn; print('All OK')"
+#
+# ── NOT INCLUDED (intentional exclusions) ────────────────────────────────────
+#
+# torch / tensorflow  → No deep learning. Classical ML only. See specs/
+#                       interview_project.yaml — critical_design_decisions
+#                       for rationale.
+#
+# xgboost / lightgbm  → Out of scope for this internship phase. Listed under
+#                       future_work in interview_project.yaml.
+#
+# flask / fastapi     → No web server needed. Deliverable is Excel report,
+#                       not a live pricing API.
+#
+# ============================================================================

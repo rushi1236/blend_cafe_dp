@@ -1,0 +1,201 @@
+Item_Name,Category,Price_Tier,Total_Revenue_₹,Transaction_Count,Cumulative_Revenue_%,ABC_Class
+Burnt Garlic Cheese Fondue,Fondue,Premium,21423,31,2.06,A
+Penne Rose,Pasta,Mid-range,12395,29,3.25,A
+Triple Decker Sandwich,Sandwiches Burgers Wraps,Mid-range,12255,37,4.43,A
+Triple Chocolate Mousse,Dessert,Mid-range,12040,37,5.59,A
+Jalapeño Cheese Fondue,Fondue,Premium,11815,14,6.72,A
+Chocolate Walnut Brownie,Dessert,Mid-range,11800,52,7.86,A
+Chocolate Waffwich,Pancakes & Waffwich,Mid-range,10545,30,8.87,A
+Pesto Penne,Pasta,Mid-range,10374,19,9.87,A
+Cheese Lovers Pizza,Pizza,Premium,10160,16,10.84,A
+Cappuccino,Hot Brews,Budget,10080,50,11.81,A
+Tiramisu,Dessert,Mid-range,9600,31,12.73,A
+The Dominator Burger,Sandwiches Burgers Wraps,Mid-range,9594,23,13.66,A
+Thai Curry Red,Blended Full Meals,Mid-range,9576,19,14.58,A
+Pepperoni Chicken Pizza,Pizza,Premium,9503,17,15.49,A
+Soy Ramen Bowl,Large Soup Bowls,Mid-range,9423,20,16.4,A
+Honey Ginger Lime Tea,Hot Beverages,Budget,9350,48,17.3,A
+Grilled Ghost Pepper Fish,Blended Full Meals,Premium,9104,14,18.17,A
+Spiced Mocha Latte,Hot Brews,Budget,9000,40,19.04,A
+Penne Alfredo,Pasta,Mid-range,8883,23,19.89,A
+Spaghetti Arabiatta,Pasta,Mid-range,8856,19,20.74,A
+Cajun Chicken,Blended Full Meals,Premium,8835,14,21.59,A
+Carbonara,Pasta,Premium,8550,16,22.41,A
+Pesto Omelette,Classic Eggs,Mid-range,8550,26,23.23,A
+Chimichanga,Blended Full Meals,Mid-range,8415,27,24.04,A
+Lotus Biscoff Shake,Premium Shakes,Mid-range,8400,18,24.85,A
+Mushroom Parma Omelette,Classic Eggs,Mid-range,8370,23,25.65,A
+Loaded Nachos,Share-A-Plate,Mid-range,8190,33,26.44,A
+Pesto Cottage Cheese Meal,Blended Full Meals,Premium,8180,16,27.23,A
+Californian Fries,Share-A-Plate,Mid-range,8170,32,28.01,A
+Masala Chai,Hot Beverages,Budget,8160,59,28.8,A
+Espresso,Hot Brews,Budget,8140,61,29.58,A
+Pad Thai,Blended Full Meals,Mid-range,8118,18,30.36,A
+Margherita Pizza,Pizza,Mid-range,8073,25,31.14,A
+Tres Leches Cake,Dessert,Mid-range,7955,31,31.9,A
+Grilled Chicken Burger,Sandwiches Burgers Wraps,Mid-range,7920,30,32.66,A
+Hazelnut Hot Chocolate,Hot Chocolate,Budget,7840,41,33.42,A
+Spaghetti Aglio Olio,Pasta,Mid-range,7700,18,34.16,A
+Virgin Mojito,Mocktails,Budget,7700,45,34.9,A
+Shawarma,Blended Full Meals,Mid-range,7590,19,35.63,A
+Chili Garlic Chicken Dumplings,Steam Basket,Mid-range,7500,18,36.35,A
+Tomato & Bell Pepper Soup,Soup,Budget,7450,41,37.06,A
+Salted Caramel Mocha,Hot Brews,Mid-range,7400,32,37.77,A
+Virgin Pina Colada,Mocktails,Mid-range,7400,30,38.49,A
+Fish Fillet Burger,Sandwiches Burgers Wraps,Mid-range,7350,21,39.19,A
+Butter Garlic Prawns,Share-A-Plate,Premium,7267,10,39.89,A
+Minty Cookie Cappuccino,Hot Brews,Budget,7220,33,40.58,A
+Marshmallow Hot Chocolate,Hot Chocolate,Mid-range,7200,31,41.28,A
+Oreo Shake,Premium Shakes,Mid-range,7200,25,41.97,A
+Iced Café Latte,Cold Brews,Budget,7040,33,42.65,A
+Veg Exotica Pizza,Pizza,Mid-range,7002,16,43.32,A
+Mix Veg Dumplings,Steam Basket,Mid-range,6972,23,43.99,A
+Mexican Panini,Sandwiches Burgers Wraps,Budget,6929,32,44.65,A
+Salted Fries,Share-A-Plate,Budget,6854,38,45.31,A
+Affogato,Hot Brews,Budget,6800,35,45.97,A
+Exotic Chicken Taco,Blended Full Meals,Premium,6780,11,46.62,A
+ABC Juice (Apple Beetroot Carrot),Cold Press Juices,Mid-range,6750,22,47.27,A
+Chicken And Cheese Balls,Share-A-Plate,Mid-range,6750,15,47.92,A
+Dark Hot Chocolate,Hot Chocolate,Budget,6720,45,48.56,A
+Cajun Cottage Cheese Steak,Blended Full Meals,Mid-range,6700,18,49.21,A
+Ferrero Rocher Shake,Premium Shakes,Mid-range,6650,14,49.85,A
+Mexican Vegetable Stew And Rice,Blended Full Meals,Mid-range,6580,16,50.48,A
+Traditional Hot Chocolate,Hot Chocolate,Budget,6580,40,51.11,A
+Grilled Cheese Sandwich,Sandwiches Burgers Wraps,Budget,6567,27,51.74,A
+Kaopoon Ramen Bowl,Large Soup Bowls,Premium,6544,14,52.37,A
+Caprese Bruschetta,Share-A-Plate,Mid-range,6500,13,53.0,A
+Tonkatsu Ramen Bowl,Large Soup Bowls,Mid-range,6462,14,53.62,A
+Iced Caramel Latte,Cold Brews,Mid-range,6400,27,54.23,A
+Spicy Chicken Salad,Salad Bowls,Mid-range,6375,22,54.85,A
+Trio Hummus With Pita,Share-A-Plate,Mid-range,6358,20,55.46,A
+Truffle Chocolate Pastry,Dessert,Mid-range,6270,17,56.06,A
+Volcanic Potatoes,Share-A-Plate,Budget,6169,27,56.65,A
+Cheese Chili Garlic Bread,Share-A-Plate,Budget,6105,28,57.24,A
+Classic Pancakes,Pancakes & Waffwich,Mid-range,6000,19,57.82,A
+Jalapeno Cheese Corn Balls,Share-A-Plate,Mid-range,6000,22,58.39,A
+Dark & White Blend Waffwich,Pancakes & Waffwich,Mid-range,5985,17,58.97,A
+Honey Chili Lotus Stem,Share-A-Plate,Mid-range,5940,22,59.54,A
+Bacon Wrapped Chicken,Blended Full Meals,Premium,5931,6,60.11,A
+Crispy Shitake Mushroom,Share-A-Plate,Premium,5850,10,60.67,A
+Crème Brulee,Dessert,Mid-range,5850,21,61.23,A
+Exotic Vegetable Omelette,Classic Eggs,Mid-range,5736,22,61.78,A
+Brownie Blast Shake,Premium Shakes,Mid-range,5720,18,62.33,A
+Mix Berry Smoothie Bowl,Wholesome Breakfast,Mid-range,5700,11,62.88,A
+Mushroom Parma Bruschetta,Share-A-Plate,Mid-range,5700,16,63.43,A
+Café Mocha,Hot Brews,Budget,5610,29,63.97,A
+Café Latte,Hot Brews,Budget,5600,30,64.51,A
+Chef's Special Pot Rice,Blended Full Meals,Premium,5489,9,65.04,A
+Harissa Chicken Skewers,Share-A-Plate,Mid-range,5424,15,65.56,A
+Iced Americano,Cold Brews,Budget,5400,29,66.08,A
+New York Baked Cheesecake,Dessert,Mid-range,5400,15,66.59,A
+Mexicana Pizza,Pizza,Premium,5388,11,67.11,A
+Cajun Cottage-Cheese Burger,Sandwiches Burgers Wraps,Mid-range,5355,15,67.63,A
+Spicy Cheesy Broccoli Dumplings,Steam Basket,Mid-range,5355,17,68.14,A
+Veg Toast / Plain Sandwich,Sandwiches Burgers Wraps,Budget,5280,37,68.65,A
+Cubanos,Sandwiches Burgers Wraps,Mid-range,5250,18,69.15,A
+Thai BBQ Chicken Satay,Share-A-Plate,Mid-range,4970,10,69.63,A
+Egg Wrap,Sandwiches Burgers Wraps,Budget,4960,26,70.11,B
+Nutella Pancakes,Pancakes & Waffwich,Mid-range,4913,14,70.58,B
+Pho,Large Soup Bowls,Mid-range,4886,11,71.05,B
+Thai Curry Green,Blended Full Meals,Mid-range,4740,9,71.51,B
+Classic BLT,Sandwiches Burgers Wraps,Mid-range,4731,17,71.96,B
+Caesar Salad,Salad Bowls,Budget,4725,20,72.42,B
+Fresh Fruit Tart,Dessert,Mid-range,4725,17,72.87,B
+Lemon Coriander Soup,Soup,Budget,4654,20,73.32,B
+Paneer And Cheese Quesadilla,Share-A-Plate,Mid-range,4590,17,73.76,B
+Chicken Cream & Cheddar Soup,Soup,Mid-range,4580,17,74.2,B
+Hazelnut Frappe,Frappe,Budget,4560,19,74.64,B
+Roasted Chicken With Mushroom Sauce,Blended Full Meals,Premium,4550,8,75.07,B
+Akuri On Toast,Classic Eggs,Budget,4500,28,75.51,B
+Chai,Hot Beverages,Budget,4500,35,75.94,B
+Creamy Cheesy Hot Corn Bruschetta,Share-A-Plate,Mid-range,4370,15,76.36,B
+Spicy Chicken Pao,Sandwiches Burgers Wraps,Budget,4293,20,76.77,B
+Thai Coconut Curry,Blended Full Meals,Mid-range,4279,10,77.18,B
+Garlic Bread,Share-A-Plate,Budget,4257,29,77.59,B
+Chocolate Almond Smoothie Bowl,Wholesome Breakfast,Premium,4200,10,78.0,B
+Greek-O-Greek Pizza,Pizza,Premium,4200,9,78.4,B
+Burmese Khow-suey,Large Soup Bowls,Premium,4190,6,78.8,B
+Classic Waffle,Pancakes & Waffwich,Mid-range,4185,13,79.2,B
+Caramel Frappe,Frappe,Budget,4180,18,79.61,B
+Mix Veg Double Cheese Burger,Sandwiches Burgers Wraps,Budget,4158,18,80.01,B
+Mushroom Chickpea Couscous Salad,Salad Bowls,Budget,4158,20,80.41,B
+Chili Garlic Cottage Cheese,Share-A-Plate,Mid-range,4085,15,80.8,B
+WAO Juice (Watermelon Apple Orange),Cold Press Juices,Mid-range,4050,15,81.19,B
+Kitkat Shake,Premium Shakes,Mid-range,4000,17,81.57,B
+French Toast,Wholesome Breakfast,Mid-range,3990,15,81.96,B
+Peri-Peri Prawns Popcorn,Share-A-Plate,Premium,3885,5,82.33,B
+Very Berry Super Shake,Premium Shakes,Mid-range,3840,14,82.7,B
+Fresh Fruit Juice,Cold Beverages,Mid-range,3800,17,83.06,B
+Thai Iced Coffee,Cold Brews,Mid-range,3800,15,83.43,B
+Blend Breakfast,Wholesome Breakfast,Mid-range,3795,11,83.79,B
+Spicy Guava Mocktail,Mocktails,Budget,3780,18,84.16,B
+Watermelon Mojito,Mocktails,Budget,3680,20,84.51,B
+Scrambled Eggs / Bhurji,Classic Eggs,Budget,3625,23,84.86,B
+Mocha Frappe,Frappe,Budget,3610,17,85.21,B
+Vietnamese Iced Café,Cold Brews,Budget,3610,17,85.55,B
+Chicken Hakka Dry Chili,Share-A-Plate,Mid-range,3590,9,85.9,B
+Crème Chocolate Pancakes,Pancakes & Waffwich,Mid-range,3575,11,86.24,B
+Bombay Masala Sandwich,Sandwiches Burgers Wraps,Budget,3475,21,86.58,B
+Cream Cheese Waffwich,Pancakes & Waffwich,Mid-range,3465,10,86.91,B
+Espresso Frappe,Frappe,Budget,3420,17,87.24,B
+Eggs To Order Plain,Classic Eggs,Budget,3375,20,87.56,B
+Americano,Hot Brews,Budget,3360,19,87.89,B
+Bhaji Pao,Wholesome Breakfast,Budget,3339,16,88.21,B
+Blueberry Mojito,Mocktails,Budget,3220,19,88.52,B
+Blue Ocean Mocktail,Mocktails,Budget,3200,17,88.82,B
+Smoothie Bowl Banana PB,Wholesome Breakfast,Mid-range,3200,10,89.13,B
+Korean Breakfast,Wholesome Breakfast,Mid-range,3179,8,89.44,B
+Classic Eggs Benedict,Wholesome Breakfast,Mid-range,3080,10,89.73,B
+Lemon Iced Tea,Cold Beverages,Budget,3080,20,90.03,C
+Green Tea,Hot Beverages,Budget,3000,16,90.32,C
+Banana Walnut Tea Cake,Bakery,Budget,2990,18,90.6,C
+Filled Coffee Donut,Bakery,Budget,2945,28,90.89,C
+Tempura Vegetables,Share-A-Plate,Budget,2945,18,91.17,C
+Peach Iced Tea,Cold Beverages,Budget,2940,16,91.45,C
+Green Apple Mojito,Mocktails,Budget,2880,18,91.73,C
+Romantic Sunset Mocktail,Mocktails,Budget,2880,12,92.01,C
+Death By Chocolate Shake,Premium Shakes,Mid-range,2860,10,92.28,C
+Mushroom Cappuccino Soup,Soup,Budget,2835,15,92.55,C
+Blend Salad,Salad Bowls,Mid-range,2820,9,92.83,C
+Kiwi Mojito,Mocktails,Budget,2800,17,93.09,C
+Oyster Chicken Dumplings,Steam Basket,Mid-range,2723,7,93.36,C
+Espresso On The Rocks,Cold Brews,Budget,2720,12,93.62,C
+Meaty Mighty Pizza,Pizza,Premium,2636,3,93.87,C
+French Vanilla Shake,Premium Shakes,Mid-range,2600,12,94.12,C
+BGCLS Juice,Cold Press Juices,Mid-range,2520,7,94.36,C
+Black Tea,Hot Beverages,Budget,2520,19,94.61,C
+Ice-cream Waffwich,Pancakes & Waffwich,Mid-range,2421,9,94.84,C
+Fruit Pancakes,Pancakes & Waffwich,Mid-range,2392,7,95.07,C
+Veg Puff,Bakery,Budget,2365,36,95.3,C
+Paneer Puff,Bakery,Budget,2295,25,95.52,C
+Nutella Croissant,Bakery,Budget,2275,10,95.73,C
+Shakshuka,Wholesome Breakfast,Mid-range,2241,7,95.95,C
+Iced Café Mocha,Cold Brews,Budget,2210,12,96.16,C
+Breakfast Burrito,Wholesome Breakfast,Mid-range,2152,7,96.37,C
+Bounty Hot Chocolate,Hot Chocolate,Budget,2090,11,96.57,C
+Butter Croissant,Bakery,Budget,2040,17,96.77,C
+Chinese Style Greens Panini,Sandwiches Burgers Wraps,Budget,2015,12,96.96,C
+Eggs To Order Chicken,Classic Eggs,Budget,1980,11,97.15,C
+Filled Blueberry Donut,Bakery,Budget,1980,15,97.34,C
+Chicken Puff,Bakery,Budget,1900,17,97.52,C
+Kheema Pao,Wholesome Breakfast,Mid-range,1752,7,97.69,C
+Chole Puri,Wholesome Breakfast,Budget,1750,12,97.86,C
+Chocolate Chip Cookie,Bakery,Budget,1700,29,98.02,C
+Paneer Bhurji Pao,Wholesome Breakfast,Budget,1600,9,98.18,C
+ABCC Juice,Cold Press Juices,Mid-range,1560,6,98.33,C
+Cheesy Potatoes,Wholesome Breakfast,Mid-range,1505,6,98.47,C
+Orange Tea Cake,Bakery,Budget,1430,12,98.61,C
+Stuffed Paratha Paneer,Wholesome Breakfast,Budget,1419,10,98.75,C
+Chocolate Chip Muffin,Bakery,Budget,1400,11,98.88,C
+Nutella Crème Donut,Bakery,Budget,1320,10,99.01,C
+Set Cheesecake,Dessert,Mid-range,1260,4,99.13,C
+Stuffed Paratha Chicken,Wholesome Breakfast,Mid-range,1260,5,99.25,C
+Ham & Cheese Omelette,Classic Eggs,Budget,1134,4,99.36,C
+Vanilla Muffin,Bakery,Budget,1105,10,99.46,C
+Khari,Bakery,Budget,980,23,99.56,C
+Ross Omelette,Wholesome Breakfast,Budget,925,5,99.65,C
+Caramel Hot Chocolate,Hot Chocolate,Budget,900,4,99.73,C
+Stuffed Paratha Aloo,Wholesome Breakfast,Budget,875,6,99.82,C
+Cheese Croissant,Bakery,Budget,725,5,99.89,C
+Mediterranean Cooler Salad,Salad Bowls,Mid-range,687,3,99.95,C
+Bournvita,Hot Beverages,Budget,480,4,100.0,C

@@ -1,0 +1,93 @@
+Date,Month,Day_of_Week,Is_Weekend,Weather,Temperature_°C,Academic_Period,Daily_Footfall_Customers,Total_Transactions,Total_Quantity_Units,Total_Revenue_₹,Avg_Order_Value_₹,Avg_Items_Per_Customer,Pct_Vegetarian_Orders_%,Pct_Premium_Orders_%,Top_Selling_Category,Out_of_Stock_Items,Cold_Brew_Quantity,Hot_Beverage_Quantity,Premium_Item_Revenue_₹,Vegetarian_Item_Revenue_₹,Takeaway_Transactions,Dine_In_Transactions,Unique_Items_Sold,Unique_Categories_Sold,Is_Weekend_Flag,Out_of_Stock_Flag
+2024-05-01,May,Wednesday,No,Clear After Rain,31.2,Summer Vacation,65,44,50,12847,291.98,2.26,63.6,9.1,Sandwiches Burgers Wraps,,2,11,2759,7605,3,41,35,15,0,0
+2024-05-02,May,Thursday,No,Dry Day,35.5,Summer Vacation,49,39,45,10287,263.77,2.65,84.6,2.6,Blended Full Meals,,1,7,998,7596,12,27,37,18,0,0
+2024-05-03,May,Friday,No,Dry Day,37.6,Summer Vacation,67,50,58,11840,236.8,2.49,82.0,2.0,Share-A-Plate,,5,8,998,8910,5,45,44,18,0,0
+2024-05-04,May,Saturday,Yes,Light Drizzle,29.4,Summer Vacation,105,63,74,15693,249.1,2.0,88.9,1.6,Dessert,,6,12,449,13625,6,57,55,18,1,0
+2024-05-05,May,Sunday,Yes,Light Drizzle,29.4,Summer Vacation,75,63,74,17953,284.97,2.8,81.0,3.2,Pasta,,2,7,1628,13318,4,59,49,20,1,0
+2024-05-06,May,Monday,No,Dry Day,39.9,Summer Vacation,53,28,37,8481,302.89,1.76,75.0,7.1,Sandwiches Burgers Wraps,,2,6,1168,5850,6,22,26,15,0,0
+2024-05-07,May,Tuesday,No,Dry Day,38.1,Summer Vacation,47,16,19,3254,203.38,1.13,93.8,0.0,Premium Shakes,,0,2,0,3034,3,13,16,10,0,0
+2024-05-08,May,Wednesday,No,Clear After Rain,32.8,Summer Vacation,74,42,49,10277,244.69,1.89,83.3,4.8,Dessert,,2,6,978,8215,7,35,40,20,0,0
+2024-05-09,May,Thursday,No,Light Drizzle,32.4,Summer Vacation,53,27,31,6748,249.93,1.7,92.6,7.4,Hot Brews,,0,8,1055,6243,2,25,26,16,0,0
+2024-05-10,May,Friday,No,Dry Day,38.5,Summer Vacation,79,51,61,15062,295.33,2.15,68.6,9.8,Blended Full Meals,,5,8,2716,9018,9,42,45,19,0,0
+2024-05-11,May,Saturday,Yes,Clear After Rain,29.2,Summer Vacation,155,98,117,27144,276.98,2.11,83.7,6.1,Share-A-Plate,,5,23,3896,20967,14,84,75,21,1,0
+2024-05-12,May,Sunday,Yes,Dry Day,38.1,Summer Vacation,90,75,91,20450,272.67,2.78,84.0,2.7,Blended Full Meals,Blend Breakfast,7,11,1956,16042,10,65,60,18,1,1
+2024-05-13,May,Monday,No,Dry Day,39.9,Summer Vacation,46,26,35,7101,273.12,1.88,88.5,0.0,Pancakes & Waffwich,Blend Breakfast,7,4,0,5573,7,19,22,11,0,1
+2024-05-14,May,Tuesday,No,Clear After Rain,31.2,Summer Vacation,55,22,29,7224,328.36,1.33,72.7,13.6,Pizza,,0,5,1738,4886,2,20,20,13,0,0
+2024-05-15,May,Wednesday,No,Clear After Rain,30.7,Summer Vacation,76,38,42,8059,212.08,1.67,81.6,5.3,Sandwiches Burgers Wraps,Cajun Chicken,2,9,869,5823,2,36,32,17,0,1
+2024-05-16,May,Thursday,No,Dry Day,39.8,Summer Vacation,66,28,34,6634,236.93,1.41,100.0,3.6,Hot Brews,Cajun Chicken,0,11,579,6634,7,21,26,12,0,1
+2024-05-17,May,Friday,No,Light Drizzle,30.8,Summer Vacation,70,42,50,9143,217.69,2.0,83.3,0.0,Sandwiches Burgers Wraps,,2,12,0,6772,1,41,38,16,0,0
+2024-05-18,May,Saturday,Yes,Clear After Rain,29.2,Summer Vacation,176,93,111,25792,277.33,1.76,81.7,9.7,Share-A-Plate,Crispy Shitake Mushroom,1,29,5645,18052,10,83,68,21,1,1
+2024-05-19,May,Sunday,Yes,Dry Day,34.8,Summer Vacation,126,56,66,13831,246.98,1.48,89.3,3.6,Blended Full Meals,Crispy Shitake Mushroom,4,17,2456,9944,12,44,48,18,1,1
+2024-05-20,May,Monday,No,Dry Day,34.5,Summer Vacation,47,21,25,5968,284.19,1.49,71.4,4.8,Blended Full Meals,Crispy Shitake Mushroom,1,2,409,3463,0,21,21,15,0,1
+2024-05-21,May,Tuesday,No,Light Drizzle,30.5,Summer Vacation,32,20,28,5836,291.8,2.08,75.0,5.0,Dessert,Crispy Shitake Mushroom,0,1,409,4503,4,16,20,12,0,1
+2024-05-22,May,Wednesday,No,Dry Day,35.9,Summer Vacation,44,32,39,9115,284.84,2.42,90.6,12.5,Blended Full Meals,,3,8,2671,7612,8,24,27,15,0,0
+2024-05-23,May,Thursday,No,Dry Day,39.9,Summer Vacation,55,36,42,8736,242.67,2.18,86.1,2.8,Sandwiches Burgers Wraps,,8,0,635,7272,14,22,32,14,0,0
+2024-05-24,May,Friday,No,Dry Day,35.8,Summer Vacation,84,48,61,12671,263.98,1.9,75.0,2.1,Sandwiches Burgers Wraps,,11,8,559,9092,4,44,39,16,0,0
+2024-05-25,May,Saturday,Yes,Clear After Rain,28.4,Summer Vacation,170,93,108,24721,265.82,1.82,81.7,9.7,Hot Brews,,3,31,5111,17643,11,82,62,21,1,0
+2024-05-26,May,Sunday,Yes,Dry Day,38.1,Summer Vacation,126,88,106,26460,300.68,2.33,77.3,5.7,Share-A-Plate,,6,8,3031,17263,8,80,66,20,1,0
+2024-05-27,May,Monday,No,Dry Day,38.6,Summer Vacation,40,26,32,7234,278.23,2.17,100.0,3.8,Dessert,,5,1,579,7234,2,24,25,16,0,0
+2024-05-28,May,Tuesday,No,Dry Day,36.2,Summer Vacation,49,19,22,5126,269.79,1.29,78.9,5.3,Blended Full Meals,,0,3,409,4146,4,15,19,12,0,0
+2024-05-29,May,Wednesday,No,Clear After Rain,31.4,Summer Vacation,62,40,49,14071,351.78,2.15,80.0,12.5,Blended Full Meals,,0,5,3305,10133,0,40,36,18,0,0
+2024-05-30,May,Thursday,No,Dry Day,37.4,Summer Vacation,55,27,34,9656,357.63,1.64,85.2,18.5,Fondue,,2,4,3397,7872,1,26,27,15,0,0
+2024-05-31,May,Friday,No,Dry Day,35.6,Summer Vacation,95,59,66,16977,287.75,2.07,74.6,10.2,Blended Full Meals,,5,8,4135,10956,12,47,50,23,0,0
+2024-06-01,June,Saturday,Yes,Heavy Rain,23.0,Pre-Semester,52,39,45,10773,276.23,2.5,84.6,2.6,Blended Full Meals,,0,14,559,7853,11,28,34,14,1,0
+2024-06-02,June,Sunday,Yes,Dry Day,28.2,Pre-Semester,95,71,83,18614,262.17,2.49,88.7,7.0,Share-A-Plate,,5,5,3348,15323,5,66,60,22,1,0
+2024-06-03,June,Monday,No,Light Drizzle,26.0,Pre-Semester,36,16,20,3955,247.19,1.48,93.8,0.0,Pancakes & Waffwich,,0,8,0,3605,0,16,13,11,0,0
+2024-06-04,June,Tuesday,No,Clear After Rain,24.1,Pre-Semester,55,23,27,5753,250.13,1.39,87.0,4.3,Dessert,,0,7,565,4588,2,21,21,13,0,0
+2024-06-05,June,Wednesday,No,Light Drizzle,27.1,Pre-Semester,39,24,27,6661,277.54,2.05,62.5,16.7,Share-A-Plate,Thai Curry Green,0,4,1873,3650,4,20,23,14,0,1
+2024-06-06,June,Thursday,No,Light Drizzle,24.2,Pre-Semester,46,29,36,6865,236.72,2.1,86.2,0.0,Wholesome Breakfast,Thai Curry Green,3,5,0,5634,6,23,28,15,0,1
+2024-06-07,June,Friday,No,Heavy Rain,24.7,Pre-Semester,45,27,30,5779,214.04,2.0,88.9,7.4,Share-A-Plate,,0,7,1008,4775,1,26,25,12,0,0
+2024-06-08,June,Saturday,Yes,Dry Day,31.8,Pre-Semester,122,88,109,25821,293.42,2.4,88.6,9.1,Pancakes & Waffwich,,9,17,4546,22415,3,85,68,23,1,0
+2024-06-09,June,Sunday,Yes,Light Drizzle,24.2,Pre-Semester,90,49,54,11775,240.31,1.81,91.8,8.2,Share-A-Plate,,0,11,2182,10277,6,43,42,17,1,0
+2024-06-10,June,Monday,No,Dry Day,28.1,Pre-Semester,50,23,26,7131,310.04,1.53,82.6,17.4,Pasta,,2,1,1937,5468,0,23,22,13,0,0
+2024-06-11,June,Tuesday,No,Heavy Rain,24.9,Pre-Semester,24,12,14,2817,234.75,1.67,83.3,8.3,Dessert,,0,3,579,2253,0,12,12,9,0,0
+2024-06-12,June,Wednesday,No,Light Drizzle,24.9,Pre-Semester,46,25,30,7084,283.36,1.81,72.0,12.0,Blended Full Meals,,0,4,1648,4065,3,22,25,16,0,0
+2024-06-13,June,Thursday,No,Clear After Rain,26.3,Pre-Semester,67,38,46,10618,279.42,1.89,78.9,5.3,Share-A-Plate,,1,9,1675,7271,2,36,36,18,0,0
+2024-06-14,June,Friday,No,Light Drizzle,25.5,Pre-Semester,52,43,51,10842,252.14,2.76,83.7,0.0,Share-A-Plate,,0,10,0,8485,9,34,38,19,0,0
+2024-06-15,June,Saturday,Yes,Heavy Rain,22.9,Pre-Semester,70,49,57,12031,245.53,2.33,81.6,2.0,Share-A-Plate,,0,12,409,8877,10,39,39,18,1,0
+2024-06-16,June,Sunday,Yes,Light Drizzle,24.8,Pre-Semester,82,74,86,17962,242.73,3.01,86.5,4.1,Dessert,,1,20,1397,14135,3,71,52,21,1,0
+2024-06-17,June,Monday,No,Dry Day,28.8,Pre-Semester,52,24,30,6639,276.62,1.54,79.2,0.0,Sandwiches Burgers Wraps,,4,2,0,4776,4,20,21,12,0,0
+2024-06-18,June,Tuesday,No,Light Drizzle,27.4,Pre-Semester,31,19,28,5346,281.37,2.04,78.9,5.3,Classic Eggs,,0,6,555,3603,3,16,18,9,0,0
+2024-06-19,June,Wednesday,No,Clear After Rain,25.6,Pre-Semester,69,23,27,6304,274.09,1.11,69.6,17.4,Sandwiches Burgers Wraps,,2,9,2122,3218,6,17,22,12,0,0
+2024-06-20,June,Thursday,No,Heavy Rain,21.7,Pre-Semester,29,11,14,3327,302.45,1.26,90.9,9.1,Pizza,,0,3,565,2762,5,6,11,8,0,0
+2024-06-21,June,Friday,No,Dry Day,31.4,Pre-Semester,70,47,55,12418,264.21,2.24,83.0,0.0,Blended Full Meals,,4,4,0,9684,8,39,39,18,0,0
+2024-06-22,June,Saturday,Yes,Light Drizzle,26.8,Pre-Semester,99,74,91,20607,278.47,2.49,85.1,6.8,Share-A-Plate,,1,21,3162,17028,2,72,61,21,1,0
+2024-06-23,June,Sunday,Yes,Heavy Rain,22.4,Pre-Semester,57,38,43,10033,264.03,2.22,73.7,13.2,Blended Full Meals,,0,10,2416,5822,2,36,35,17,1,0
+2024-06-24,June,Monday,No,Light Drizzle,26.9,Pre-Semester,35,16,16,3322,207.62,1.52,87.5,0.0,Share-A-Plate,Pesto Cottage Cheese Meal,0,0,0,2812,2,14,15,9,0,1
+2024-06-25,June,Tuesday,No,Light Drizzle,24.4,Pre-Semester,30,12,13,2622,218.5,1.33,83.3,0.0,Sandwiches Burgers Wraps,Pesto Cottage Cheese Meal,1,2,0,2217,0,12,12,10,0,1
+2024-06-26,June,Wednesday,No,Light Drizzle,26.6,Pre-Semester,38,24,30,8834,368.08,2.11,70.8,8.3,Blended Full Meals,,0,2,988,5782,0,24,22,14,0,0
+2024-06-27,June,Thursday,No,Clear After Rain,24.9,Pre-Semester,72,39,45,9080,232.82,1.81,74.4,5.1,Blended Full Meals,,2,5,954,5833,0,39,35,15,0,0
+2024-06-28,June,Friday,No,Dry Day,31.2,Pre-Semester,64,52,64,14540,279.62,2.71,80.8,5.8,Pasta,,3,4,1816,10438,7,45,46,20,0,0
+2024-06-29,June,Saturday,Yes,Heavy Rain,23.5,Pre-Semester,52,47,56,13281,282.57,3.01,83.0,8.5,Share-A-Plate,,0,14,1843,10051,7,40,40,15,1,0
+2024-06-30,June,Sunday,Yes,Heavy Rain,24.5,Pre-Semester,60,42,47,11623,276.74,2.33,85.7,9.5,Pasta,,1,13,2263,9228,4,38,39,21,1,0
+2024-07-01,July,Monday,No,Clear After Rain,24.7,New Semester,75,36,41,9218,256.06,1.6,75.0,2.8,Sandwiches Burgers Wraps,,2,9,579,6248,0,36,34,17,0,0
+2024-07-02,July,Tuesday,No,Clear After Rain,22.9,New Semester,63,30,38,7996,266.53,1.59,90.0,0.0,Pasta,,1,6,0,6993,2,28,26,16,0,0
+2024-07-03,July,Wednesday,No,Heavy Rain,19.4,New Semester,31,15,20,5513,367.53,1.61,86.7,13.3,Fondue,,0,6,2316,4623,4,11,13,10,0,0
+2024-07-04,July,Thursday,No,Clear After Rain,22.8,New Semester,84,39,46,10332,264.92,1.55,82.1,10.3,Blended Full Meals,Crispy Shitake Mushroom,3,14,2511,8050,4,35,31,15,0,1
+2024-07-05,July,Friday,No,Clear After Rain,24.4,New Semester,136,89,111,27919,313.7,2.18,88.8,12.4,Blended Full Meals,Crispy Shitake Mushroom,5,22,7125,22601,10,79,69,23,0,1
+2024-07-06,July,Saturday,Yes,Heavy Rain,20.0,New Semester,65,36,41,7953,220.92,1.85,91.7,2.8,Wholesome Breakfast,Crispy Shitake Mushroom,1,12,420,6966,1,35,31,15,1,1
+2024-07-07,July,Sunday,Yes,Light Drizzle,23.0,New Semester,103,62,73,16564,267.16,2.01,83.9,6.5,Blended Full Meals,Crispy Shitake Mushroom,1,17,2635,12270,12,50,50,19,1,1
+2024-07-08,July,Monday,No,Light Drizzle,22.3,New Semester,46,20,23,6635,331.75,1.45,75.0,25.0,Blended Full Meals,,0,9,4069,2976,0,20,17,12,0,0
+2024-07-09,July,Tuesday,No,Light Drizzle,23.8,New Semester,35,22,25,7547,343.05,2.1,45.5,13.6,Share-A-Plate,The Dominator Burger,0,2,2868,2813,4,18,20,11,0,1
+2024-07-10,July,Wednesday,No,Heavy Rain,19.6,New Semester,32,18,21,5343,296.83,1.88,77.8,11.1,Share-A-Plate,The Dominator Burger,0,6,919,3337,0,18,18,10,0,1
+2024-07-11,July,Thursday,No,Clear After Rain,22.9,New Semester,82,48,60,14775,307.81,1.95,83.3,8.3,Blended Full Meals,Blend Breakfast,2,15,2433,11728,7,41,42,17,0,1
+2024-07-12,July,Friday,No,Heavy Rain,19.3,New Semester,55,26,32,5682,218.54,1.58,88.5,3.8,Blended Full Meals,Blend Breakfast,0,11,409,4589,1,25,23,13,0,1
+2024-07-13,July,Saturday,Yes,Light Drizzle,21.0,New Semester,135,94,110,23762,252.79,2.32,83.0,5.3,Share-A-Plate,,3,22,2824,16709,5,89,75,23,1,0
+2024-07-14,July,Sunday,Yes,Clear After Rain,23.0,New Semester,161,89,100,21203,238.24,1.84,86.5,2.2,Share-A-Plate,,4,19,1330,18122,10,79,71,23,1,0
+2024-07-15,July,Monday,No,Heavy Rain,20.4,New Semester,24,15,20,3726,248.4,2.08,80.0,0.0,Share-A-Plate,,0,3,0,2773,0,15,14,8,0,0
+2024-07-16,July,Tuesday,No,Heavy Rain,19.8,New Semester,30,12,14,3233,269.42,1.33,83.3,16.7,Share-A-Plate,,0,3,818,2604,0,12,12,8,0,0
+2024-07-17,July,Wednesday,No,Heavy Rain,19.6,New Semester,30,17,20,3889,228.76,1.89,82.4,0.0,Sandwiches Burgers Wraps,,0,1,0,2935,2,15,17,12,0,0
+2024-07-18,July,Thursday,No,Clear After Rain,23.3,New Semester,100,49,60,15570,317.76,1.63,73.5,6.1,Share-A-Plate,,1,12,3007,9499,8,41,44,16,0,0
+2024-07-19,July,Friday,No,Light Drizzle,21.8,New Semester,63,44,53,11473,260.75,2.33,86.4,0.0,Blended Full Meals,,1,13,0,8188,2,42,41,21,0,0
+2024-07-20,July,Saturday,Yes,Heavy Rain,19.3,New Semester,76,45,55,12603,280.07,1.97,77.8,8.9,Sandwiches Burgers Wraps,,1,15,1857,8772,5,40,39,19,1,0
+2024-07-21,July,Sunday,Yes,Light Drizzle,21.1,New Semester,95,71,89,20991,295.65,2.49,90.1,8.5,Fondue,,0,13,4497,18108,6,65,57,21,1,0
+2024-07-22,July,Monday,No,Clear After Rain,24.2,New Semester,62,37,45,11856,320.43,1.99,67.6,10.8,Pasta,,2,6,2580,6920,2,35,33,20,0,0
+2024-07-23,July,Tuesday,No,Heavy Rain,19.5,New Semester,25,11,11,1936,176.0,1.47,90.9,9.1,Pizza,,0,2,449,1777,3,8,11,8,0,0
+2024-07-24,July,Wednesday,No,Clear After Rain,23.7,New Semester,82,49,60,16325,333.16,1.99,71.4,10.2,Share-A-Plate,,1,4,3533,10521,10,39,42,16,0,0
+2024-07-25,July,Thursday,No,Clear After Rain,24.9,New Semester,82,54,62,15434,285.81,2.2,70.4,9.3,Share-A-Plate,,3,7,3043,8607,14,40,42,19,0,0
+2024-07-26,July,Friday,No,Clear After Rain,24.0,New Semester,108,71,80,19602,276.08,2.19,77.5,9.9,Share-A-Plate,,3,11,4284,12256,12,59,61,22,0,0
+2024-07-27,July,Saturday,Yes,Heavy Rain,19.9,New Semester,67,49,59,13238,270.16,2.44,85.7,8.2,Sandwiches Burgers Wraps,,1,13,2200,11416,8,41,43,16,1,0
+2024-07-28,July,Sunday,Yes,Clear After Rain,24.1,New Semester,134,110,127,27618,251.07,2.74,81.8,3.6,Share-A-Plate,,7,16,2153,20354,18,92,75,23,1,0
+2024-07-29,July,Monday,No,Heavy Rain,21.8,New Semester,27,15,17,4063,270.87,1.85,80.0,6.7,Blended Full Meals,,0,4,659,2865,2,13,15,11,0,0
+2024-07-30,July,Tuesday,No,Dry Day,25.3,New Semester,43,23,29,7809,339.52,1.78,56.5,17.4,Pasta,,1,4,2014,3773,2,21,22,14,0,0
+2024-07-31,July,Wednesday,No,Heavy Rain,19.6,New Semester,34,14,19,3682,263.0,1.37,85.7,0.0,Hot Chocolate,,0,11,0,3023,1,13,13,8,0,0
